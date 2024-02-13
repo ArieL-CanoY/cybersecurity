@@ -1,7 +1,7 @@
 Need some information about the system your working at, or you want to elevate your privilege for illegal purpose, please don't.
 
 # System Information
-```bash
+```python
 who - current login user
 
 users - users who logon to the current host
@@ -30,7 +30,7 @@ set - display and change shell variables
 
 # Configuration
 
-```bash
+```python
 ~/bash_aliases     - configure aliases for shortcut commands 
 	Ex.
 		alias shut='shutdown 0' - typing shut will execute 'shutdown 0' command
@@ -40,3 +40,25 @@ set - display and change shell variables
 
 hostnamectl set-hostname [name of machine] - set the hostname of the machine
 ```
+
+#### export path
+```python
+configure .bashrc:
+	export $<name of path>=$PATH:/dir/dir...
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
