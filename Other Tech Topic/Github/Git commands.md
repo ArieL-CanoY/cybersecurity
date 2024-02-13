@@ -102,6 +102,9 @@ note:
 
 # GitHub
 
+Note:
+You will use authentication token that will generate from profile>setting>developer>token(classic)>generate token>click repo>generate>copy before reloading the page.
+
 ```python
 >> git remove add <name of url repository>
 	- add shortcut for "git push <url repo>" 
@@ -109,6 +112,9 @@ note:
 
 >> git push <url of repo>/-u <shortcut name for url repo> <branch name to push to github>
 	- push or send the specific branch's latest commits to github
+
+
+
 
 ```
 
