@@ -110,26 +110,6 @@ note:
 >> git push <url of repo>/-u <shortcut name for url repo> <branch name to push to github>
 	- push or send the specific branch's latest commits to github
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```
 
 
