@@ -1,0 +1,19 @@
+- Divide by 2:
+	- Medium Access Control/MAC Sub Layer
+		- Data Encapsulation
+			- adds header and trailer to the IP packet when sending data
+				- header - contains MAC address on the device
+				- trailer - contains Error Checking Data
+		- Accessing the media
+			- CSMA/CD - stands for Carrier Sense Multiple Access/Collision Detection
+				- each computer listen to the cable before sending data to the network
+				- used on wired networks
+			- CSMA/CA - stands for Carrier Sense Multiple Access/Collision Avoidance
+				- same as above but this is used on wireless networks
+	- Logical Link Control/LLC Sub Layer
+		- Re-size the IP packets received from the network layer to fit them in the data link layer frames
+		- Flow Control - restricts the amount of data that can sent to the receiver without overwhelming the receiver
+		- Error Control
+			- Error Detection - used the error checking data added on the trailer of the frame
+			- Retransmission - can be done by Automatic Repeat Request/ARQ
+				- ARQ - when the data sent, the receiver should acknowledge the message that it is received, if no acknowledgement, meaning the data is not sent or deliver properly to the receiver, the sender will repeat or retransmit the data that is sent before 

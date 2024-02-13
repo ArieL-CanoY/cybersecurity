@@ -1,0 +1,8 @@
+- Layer 2 device
+- Segments LANS
+- 2 Collision Domains
+- Fewer Ports
+- Replaced by Switch
+- only have two (2) ports
+- learn which hosts are on each side
+- 

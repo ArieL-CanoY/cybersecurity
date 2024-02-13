@@ -1,0 +1,5 @@
+- stands for Server Message Block
+- commonly used on Windows for file and printer sharing.
+- used port 139 to communicate over NetBIOS or 445
+- commonly refers as CIFS (Common Internet File System)
+- 

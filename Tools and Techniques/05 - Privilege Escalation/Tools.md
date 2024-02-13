@@ -1,0 +1,1 @@
+Linpeas - Tools for checking for possible paths to escalate privileges in Linux, Unix and MacOS

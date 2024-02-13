@@ -1,0 +1,8 @@
+ - used to connect devices in a local network
+- it repeats the message to all other ports except the source port
+- old networking devices and should be replaced with a new device called "switch" 
+- it use bandwidth a lot because it sends data on all port
+- uses half duplex, means it can only send and received one at a time, otherwise the data will be corrupted
+- Layer 1 Device
+- 1 Collision Domain
+- Using this will have a security risk that other device on the network can intercept or steal  or get the message which is not destined to them

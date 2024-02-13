@@ -1,0 +1,14 @@
+- unique identifier of a device in network that is assigned in a Network Interface Card (NIC)
+- also called as physical or burned address
+- represents in hexadecimal value
+- it is 6 bytes or 48 bits
+- example is 08:00:27:EC:10:61 - the first 3 bytes which is 08:00:27 is OUI (Organizationally Unique Identifier) and the rest is 
+- broadcast address is FF:FF:FF:FF:FF:FF which is use to send to all devices connected to the switch or network
+- There are different ways or format that different OS display a MAC address:
+	- 08:00:27:EC:10:61 - Apple or Linux
+	- 08-00-27-EC-10-61 - Windows
+	- 0800.27EC.1061 - Cisco
+
+- when a computer learn the MAC address of other computer, it stores them to their ARP cache like this:
+- 192.168.23.3        08-00-27-EC-10-61
+- 192.168.23.28      EC-10-23-D4-F1-00

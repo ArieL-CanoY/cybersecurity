@@ -1,0 +1,15 @@
+- is a networking device that operates on the layer 2 which is data link of the OSI model
+- it only reads the data up to layer 2 from incoming request or data to be sent to the other host
+- it learns the MAC address of where the message come from, meaning the source MAC address - the CAM table will populate by the source MAC address 
+- it forwards the message to the destination MAC address from the message or data
+- it broadcast the message if it did not know the MAC address on an IP address on its network using ARP request which populate all the MAC address and send the message through all other ports other than the port which the message come from
+- the MAC address it learns will save on its MAC address table which has the name of the port and MAC address of the device which the message come from
+- the encapsulated data from the switch is called frames
+- it has a separate collision domain for every port
+- it is full duplex devices which can send and receive data or information at the same time
+- used MAC address for communication between devices on the same local network.
+- Layer 2 device that working on MAC addresses
+- Multiple Collision Domains meaning it can send and receive message at the same time
+- Increased security because the intended recipient can only got the message
+- the data or MAC address populated on its table can be refresh when new MAC address come from that specific interface
+- 

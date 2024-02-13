@@ -1,0 +1,7 @@
+- stands for Rivest-Shamir-Adleman
+- created by Ron Rivest, Adi Shamir, Leonard Adleman 
+- created in 1997
+- used by SSH, OpenPGP, SSL/TLS
+- used to sign digital certificates
+- strengthened when using 2048-bit key lengths
+- most common Asymmetric Encryption algorithm

@@ -1,0 +1,5 @@
+- modulate/encode/translate data/signal to the internet from the local network
+- demodulate/decode/translate data/signal from the internet to the local network
+- Types:
+	- DLS - telephone line/ethernet cable
+	- Cable - connected by a coaxial cable

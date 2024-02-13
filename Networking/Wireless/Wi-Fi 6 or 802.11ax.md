@@ -1,0 +1,21 @@
+- was created to make a wi-fi network perform better when a lot of devices are connected
+- OFDMA - Orthogonal Frequency-Division Multiple Access
+	- a technology that lowers latency and delivers data to multiple devices more efficiently
+	- delivers signal to all devices connected all at once
+- support MU-MIMO - check [[SU and MU MIMO]]
+- Wi-Fi 5 vs Wi-Fi 6 MU-MIMO
+	- Wi-Fi 5
+		- only available in download
+		- can only support 4 simultaneous streams
+	- Wi-Fi 6
+		-  available in both upload and download
+		- can support up to 12 simultaneously streams
+- BSS - Basic Service Set coloring
+	- colors or marks networks so they can be distinguished from one another
+- has latest security protocol which is WPA
+- TWT - Target Wake Time
+	- the Wi-Fi router schedule of time of when the data is received, while the devices are sending and receiving, their antennas are on, but this technology scheduled a time and turn their antennas off which saves devices' battery
+- Wi-Fi 6E routers will broadcast 3 separate bands and these are:
+	- 2.4 GHz
+	- 5 GHz
+	- 6 GHz

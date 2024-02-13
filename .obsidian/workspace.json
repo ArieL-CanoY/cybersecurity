@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "82bc2c8a856820aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc7047a963ef6240",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e9485c0166080a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Other Tech Topic/Github/Git commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aced3e25759e1b9f",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c1d211d1c5bf0e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ecc6a254f9e8dc9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5ab644012f7cb0ac",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "\"2>\"",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a1e8a5b399878018",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "f1c7e8fefc0c4e37",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 296.5040512084961
+  },
+  "right": {
+    "id": "bafd2a3f2c3a049c",
+    "type": "split",
+    "children": [
+      {
+        "id": "19013785911e2d8f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4959fee7d70dd826",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Other Tech Topic/Github/Git commands.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b8a4eb1c2eaff2db",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Other Tech Topic/Github/Git commands.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2d1a3776a4ae7c13",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6b6983fc8161e27",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Other Tech Topic/Github/Git commands.md"
+              }
+            }
+          },
+          {
+            "id": "f852423b925e7faa",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "canvas:Create new canvas": false,
+      "terminal:Open terminal": false
+    }
+  },
+  "active": "6e9485c0166080a7",
+  "lastOpenFiles": [
+    "System Administration/Apache.md",
+    "Other Tech Topic/Github/Git commands.md",
+    "o.md",
+    "Other Tech Topic/Github/Untitled 1.md",
+    "z - people regrets and advice.md",
+    "Web Pentest/Vulnerabilities and Exploit/SSRF/Exploitation.md",
+    "THM Notes.md",
+    "Tips of expert.md",
+    "Thesis Application notes.md",
+    "RRXNUaUF5.md",
+    "Resume.md",
+    "Notes.md",
+    "mistake to avoid.md",
+    "other people tips.md",
+    "Operating System/Linux/Shells/Fish.md",
+    "Other Tech Topic/Github",
+    "Other Tech Topic",
+    "Untitled 1.md",
+    "Operating System/Linux/Pipe and Redirection.md",
+    "Web Pentest/Vulnerabilities and Exploit/SSRF/Definition and Impact.md",
+    "Programming and Scripting/Python/Modules and Libraries/hashlib/hashlib fundamentals.md",
+    "Programming and Scripting/Python/Modules and Libraries/os/OS Fundamentals.md",
+    "Programming and Scripting/Python/Modules and Libraries/time/time Fundamentals.md",
+    "Programming and Scripting/Python/Modules and Libraries/hashlib",
+    "Programming and Scripting/Python/app.md",
+    "Websites/random.md",
+    "Operating System/Linux/Searching Files and Directories.md",
+    "Web Pentest/Vulnerabilities and Exploit/SQL Injection/Cheatsheet.md",
+    "Methodology/Web Pentest/01 Info Gathering/Active Recon/Techniques.md",
+    "Website Tech/Frameworks",
+    "Methodology/Web Pentest/01 Info Gathering/Passive Recon",
+    "Methodology/Web Pentest/01 Info Gathering/Active Recon",
+    "Methodology/Web Pentest/01 Info Gathering",
+    "Methodology/Network Pentest/01 Info Gathering/Active Recon",
+    "Methodology/Network Pentest/01 Info Gathering/Passive Recon",
+    "Methodology/Network Pentest/01 Info Gathering",
+    "Untitled.canvas",
+    "Pasted image 20231109154411.png",
+    "Pasted image 20231109163617.png",
+    "Other Files/Images/Networking/Pasted image 20230806154844.png",
+    "Other Files/Images/Networking/Pasted image 20230715173904.png",
+    "Other Files/Images/Networking/Pasted image 20230714085327.png",
+    "Other Files/Images/Networking/Pasted image 20230712212154.png",
+    "Other Files/Images/Networking/Pasted image 20230712203339.png",
+    "Other Files/Images/Networking/Pasted image 20230712203255.png",
+    "Other Files/Images/Networking/Pasted image 20230712203144.png",
+    "Other Files/Images/Networking/Pasted image 20230712203043.png"
+  ]
+}

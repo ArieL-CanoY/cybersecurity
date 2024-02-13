@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "82bc2c8a856820aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "2bef4aa55886bd25",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Linux/System Information and Configuration.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aced3e25759e1b9f",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c1d211d1c5bf0e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ecc6a254f9e8dc9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5ab644012f7cb0ac",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "owner",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a1e8a5b399878018",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 375.5
+  },
+  "right": {
+    "id": "bafd2a3f2c3a049c",
+    "type": "split",
+    "children": [
+      {
+        "id": "19013785911e2d8f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4959fee7d70dd826",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Linux/System Information and Configuration.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b8a4eb1c2eaff2db",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Linux/System Information and Configuration.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2d1a3776a4ae7c13",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6b6983fc8161e27",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Linux/System Information and Configuration.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "2bef4aa55886bd25",
+  "lastOpenFiles": [
+    "Linux/SSH (Secure Shell).md",
+    "Linux/Shutdown, Restart, etc....md",
+    "Linux/Shell.md",
+    "Linux/File Compression and Archiving.md",
+    "Linux/Bash Shell.md",
+    "Linux/Anonymizing.md",
+    "CMD/General Mixed.md",
+    "Password Cracking/Hashcat.md",
+    "Tips and Tricks/HTML as note.md",
+    "Tools and Techniques/03 - Exploitation/MSFVenom.md"
+  ]
+}

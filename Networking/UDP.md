@@ -1,0 +1,12 @@
+- stands for User Datagram Protocol
+- used in Transport Layer of the OSI and TCP/IP model
+- does not establish a virtual path for data transmission, so each data datagram, uses a different path to reach the destination side.
+- data reaching its destination cannot be guaranteed
+- no acknowledgment is issued from either of the side
+- connectionless mode of service, with no virtual path
+- basic checksum system is only used for error check
+- UDP Header - the data inside the UDP message. Note that each of the header is 16 bits which is 2 bytes, therefore header is 8 bytes:
+	- Source Port Number - it is a 16 bit value, required to identify the port transmitting data.
+	- Destination Port Number - used to identify the port number, that will receiving the data.
+	- Total Length - used to specify the length of the UDP packet including the UDP header.
+	- Checksum - 16-bit field and is used as an optional attribute. It is left to the application to check the accuracy of the transmitted data and applied to the entire UDP packet (diagram).
