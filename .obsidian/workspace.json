@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cabe4ea2f78d5f66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Other Tech Topic/Github/Git commands.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d2e82f174db665fe",
             "type": "leaf",
             "state": {
@@ -30,9 +18,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4ab3133ed902a329",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating System/Linux/Installing, Updating, Upgrading packages or applications.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:vim",
+                "query": "ip forwar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,8 +180,12 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "5ab644012f7cb0ac",
+  "active": "d2e82f174db665fe",
   "lastOpenFiles": [
+    "Operating System/Linux/Installing, Updating, Upgrading packages or applications.md",
+    "Wiresless Pen Test/Tools/Ettercap.md",
+    "Operating System/Linux/General or Mixed.md",
+    "Text Editor/VIM.md",
     "Other Tech Topic/Github/Git commands.md",
     "Operating System/Linux/System Information and Configuration.md",
     "this is another level of directory name",
@@ -210,10 +213,6 @@
     "Programming and Scripting/Python/Modules and Libraries/os/OS Fundamentals.md",
     "Programming and Scripting/Python/Modules and Libraries/time/time Fundamentals.md",
     "Programming and Scripting/Python/Modules and Libraries/hashlib",
-    "Programming and Scripting/Python/app.md",
-    "Websites/random.md",
-    "Operating System/Linux/Searching Files and Directories.md",
-    "Web Pentest/Vulnerabilities and Exploit/SQL Injection/Cheatsheet.md",
     "Website Tech/Frameworks",
     "Methodology/Web Pentest/01 Info Gathering/Passive Recon",
     "Methodology/Web Pentest/01 Info Gathering/Active Recon",

@@ -40,3 +40,25 @@ options:
 
 
 ```
+
+
+
+
+# dpkg
+- package manager for Debian.
+
+
+```python
+>> dpkg <file.deb>
+
+
+	options:
+		-i     - install a package
+		-r     - remove a package
+
+```
+
+
+
+
+
