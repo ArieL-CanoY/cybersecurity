@@ -299,6 +299,20 @@ print{'hello world'}
 ```
 
 
+# Customization / Plugins
+
+note: configure plugins by creating folder: ~/.vimrc.plugins
+
+```python
+>> set nocompatible - set plugins compatibility to VIM only
+
+>> set wrap - wrap text when it extends beyonds screens
+
+>> set number - show line number on the left side of the editor
+
+>> set relativenumber - show and relates the number from the current line
+
+```
 
 
 
@@ -323,14 +337,6 @@ print{'hello world'}
 
 
 
-myVar = 12
-print(myVar)
-myVar2 = 88
-print(myVar2)
-
-c1
-b1
-a1
 
 
 
@@ -338,10 +344,3 @@ a1
 
 
 
-kasjdfk asdkfj kds f
-asd fasd fasdfasdf
-asdfasdfasdfsadfsdaf
- f asdf asdf asdjfasjdlf asdf asdfasdf sadf 
-
-
-print()

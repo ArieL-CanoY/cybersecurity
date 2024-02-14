@@ -106,7 +106,9 @@ Note:
 You will use authentication token that will generate from profile>setting>developer>token(classic)>generate token>click repo>generate>copy before reloading the page.
 
 ```python
->> git remove add <name of url repository>
+
+
+>> git remote add <name of url repository> <url of repo>
 	- add shortcut for "git push <url repo>" 
 	- now you can use "git push -u <name of url repo> <branch to push to github>"
 

@@ -45,6 +45,13 @@ hostnamectl set-hostname [name of machine] - set the hostname of the machine
 ```python
 configure .bashrc:
 	export $<name of path>=$PATH:/dir/dir...
+		- add directory to $PATH variable
+
+	export $<variable_name>="/dir/dir/dir..."
+	export directory to use for other commands, or make an alias
+
+
+
 ```
 
 
