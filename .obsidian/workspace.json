@@ -54,9 +54,53 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f1d225797b91df4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Websites/random.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "08e21f24f76c9592",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pen-Testing interview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "288ac30fcf7c7f87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Applications/ngrok.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0998060797e6be91",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -85,7 +129,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"uniq \"",
+                "query": "\"log \"",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +154,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -130,7 +175,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vulnerable Machines/websites.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +191,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vulnerable Machines/websites.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,9 +212,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Vulnerable Machines/websites.md"
-              }
+              "state": {}
             }
           },
           {
@@ -204,12 +245,17 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "acb17eb0e35ecbc5",
+  "active": "0998060797e6be91",
   "lastOpenFiles": [
-    "Operating System/Linux/String and line manipulation.md",
-    "Vulnerable Machines/websites.md",
-    "Vulnerable Machines",
+    "Networking/Applications/ngrok.md",
+    "Operating System/Linux/Managing Users and Groups.md",
+    "Operating System/Linux/Managing files and directories.md",
     "Operating System/Linux/Searching Files and Directories.md",
+    "Pen-Testing interview.md",
+    "Websites/random.md",
+    "Vulnerable Machines/websites.md",
+    "Operating System/Linux/String and line manipulation.md",
+    "Vulnerable Machines",
     "Operating System/Linux/Shells/Fish.md",
     "Operating System/Linux/Installing, Updating, Upgrading packages or applications.md",
     "Text Editor/VIM.md",
@@ -230,13 +276,8 @@
     "Thesis Application notes.md",
     "RRXNUaUF5.md",
     "Resume.md",
-    "Notes.md",
-    "mistake to avoid.md",
     "Other Tech Topic/Github",
     "Other Tech Topic",
-    "Untitled 1.md",
-    "Operating System/Linux/Pipe and Redirection.md",
-    "Web Pentest/Vulnerabilities and Exploit/SSRF/Definition and Impact.md",
     "Programming and Scripting/Python/Modules and Libraries/hashlib",
     "Website Tech/Frameworks",
     "Methodology/Web Pentest/01 Info Gathering/Passive Recon",
