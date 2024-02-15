@@ -30,8 +30,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b7df4dad82914039",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating System/Linux/Searching Files and Directories.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "acb17eb0e35ecbc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vulnerable Machines/websites.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -60,8 +85,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ip forwar",
-                "matchingCase": false,
+                "query": "\"uniq \"",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -85,8 +110,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -106,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Text Editor/VIM.md",
+                "file": "Vulnerable Machines/websites.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Text Editor/VIM.md",
+                "file": "Vulnerable Machines/websites.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Text Editor/VIM.md"
+                "file": "Vulnerable Machines/websites.md"
               }
             }
           },
@@ -180,12 +204,17 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "d2e82f174db665fe",
+  "active": "acb17eb0e35ecbc5",
   "lastOpenFiles": [
+    "Operating System/Linux/String and line manipulation.md",
+    "Vulnerable Machines/websites.md",
+    "Vulnerable Machines",
+    "Operating System/Linux/Searching Files and Directories.md",
+    "Operating System/Linux/Shells/Fish.md",
     "Operating System/Linux/Installing, Updating, Upgrading packages or applications.md",
+    "Text Editor/VIM.md",
     "Wiresless Pen Test/Tools/Ettercap.md",
     "Operating System/Linux/General or Mixed.md",
-    "Text Editor/VIM.md",
     "Other Tech Topic/Github/Git commands.md",
     "Operating System/Linux/System Information and Configuration.md",
     "this is another level of directory name",
@@ -203,21 +232,16 @@
     "Resume.md",
     "Notes.md",
     "mistake to avoid.md",
-    "Operating System/Linux/Shells/Fish.md",
     "Other Tech Topic/Github",
     "Other Tech Topic",
     "Untitled 1.md",
     "Operating System/Linux/Pipe and Redirection.md",
     "Web Pentest/Vulnerabilities and Exploit/SSRF/Definition and Impact.md",
-    "Programming and Scripting/Python/Modules and Libraries/hashlib/hashlib fundamentals.md",
-    "Programming and Scripting/Python/Modules and Libraries/os/OS Fundamentals.md",
-    "Programming and Scripting/Python/Modules and Libraries/time/time Fundamentals.md",
     "Programming and Scripting/Python/Modules and Libraries/hashlib",
     "Website Tech/Frameworks",
     "Methodology/Web Pentest/01 Info Gathering/Passive Recon",
     "Methodology/Web Pentest/01 Info Gathering/Active Recon",
     "Methodology/Web Pentest/01 Info Gathering",
-    "Methodology/Network Pentest/01 Info Gathering/Active Recon",
     "Untitled.canvas",
     "Pasted image 20231109154411.png",
     "Pasted image 20231109163617.png",

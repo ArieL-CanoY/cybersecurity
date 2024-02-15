@@ -60,11 +60,26 @@ echo 'this:is:an:example' | cut -d ':' -f 3      - output is 'an'
 
 
 
+
+# sort
+
+```python
+
+options:
+	-f     - ignore case
+	-h     - sort by size, ascending
+	-M     - sort by month, ascending
+	-r     - sort by reverse
+
+
+
+```
+
 # uniq
 
 ```python
 definition: report or omit repeated lines, does not include repeated string in single line,
-uses: must use sort before uniq because it will not treat duplicate string if multiple strings are not in consecutive line.
+uses: must use "sort" command before "uniq" command because it will not treat duplicate string if multiple strings are not in consecutive line.
 	this will work because duplicate is in contact with each other.
 		hello
 		hello
@@ -87,6 +102,8 @@ using pipe: cat <filename> | uniq
 					1 hello
 
 		-d    - list all the duplicates
+
+		-u    - only print unique lines
 
 Example/s:
 message.txt:

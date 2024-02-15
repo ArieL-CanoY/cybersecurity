@@ -13,7 +13,9 @@ find - find files or directory. ex. find -type [d-directory, f-file] -name [file
 	   -name [*.txt - ends with .txt]
 		   -iname   - ignore case sensitive name 
 	
-	   -user [name of owner or user]
+	   -user [name of owner or user of the file]
+
+	   -group [name of group own of the file]
 	
 	   -size - 
 	
