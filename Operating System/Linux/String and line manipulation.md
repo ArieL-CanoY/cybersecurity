@@ -180,3 +180,48 @@ definition: read the output and use tee to write or input it on a file
 	ex. 
 		ls -al | tee output.txt
 ```
+
+
+
+# nl
+```python
+Definition: show each string and its line from a file
+	example:
+		cat usernames.txt
+			1  carlos
+			2  admin
+			3  admin2
+			...
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
