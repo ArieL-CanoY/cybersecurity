@@ -143,7 +143,11 @@ echo 'hello:world:this' | sed 's/:/\n/g'
 		world
 		this
 
+sed -e "s/pattern1/replacement/" -e "s/pattern2/replacement/" filename
+	- multiple patterns
 
+sed -i "s/pattern/replacement/" filename
+	- edit and write it after to the current filename.
 
 ```
 
