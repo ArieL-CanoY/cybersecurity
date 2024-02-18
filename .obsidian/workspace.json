@@ -68,18 +68,6 @@
             }
           },
           {
-            "id": "08e21f24f76c9592",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pen-Testing interview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "288ac30fcf7c7f87",
             "type": "leaf",
             "state": {
@@ -116,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -190,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating System/Linux/wildcard.md",
+                "file": "Networking/Applications/ngrok.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating System/Linux/wildcard.md",
+                "file": "Networking/Applications/ngrok.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating System/Linux/wildcard.md"
+                "file": "Networking/Applications/ngrok.md"
               }
             }
           },
@@ -264,10 +252,12 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "0998060797e6be91",
+  "active": "288ac30fcf7c7f87",
   "lastOpenFiles": [
-    "Operating System/Linux/Managing Users and Groups.md",
+    "Websites/random.md",
+    "Pen-Testing interview.md",
     "Operating System/Linux/wildcard.md",
+    "Operating System/Linux/Managing Users and Groups.md",
     "Operating System/Linux/Files System.md",
     "Operating System/Linux/File System Specific.md",
     "Operating System/Linux/History of commands.md",
@@ -278,8 +268,6 @@
     "Operating System/Linux/Searching Files and Directories.md",
     "Networking/Applications/ngrok.md",
     "Operating System/Linux/Managing files and directories.md",
-    "Pen-Testing interview.md",
-    "Websites/random.md",
     "Vulnerable Machines/websites.md",
     "Vulnerable Machines",
     "Operating System/Linux/Shells/Fish.md",

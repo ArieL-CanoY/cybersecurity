@@ -32,6 +32,9 @@ Examples:
 
 >> ls [mfp]ile
 	- list all the directories and files that the name is like mile, file, or pil.
+>> ls file[1-10]
+	- list all file from file1, file2, up to file 10
+	- 
 ```
 
 
@@ -45,5 +48,15 @@ Examples:
 ```
 
 
+# \[^] or \[!]
+```python
+- match all the characters other than the characters withint the brackets.
 
+>> ls file[^3-5]
+- list all the files other than file3, file4, and file5.
+```
+# escaping wildcards
+```python
+- use backslash before the wildcard to treat it as string or part of the string character
+```
 

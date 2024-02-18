@@ -10,6 +10,7 @@
 - run this command to host a website:
 >> ngrok http http://localhost:80 
 	- <application> <protocol that website use> <name of the url>:<port listen>	
+	- can be shortcut: ngrok http 80
 
 
 
