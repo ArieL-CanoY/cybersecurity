@@ -1,4 +1,10 @@
 Need to delete, add, change username, change group name, print name/group name and directories? Or you want to mess up other users? Look at below
+
+
+# Note
+- to know the path of specific command, run "which (command)" to show it
+
+
 ### Users:
 ```python
 >> whoami - print current username
@@ -29,7 +35,7 @@ Need to delete, add, change username, change group name, print name/group name a
     
   
 ### Groups:
-```bash
+```python
 groups - print current group of user
 
 groups [username] - print groups of the specify user
@@ -51,7 +57,7 @@ groupmod -n [new group name] [existing group] - rename a group
 
 
 ### Switching Users
-```bash
+```python
 su - switch as the root user only and stay on the current directory
 
 su - - switch as the root user and go to its home directory
@@ -68,16 +74,19 @@ su [username] -c "[command]" - execute a command pretending you are that user
 ### Sudoers file
 
 #####    User section
-```bash
+```python
 [username] [sessions: tty(local machine) or remote]=([username]=[group name]) [option command, can be all] - parts of privilege specification
 	
 [username] (ALL=ALL) - give all sudo permission with password
 	
 [username] ALL=NOPASSWD:ALL - give all sudo permission without password
+
+other format:
+[username] ALL=(ALL:ALL) NOPASSWD: [list of commands or ALL]
 ```
 
 #####    Group section
-```bash
+```python
 %[groupname] [same as username above]- same above
 ```
 

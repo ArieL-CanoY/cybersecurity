@@ -218,85 +218,6 @@ print{'hello world'}
 
 ```
 
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
 
 
 # Customization / Plugins
@@ -311,6 +232,16 @@ note: configure plugins by creating folder: ~/.vimrc.plugins
 >> set number - show line number on the left side of the editor
 
 >> set relativenumber - show and relates the number from the current line
+
+>> colorscheme <color> - set the background color of the editor
+	colors:
+		default
+		ron
+		habamax
+
+
+
+
 
 ```
 
