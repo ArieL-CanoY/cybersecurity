@@ -3,6 +3,8 @@ Need to delete, add, change username, change group name, print name/group name a
 
 # Note
 - to know the path of specific command, run "which (command)" to show it
+- normal user - users who interact with the systems with user id of 1000 and up.
+- system user - users for running system processes and services with user id of 1000 and below.
 
 
 ### Users:

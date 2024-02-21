@@ -94,6 +94,19 @@ grep - search for string in files.
 		-E      - treat pattern as Extended Regular Expression (ERE/ERegEx)
 				- can be used as multiple pattern:
 					- grep -E "pattern1|pattern2" file
+		-o      - print only the matches
+			Ex. 
+				echo hello | grep -o "l"
+					- output is "ll"
+		-b      - byte offset
+		-o -b pattern  - show the index number of every pattern matched:
+			Ex. echo hello | grep -o -b h 
+				- output is 0:h
+
+			Ex. echo hello | grep -o -b l
+				- output is:
+					2:l
+					3:l
 
 ```
 

@@ -8,48 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d2e82f174db665fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Text Editor/VIM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ab3133ed902a329",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating System/Linux/Installing, Updating, Upgrading packages or applications.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7df4dad82914039",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating System/Linux/Searching Files and Directories.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "acb17eb0e35ecbc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Vulnerable Machines/websites.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bb905459a6b605ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating System/Linux/String and line manipulation.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,30 +44,6 @@
             }
           },
           {
-            "id": "288ac30fcf7c7f87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Applications/ngrok.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0998060797e6be91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating System/Linux/wildcard.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7b24bbf10ab89dfa",
             "type": "leaf",
             "state": {
@@ -102,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "64bd75890da06c4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating System/Linux/Searching Files and Directories.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -133,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"ls \"",
+                "query": "\"# grep\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -158,11 +122,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 317.50152587890625
   },
   "right": {
     "id": "bafd2a3f2c3a049c",
@@ -178,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Applications/ngrok.md",
+                "file": "Operating System/Linux/Searching Files and Directories.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Applications/ngrok.md",
+                "file": "Operating System/Linux/Searching Files and Directories.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Applications/ngrok.md"
+                "file": "Operating System/Linux/Searching Files and Directories.md"
               }
             }
           },
@@ -252,37 +217,37 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "288ac30fcf7c7f87",
+  "active": "64bd75890da06c4e",
   "lastOpenFiles": [
-    "Websites/random.md",
-    "Pen-Testing interview.md",
-    "Operating System/Linux/wildcard.md",
+    "Operating System/Linux/String and line manipulation.md",
     "Operating System/Linux/Managing Users and Groups.md",
+    "Operating System/Linux/wildcard.md",
+    "Vulnerable Machines/websites.md",
+    "Text Editor/VIM.md",
+    "Operating System/Linux/Installing, Updating, Upgrading packages or applications.md",
+    "Operating System/Linux/Searching Files and Directories.md",
+    "Websites/random.md",
+    "Programming and Scripting/Python/Modules and Libraries/os/OS Fundamentals.md",
+    "Programming and Scripting/Python/Modules and Libraries/requests/Requests Fundamentals.md",
+    "Programming and Scripting/Python/Modules and Libraries/selenium/Keywords and Syntax.md",
+    "Programming and Scripting/Python/Modules and Libraries/shutil/Shutil Fundamentals.md",
+    "Operating System/Linux/useful.md",
+    "Networking/Applications/ngrok.md",
+    "Pen-Testing interview.md",
     "Operating System/Linux/Files System.md",
     "Operating System/Linux/File System Specific.md",
     "Operating System/Linux/History of commands.md",
     "Red Team/roadmap.md",
     "Operating System/Linux/Crontab.md",
-    "Text Editor/VIM.md",
-    "Operating System/Linux/String and line manipulation.md",
-    "Operating System/Linux/Searching Files and Directories.md",
-    "Networking/Applications/ngrok.md",
     "Operating System/Linux/Managing files and directories.md",
-    "Vulnerable Machines/websites.md",
     "Vulnerable Machines",
     "Operating System/Linux/Shells/Fish.md",
-    "Operating System/Linux/Installing, Updating, Upgrading packages or applications.md",
     "Wiresless Pen Test/Tools/Ettercap.md",
     "Operating System/Linux/General or Mixed.md",
     "Other Tech Topic/Github/Git commands.md",
     "Operating System/Linux/System Information and Configuration.md",
     "this is another level of directory name",
     "all_Paths.txt",
-    "System Administration/Apache.md",
-    "other people tips.md",
-    "Other Tech Topic/Github/Untitled 1.md",
-    "o.md",
-    "z - people regrets and advice.md",
     "Other Tech Topic/Github",
     "Other Tech Topic",
     "Programming and Scripting/Python/Modules and Libraries/hashlib",

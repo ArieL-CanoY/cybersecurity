@@ -199,9 +199,11 @@ Definition: show each string and its line from a file
 
 
 
+Examples of looking for normal users (users id with equal or greater than 1000. See more [[Managing Users and Groups]]) 
 
-
-
+```python
+cat /etc/passwd | cut -d : -f 3 | while read uid; do   if [ "$uid" -ge 1000 ]; then     echo "$uid is greater than or equal to 1000"   fi done
+```
 
 
 
