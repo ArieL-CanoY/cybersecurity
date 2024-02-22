@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating System/Linux/Searching Files and Directories.md",
+                "file": "Text Editor/VIM.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"# grep\"",
+                "query": "vim",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating System/Linux/Searching Files and Directories.md",
+                "file": "Text Editor/VIM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating System/Linux/Searching Files and Directories.md",
+                "file": "Text Editor/VIM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating System/Linux/Searching Files and Directories.md"
+                "file": "Text Editor/VIM.md"
               }
             }
           },
@@ -219,13 +219,13 @@
   },
   "active": "64bd75890da06c4e",
   "lastOpenFiles": [
+    "Operating System/Linux/Searching Files and Directories.md",
     "Operating System/Linux/String and line manipulation.md",
     "Operating System/Linux/Managing Users and Groups.md",
     "Operating System/Linux/wildcard.md",
     "Vulnerable Machines/websites.md",
     "Text Editor/VIM.md",
     "Operating System/Linux/Installing, Updating, Upgrading packages or applications.md",
-    "Operating System/Linux/Searching Files and Directories.md",
     "Websites/random.md",
     "Programming and Scripting/Python/Modules and Libraries/os/OS Fundamentals.md",
     "Programming and Scripting/Python/Modules and Libraries/requests/Requests Fundamentals.md",

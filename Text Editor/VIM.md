@@ -233,13 +233,15 @@ note: configure plugins by creating folder: ~/.vimrc.plugins
 
 >> set relativenumber - show and relates the number from the current line
 
+>> set relativenumber number - show and relates the number from the current line and show the actual line number.
+
 >> colorscheme <color> - set the background color of the editor
 	colors:
 		default
 		ron
 		habamax
 
-
+>> xnoremap \
 
 
 
