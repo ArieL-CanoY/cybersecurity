@@ -59,16 +59,14 @@
             "id": "64bd75890da06c4e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Text Editor/VIM.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20231109163617.png"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -97,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vim",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,8 +120,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -217,14 +214,19 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "64bd75890da06c4e",
+  "active": "7b24bbf10ab89dfa",
   "lastOpenFiles": [
+    "Pasted image 20231109163617.png",
+    "Red Team/roadmap.md",
+    "Pasted image 20231109154411.png",
+    "Installation/Win 11.md",
+    "Text Editor/VIM.md",
+    "Installation",
     "Operating System/Linux/Searching Files and Directories.md",
     "Operating System/Linux/String and line manipulation.md",
     "Operating System/Linux/Managing Users and Groups.md",
     "Operating System/Linux/wildcard.md",
     "Vulnerable Machines/websites.md",
-    "Text Editor/VIM.md",
     "Operating System/Linux/Installing, Updating, Upgrading packages or applications.md",
     "Websites/random.md",
     "Programming and Scripting/Python/Modules and Libraries/os/OS Fundamentals.md",
@@ -237,15 +239,12 @@
     "Operating System/Linux/Files System.md",
     "Operating System/Linux/File System Specific.md",
     "Operating System/Linux/History of commands.md",
-    "Red Team/roadmap.md",
     "Operating System/Linux/Crontab.md",
     "Operating System/Linux/Managing files and directories.md",
     "Vulnerable Machines",
     "Operating System/Linux/Shells/Fish.md",
     "Wiresless Pen Test/Tools/Ettercap.md",
     "Operating System/Linux/General or Mixed.md",
-    "Other Tech Topic/Github/Git commands.md",
-    "Operating System/Linux/System Information and Configuration.md",
     "this is another level of directory name",
     "all_Paths.txt",
     "Other Tech Topic/Github",
@@ -254,10 +253,7 @@
     "Website Tech/Frameworks",
     "Methodology/Web Pentest/01 Info Gathering/Passive Recon",
     "Methodology/Web Pentest/01 Info Gathering/Active Recon",
-    "Methodology/Web Pentest/01 Info Gathering",
     "Untitled.canvas",
-    "Pasted image 20231109154411.png",
-    "Pasted image 20231109163617.png",
     "Other Files/Images/Networking/Pasted image 20230806154844.png",
     "Other Files/Images/Networking/Pasted image 20230715173904.png",
     "Other Files/Images/Networking/Pasted image 20230714085327.png",

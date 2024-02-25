@@ -241,7 +241,8 @@ note: configure plugins by creating folder: ~/.vimrc.plugins
 		ron
 		habamax
 
->> xnoremap \
+>> xnoremap "_dP
+	- after pasting the text you copied, it retains it to the register for future pasting.
 
 
 
