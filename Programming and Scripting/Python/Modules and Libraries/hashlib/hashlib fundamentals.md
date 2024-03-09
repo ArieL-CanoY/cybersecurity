@@ -22,6 +22,17 @@ print(hashed_value)
 
 
 
+# or for short line, you can make this
+msg = 'hello'
+hashedMsg = hashlib.sha512(msg.encode('utf-8')).hexdigest()
+
+
+
+
+
+
+
+
 
 ```
 

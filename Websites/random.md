@@ -50,6 +50,11 @@ https://cybertalents.com/challenges
 https://attackdefense.pentesteracademy.com/
 https://www.hackinghub.io/
 https://www.root-me.org/?lang=en
+root-me.org
+ctflearn
+picoctf
+247ctf - hard
+
 
 
 # ------------ CTF Cloud------------
