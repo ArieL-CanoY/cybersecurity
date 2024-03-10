@@ -23,6 +23,8 @@ https://book.hacktricks.xyz/welcome/readme
 https://portswigger.net/web-security
 snyk - https://learn.snyk.io/catalog/
 https://overthewire.org/wargames/
+https://exploit-notes.hdks.org/
+
 
 
 # Blogs --------------------------------------------------

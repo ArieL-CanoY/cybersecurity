@@ -283,6 +283,69 @@ https://www.linkedin.com/advice/1/what-most-common-mistakes-made-cybersecurity-i
 
 
 
+alexis lingad:
+- dont be a certification addict
+	- master specific subject before jumping to the next 	
+
+- learn and stop
+	- learn and you need to understand more of what you've learned
+
+- learn and practice
+	- don't be an analysis paralysis - meaning that always learning but not put into practice
+
+- make it as a part of your life
+	- after project, certs, just continue to learn
+
+recommended books:
+	- penetration testing - for beginners
+		a hands-on introduction to hacking
+	- the hacker playbook 2 - for basic knowledge of EH 
+		notes for his pen-testing
+	- the web application hacker's handbook 2nd edition
+		 one of the best web app pen-testing book
+	- the mobile application hacker's handbook 
+		foundation for android and ios pen-testing
+		more specific book: ios and android hacker's handbook
+	- hacking, the art of exploitation 2nd edition
+		 for malware development
+	- the shellcoder's hacker handbook
+		for advanced hacking
+	- social engineering - the art of human hacking
+		hack the people
+	- the hacker playbook3
+		more advanced topics - focus more on real life attackers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

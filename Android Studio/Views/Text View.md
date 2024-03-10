@@ -24,12 +24,27 @@ TextView
 >> textFontWeight="<android default options>"
 	- 
 
+>> lines="<num>"
+	- limit the number of text lines
+
+>> textAllCaps="<true or false"
+	- set the text to all capital with a value of 'true' of 'false'
+
+>> ellipsize="<options>"
+	- combined with the attribute 'lines'
+	- options:
+		- none: no truncation will happens
+		- start: truncation begins at the beginning of the text
+		- middle: truncation happens in the middle of the text
+		- end: truncation occurs at the end of the text (most common used)
+
+
+
 
 
 
 
 ```
-
 
 
 
