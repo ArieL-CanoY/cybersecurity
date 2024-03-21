@@ -20,30 +20,6 @@
             }
           },
           {
-            "id": "64bd75890da06c4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Android Studio/Views/Text View.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d911a1f19a85c52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Pentest/Vulnerabilities and Exploit/SQL Injection/Cheatsheet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "74e70f9329fa75aa",
             "type": "leaf",
             "state": {
@@ -73,7 +49,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Pentest/Learning Platform.md",
+                "file": "Operating System/Linux/useful.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ba46925625a6c97a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming and Scripting/Python/Modules and Libraries/libraries.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "039ada28c8ab8e3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming and Scripting/Python/Modules and Libraries/os/OS Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vulnerable",
+                "query": "export Display",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,8 +134,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -155,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Pentest/Learning Platform.md",
+                "file": "Programming and Scripting/Python/Modules and Libraries/os/OS Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Pentest/Learning Platform.md",
+                "file": "Programming and Scripting/Python/Modules and Libraries/os/OS Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Pentest/Learning Platform.md"
+                "file": "Programming and Scripting/Python/Modules and Libraries/os/OS Fundamentals.md"
               }
             }
           },
@@ -229,12 +228,32 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "00df77a4ea166bcc",
+  "active": "039ada28c8ab8e3a",
   "lastOpenFiles": [
-    "CTF/links.md",
+    "Programming and Scripting/Python/Modules and Libraries/string/string fundmentals.md",
+    "Programming and Scripting/Python/Modules and Libraries/faker/faker fundamentals.md",
+    "Programming and Scripting/Python/Modules and Libraries/string/Untitled",
+    "Programming and Scripting/Python/Modules and Libraries/string",
+    "Programming and Scripting/Python/Modules and Libraries/faker",
+    "Programming and Scripting/Python/Modules and Libraries/libraries.md",
+    "Programming and Scripting/Python/Modules and Libraries/random/random fundamentals.md",
+    "Programming and Scripting/Python/Modules and Libraries/sqlite3/sqlite3 fundamentals.md",
+    "Programming and Scripting/Python/Modules and Libraries/shutil/Shutil Fundamentals.md",
+    "Programming and Scripting/Python/Useful Websites.md",
+    "Programming and Scripting/Python/Modules and Libraries/random",
+    "Websites/random.md",
     "Android Studio/Animation Custom.md",
-    "Android Studio/Views/Edit Text.md",
+    "Web Pentest/Vulnerabilities and Exploit/SQL Injection/Cheatsheet.md",
     "Android Studio/Views/Text View.md",
+    "Tips of expert.md",
+    "Operating System/Linux/useful.md",
+    "HackTheBox/CTF/Boxes for noobies.md",
+    "Other Tech Topic/Github/Git commands.md",
+    "HackTheBox/CTF",
+    "HackTheBox",
+    "Web Pentest/Learning Platform.md",
+    "CTF/links.md",
+    "Android Studio/Views/Edit Text.md",
     "Android Studio/General Attributes.md",
     "Android Studio/Views/Checkbox.md",
     "Android Studio/Intent.md",
@@ -242,33 +261,13 @@
     "Vulnerable Machines/websites.md",
     "Operating System/Linux/String and line manipulation.md",
     "Programming and Scripting/Python/Modules and Libraries/tkinter/tkinter Fundamentals.md",
-    "Websites/random.md",
-    "Tips of expert.md",
-    "Web Pentest/Vulnerabilities and Exploit/SQL Injection/Cheatsheet.md",
     "Pasted image 20231109163617.png",
-    "Programming and Scripting/Python/Modules and Libraries/sqlite3/sqlite3 fundamentals.md",
     "Android Studio/Views",
     "Android Studio",
     "Programming and Scripting/Java/String.md",
     "Programming and Scripting/Python/Modules and Libraries/tkinter",
-    "Programming and Scripting/Python/Modules and Libraries/time/time Fundamentals.md",
-    "Programming and Scripting/Python/Modules and Libraries/hashlib/hashlib fundamentals.md",
     "Programming and Scripting/Python/Modules and Libraries/sqlite3",
-    "Programming and Scripting/Java/Data Type Conversion.md",
-    "Programming and Scripting/Java/Data Types.md",
-    "Text Editor/VIM.md",
-    "Red Team/roadmap.md",
     "Pasted image 20231109154411.png",
-    "Installation/Win 11.md",
-    "Installation",
-    "Operating System/Linux/Searching Files and Directories.md",
-    "Operating System/Linux/Managing Users and Groups.md",
-    "Operating System/Linux/wildcard.md",
-    "Vulnerable Machines",
-    "this is another level of directory name",
-    "all_Paths.txt",
-    "Other Tech Topic/Github",
-    "Other Tech Topic",
     "Untitled.canvas",
     "Other Files/Images/Networking/Pasted image 20230806154844.png",
     "Other Files/Images/Networking/Pasted image 20230715173904.png",

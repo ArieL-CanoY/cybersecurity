@@ -4,7 +4,18 @@
 use git bash then make aliases for commands.
 ```
 
+### Add token
+```python
+1. go to github profile
+2. click developer setting
+3. add token
+4. check the main checkbox
+5. generate
+6. git push the branch from cli
+7. it will pop to login your credentials, click token then add the token generated before
 
+
+```
 
 ```python
 

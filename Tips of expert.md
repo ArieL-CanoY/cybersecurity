@@ -315,6 +315,26 @@ recommended books:
 	- the hacker playbook3
 		more advanced topics - focus more on real life attackers
 
+link: https://www.youtube.com/watch?v=KYnUsEczdnY&list=PLMoaZm9nyKaP8qdPKquRxDDE4_jBelWoe&index=5
+tyler ramsbey:
+	foundations:
+		basic it skills
+		networking
+		linux
+		scripting
+		general security
+	advanced:
+		active directory
+		web app
+		wireless
+		certs
+	soft skills:
+		dont be a jerk
+		communication
+		contribute now
+		hunger for growth
+		mental health
+	
 
 
 
