@@ -26,6 +26,7 @@ cat /etc/release
 
 set - display and change shell variables
 
+echo $0 - find the current user's shell if the environmental variable "$SHELL" does not exist
 ```
 
 # Configuration
