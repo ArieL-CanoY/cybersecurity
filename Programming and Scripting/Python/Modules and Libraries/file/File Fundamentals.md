@@ -14,6 +14,8 @@ with open(filePath, 'w') as file:
 	file.write('message')
 
 
-
+# append or add text on a file
+with open(filePath, 'a') as file:
+	file.write('message')
 
 ```
