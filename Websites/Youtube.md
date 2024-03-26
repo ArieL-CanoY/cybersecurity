@@ -109,7 +109,8 @@ https://www.youtube.com/watch?v=ZtqBQ68cfJc
 blue team:
 https://www.youtube.com/@elearninfosec7937/videos
 
-
+network pentest, red team, metasploit, enumeration
+https://www.youtube.com/@Robensive/featured
 
 # Priority
 https://www.youtube.com/@q0phi80/videos

@@ -54,9 +54,69 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2fb4a94e7050227a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming and Scripting/Python/Modules and Libraries/os/OS Fundamentals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d776726d9b4db61d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TryHackMe/path ways.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1075d79b6524f197",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming and Scripting/Python/Modules and Libraries/re/regular expression fundamentals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0ddc36d5acd95f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Network Pen Test/Resources.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d114a71fa88065f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Websites/Youtube.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -85,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "youtube",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -130,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming and Scripting/Python/install .py to .exe.md",
+                "file": "Programming and Scripting/Python/Modules and Libraries/re/regular expression fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming and Scripting/Python/install .py to .exe.md",
+                "file": "Programming and Scripting/Python/Modules and Libraries/re/regular expression fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming and Scripting/Python/install .py to .exe.md"
+                "file": "Programming and Scripting/Python/Modules and Libraries/re/regular expression fundamentals.md"
               }
             }
           },
@@ -204,10 +264,21 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "a64b2e155d13e470",
+  "active": "1075d79b6524f197",
   "lastOpenFiles": [
-    "Programming and Scripting/Python/Modules and Libraries/file/File Fundamentals.md",
+    "Websites/website - linkined suggestions.md",
+    "Programming and Scripting/Python/Modules and Libraries/re/regular expression fundamentals.md",
+    "Network Pen Test/Resources.md",
+    "Websites/Youtube.md",
+    "Websites/random.md",
+    "Programming and Scripting/Notes.md",
+    "List Notes/Cybersec youtube channels.md",
+    "TryHackMe/path ways.md",
+    "Programming and Scripting/Python/Modules and Libraries/re",
+    "TryHackMe/CTF/Easy/Pickle Rick.md",
+    "Programming and Scripting/Python/Modules and Libraries/os/OS Fundamentals.md",
     "Programming and Scripting/Python/install .py to .exe.md",
+    "Programming and Scripting/Python/Modules and Libraries/file/File Fundamentals.md",
     "Programming and Scripting/Python/Modules and Libraries/datetime/datetime fundamentals.md",
     "Programming and Scripting/Python/Modules and Libraries/libraries.md",
     "Programming and Scripting/Python/Modules and Libraries/datetime",
@@ -217,23 +288,13 @@
     "Programming and Scripting/Python/Working with files.md",
     "Web Pentest/Vulnerabilities and Exploit/Cryptographic Failure/Definition.md",
     "Android Studio/Animation Custom.md",
-    "Websites/random.md",
     "Tips of expert.md",
     "Operating System/Linux/useful.md",
-    "TryHackMe/path ways.md",
     "Web Pentest/Vulnerabilities and Exploit/JWT/exploitation.md",
     "Web Pentest/Learning Platform.md",
     "Web Pentest/Vulnerabilities and Exploit/JWT",
     "Websites/tools.md",
-    "Websites/Youtube.md",
     "Websites/Computer Networking.md",
-    "Websites/cis web.md",
-    "Websites/Webs Pentest/CTF and vuln machines.md",
-    "Websites/Webs Pentest/sqli.md",
-    "Websites/Webs Pentest/List of websites.md",
-    "Websites/CTF platforms.md",
-    "Websites/TryHackMe machine difficulty.md",
-    "Reverse Shell.md",
     "Web Pentest/Vulnerabilities and Exploit/Cryptographic Failure",
     "Programming and Scripting/Python/Modules and Libraries/string/Untitled",
     "Programming and Scripting/Python/Modules and Libraries/string",
@@ -242,7 +303,6 @@
     "HackTheBox/CTF",
     "HackTheBox",
     "Pasted image 20231109163617.png",
-    "Android Studio/Views",
     "Pasted image 20231109154411.png",
     "Untitled.canvas",
     "Other Files/Images/Networking/Pasted image 20230806154844.png",

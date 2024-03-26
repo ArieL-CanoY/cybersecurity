@@ -48,3 +48,10 @@ for root, folderName, files in fileList:
         namesCount += 1
 
 ```
+
+
+
+# execute command from the system
+```python
+os.system(commands)
+```
