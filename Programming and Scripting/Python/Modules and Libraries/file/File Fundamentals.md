@@ -1,3 +1,10 @@
+# Notes
+```python
+if it returns an error of permission denied, check if the filepath is directory and not a file.
+```
+
+
+# Code
 ```python
 # reading file every line
 with open(filePath, 'r') as file:
