@@ -1,5 +1,3 @@
-# note that this result an error and will check if the current version changed it
-
 example code
 ```python
 import time, threading
