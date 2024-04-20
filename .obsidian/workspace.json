@@ -114,9 +114,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6826868353e67f01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Websites/Webs Pentest/List of websites.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "83a330afcd631621",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Other Tech Topic/Docker/02 Docker Commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -145,7 +169,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hmac",
+                "query": "website",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,8 +194,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -191,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cryptography/HMAC.md",
+                "file": "Other Tech Topic/Docker/02 Docker Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cryptography/HMAC.md",
+                "file": "Other Tech Topic/Docker/02 Docker Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cryptography/HMAC.md"
+                "file": "Other Tech Topic/Docker/02 Docker Commands.md"
               }
             }
           },
@@ -265,12 +288,19 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "4ee63a7a41742cfd",
+  "active": "83a330afcd631621",
   "lastOpenFiles": [
+    "Other Tech Topic/Docker/01 Docker Fundamentals.md",
+    "Other Tech Topic/Docker/02 Docker Commands.md",
+    "Resume.md",
+    "Websites/Webs Pentest/List of websites.md",
+    "Web Pentest/Learning Platform.md",
+    "Other Tech Topic/Github/Git commands.md",
+    "Other Tech Topic/Docker",
+    "Cryptography/HMAC.md",
     "Web Pentest/Vulnerabilities and Exploit/Cross Site Request Forgery/02 CSRF Exploit.md",
     "Website Tech/SameSite Cookie.md",
     "Web Pentest/Vulnerabilities and Exploit/Cross Site Request Forgery/01 CSRF Fundamentals.md",
-    "Web Pentest/Learning Platform.md",
     "Website Tech/Headers.md",
     "Bug Bounty/notes.md",
     "Web Pentest/Vulnerabilities and Exploit/Cross Site Request Forgery/03 CSRF Mitigations.md",
@@ -288,13 +318,7 @@
     "Databases/MongoDB/MongoDB fundamentals.md",
     "Web Pentest/Vulnerabilities and Exploit/NoSQL Injection/02 Exploitations.md",
     "Web Pentest/Vulnerabilities and Exploit/NoSQL Injection/01 NoSQLi Fundamentals.md",
-    "Web Pentest/Vulnerabilities and Exploit/NoSQL Injection/03 Mitigations.md",
-    "Web Pentest/Vulnerabilities and Exploit/JWT/exploitation.md",
     "Web Pentest/Vulnerabilities and Exploit/NoSQL Injection",
-    "Web Pentest/Vulnerabilities and Exploit/XSS (Cross Site Scripting)/Definition and Exploitation.md",
-    "Web Pentest/Vulnerabilities and Exploit/XSS (Cross Site Scripting)/Exploitation.md",
-    "Web Pentest/Tools/FFUF.md",
-    "Programming and Scripting/Python/Modules and Libraries/flask/flask fundamentals.md",
     "Programming and Scripting/Python/Modules and Libraries/pymongo",
     "Programming and Scripting/Python/Modules and Libraries/flask",
     "Databases/MongoDB",
@@ -302,7 +326,6 @@
     "Bug Bounty",
     "Programming and Scripting/Python/Modules and Libraries/re",
     "Programming and Scripting/Python/Modules and Libraries/datetime",
-    "Web Pentest/Vulnerabilities and Exploit/JWT",
     "Pasted image 20231109163617.png",
     "Pasted image 20231109154411.png",
     "Untitled.canvas",
