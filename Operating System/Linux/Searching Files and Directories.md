@@ -3,8 +3,8 @@ Hard to find files and directories on your linux machine? Used this and some of 
 
 
 ### Find command
-```bash
-find - find files or directory. ex. find -type [d-directory, f-file] -name [filename] 
+```python
+find [arguments] - find files or directory. ex. find -type [d-directory, f-file] -name [filename] 
 
 	Flags and Switches (Options):
 	

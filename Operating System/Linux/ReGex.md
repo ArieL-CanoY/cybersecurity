@@ -69,19 +69,9 @@ useful web: https://regexr.com/
 
 
 
-
-
-
-
-
-
-
-
 - multiple pattern using -e
 ```python
 	ls | egrep -e "[a-z]\.txt" -e "[0-9]\.txt"
 
-	- search 
+	- search for [a-z].txt and also [0-9].txt
 ```
-
-- any character 
