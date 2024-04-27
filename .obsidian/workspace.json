@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Website.md",
+                "file": "Programming and Scripting/JavaScript/JavaScript Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Website.md",
+                "file": "Programming and Scripting/JavaScript/JavaScript Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Website.md",
+                "file": "Programming and Scripting/JavaScript/JavaScript Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Website.md"
+                "file": "Programming and Scripting/JavaScript/JavaScript Fundamentals.md"
               }
             }
           },
@@ -216,9 +216,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "de6dd514ec17a2b9",
+  "active": "0ecc6a254f9e8dc9",
   "lastOpenFiles": [
     "API/Website.md",
+    "Programming and Scripting/JavaScript/JavaScript Fundamentals.md",
+    "Programming and Scripting/JavaScript",
     "API",
     "CTF/links.md",
     "Data Format/JSON.md",
@@ -247,13 +249,11 @@
     "Programming and Scripting/Other/D",
     "Programming and Scripting/Other",
     "Programming and Scripting/NodeJS/01 Installation.md",
-    "Bug Bounty/notes.md",
     "Programming and Scripting/NodeJS/Modules",
     "Programming and Scripting/NodeJS",
     "Other Tech Topic/Docker",
     "Web Pentest/Vulnerabilities and Exploit/Cross Site Request Forgery",
     "Web Pentest/Vulnerabilities and Exploit/NoSQL Injection",
-    "Programming and Scripting/Python/Modules and Libraries/pymongo",
     "Pasted image 20231109163617.png",
     "Pasted image 20231109154411.png",
     "Untitled.canvas",
