@@ -8,6 +8,15 @@
 
 ```
 
+# Show running docker container
+```python
+>> docker ps
+```
+
+# Show all downloaded images
+```python
+>> docker images
+```
 
 # Get or pull an image
 ```python
@@ -59,15 +68,6 @@ next is go inside the OS container:
 	- stop the running docker
 ```
 
-# Show running docker container
-```python
->> docker ps
-```
-
-# Show all downloaded images
-```python
->> docker images
-```
 
 
 # Removing an image

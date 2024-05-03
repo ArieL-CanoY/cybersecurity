@@ -66,6 +66,105 @@ if __name__ == '__main__':
 
 ```
 
+# Modules
+
+### render_template
+```python
+# Note that this file is along with folder called html_files with 1 file called index.html
+
+'''
+here is the directory explanation:
+> index.py
+> html_files
+  >> index.html
+'''
+
+from flask import Flask, render_template
+
+app = Flask(__name__, template_folder="html_files")
+
+@app.route("/")
+def home():
+    return render_template("index.html")
+
+if __name__ == "__main__":
+    app.run()
+
+```
+
+
+# File Upload
+```python
+from flask import Flask, render_template, request, redirect
+
+app = Flask(__name__, template_folder="html_files")
+
+@app.route("/")
+def home():
+    return render_template("index.html")
+
+@app.route("/upload", methods=['POST'])
+def upload():
+    file = request.files['file']
+    file.save(f'uploads/{file.filename}')
+    return redirect("/")
+
+if __name__ == "__main__":
+    app.run()
+
+
+
+
+```
+
+
+
+# Secure File Upload 
+```python
+# import secure_filename from werkzeug.utils that remove any symbol before uploading it to the server
+
+from flask import Flask, render_template, request, redirect
+from werkzeug.utils import secure_filename
+
+app = Flask(__name__, template_folder="html_files")
+
+@app.route("/")
+def home():
+    return render_template("index.html")
+
+@app.route("/upload", methods=['POST'])
+def upload():
+    file = request.files['file']
+    file.save(f'uploads/{secure_filename(file.filename)}')
+    return redirect("/")
+
+if __name__ == "__main__":
+    app.run()
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
