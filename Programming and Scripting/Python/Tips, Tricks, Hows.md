@@ -34,22 +34,6 @@
 	isValid = True if age >= 18 else False
 
 
-# convert string to byte
-string = 'password'
-print(string)
-print(type(string))
-string = string.encode('utf-8')
-print(string)
-print(type(string))
-
-
-# convert byte to string
-string = 'password'
-print(string)
-print(type(string))
-string = string.encode('utf-8')
-print(string)
-print(type(string))
 
 
 
