@@ -22,6 +22,23 @@ randomChoice = [secrets.choice(allCharacters) for num in range(32)]
 print(''.join(randomChoice))
 ```
 
+
+# Compare digest
+```python
+# Used to compare each bit to avoid timing attacks
+
+import secrets
+
+pass1 = 'password123'
+pass2 = 'password238'
+
+if secrets.compare_digest(pass1,  pass2):
+    print('password correct')
+else:
+    print('password incorrect')
+
+```
+
 # All method
 
 ### Summary
@@ -56,7 +73,6 @@ import secrets
 
 randomData = secrets.randbits(8)
 print(randomData)
-
 ```
 
 
@@ -66,7 +82,6 @@ import secrets
 
 randomData = secrets.token_hex(32)
 print(randomData)
-
 ```
 
 
