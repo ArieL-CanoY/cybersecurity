@@ -89,6 +89,11 @@ https://learn.snyk.io/catalog/?format=learning_path
 https://portswigger.net/research/top-10-web-hacking-techniques
 https://www.youtube.com/@whiteseccybersecurity/videos
 https://www.youtube.com/@LearnLadder16
+https://www.youtube.com/@cyberplatter8980/videos
+
+
+
+
 
 theoretical:
 	gbhackers
