@@ -1,6 +1,10 @@
 ```python
 # This is single comment
 
+
+#hello
+#world
+
 #Declaration and data type
 	x = 4                                      #integer
 	x = 1.23                                   #float
@@ -43,6 +47,8 @@
 	float(var)               #to float
 	len(var)                 #size of character - useful for string
 	type(var)                #identify the data type
+
+	
 
 
 #string
