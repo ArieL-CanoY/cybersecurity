@@ -6,8 +6,17 @@ https://owasp.org/www-project-api-security/
 
 api sec university
 
+apisecurity.io
 
 
+# YT
+42crunch playlist of OWASP Top 10
+https://www.youtube.com/watch?v=DcOjvAalqxw&list=PLJV63by5xV4AeU1cqPf79E8DhiCWsXlPA
+
+
+postman - https://www.youtube.com/watch?v=XlOEq9CBlr8
+
+insiderPHD - https://www.youtube.com/watch?v=aQGbYfalRTA
 
 
 

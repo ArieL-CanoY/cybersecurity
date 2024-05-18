@@ -109,19 +109,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/PenTesting/OWASP API/Broken Function Level Authorization.md",
+                "file": "Other Tech Topic/Encoding/Base36.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c4506259468cf426",
+            "id": "e59baaf346c731ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/PenTesting/Tips.md",
+                "file": "Web Pentest/Tools/FFUF.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker",
+                "query": "ffuf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -182,7 +182,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -202,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/PenTesting/Tips.md",
+                "file": "Web Pentest/Tools/FFUF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/PenTesting/Tips.md",
+                "file": "Web Pentest/Tools/FFUF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/PenTesting/Tips.md"
+                "file": "Web Pentest/Tools/FFUF.md"
               }
             }
           },
@@ -276,26 +277,31 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "c4506259468cf426",
+  "active": "e59baaf346c731ed",
   "lastOpenFiles": [
-    "API/PenTesting/Practice Machines.md",
-    "API/PenTesting/Tips.md",
+    "AJ's Web PenTest Course/02 - Content Discovery.md",
+    "Web Pentest/Tools/FFUF.md",
+    "Tools.md",
+    "Other Tech Topic/Encoding/Base36.md",
     "API/Website.md",
+    "Other Tech Topic/Encoding",
+    "API/API Fundamentals.md",
+    "API/PenTesting/Tips.md",
     "API/PenTesting/OWASP API/Insufficient Logging and Monitoring.md",
+    "API/PenTesting/OWASP API/Broken Function Level Authorization.md",
     "API/PenTesting/OWASP API/Improper Asset Management.md",
     "API/PenTesting/OWASP API/Injection.md",
-    "Untitled 1.md",
     "API/PenTesting/OWASP API/Security Misconfiguration.md",
-    "API/PenTesting/OWASP API/Broken Authentication.md",
-    "API/PenTesting/00 - Introduction.md",
-    "API/PenTesting/OWASP API/Broken Function Level Authorization.md",
     "API/PenTesting/OWASP API/Mass Assignment.md",
-    "API/PenTesting/OWASP API/Broken Object Level Authorization.md",
-    "API/PenTesting/OWASP API/Excessive Data Exposure.md",
     "API/PenTesting/OWASP API/Lack of Resources and Rate Limiting.md",
+    "API/PenTesting/OWASP API/Excessive Data Exposure.md",
+    "API/PenTesting/OWASP API/Broken Object Level Authorization.md",
+    "API/PenTesting/OWASP API/Broken Authentication.md",
+    "API/PenTesting/Practice Machines.md",
+    "Untitled 1.md",
+    "API/PenTesting/00 - Introduction.md",
     "Website Tech/Web Authentication Mechanisms.md",
     "Programming and Scripting/Python/Modules and Libraries/faker/faker fundamentals.md",
-    "API/API Fundamentals.md",
     "Pasted image 20240515061307.png",
     "Pasted image 20231109163617.png",
     "Pasted image 20231109154411.png",
@@ -304,11 +310,7 @@
     "Websites/tools.md",
     "API/PenTesting/01 - Enumeration.md",
     "Programming and Scripting/Python/API/API using Flask.md",
-    "API/PenTesting/02 - Exploitation.md",
     "API/PenTesting",
-    "Programming and Scripting/Python/Tips, Tricks, Hows.md",
-    "Programming and Scripting/Python/Useful codes.md",
-    "Programming and Scripting/Python/Useful Functions.md",
     "Programming and Scripting/Python/API",
     "Vulnhub",
     "Programming and Scripting/Python/Conversion",
@@ -316,7 +318,6 @@
     "Programming and Scripting/Python/Modules and Libraries/json",
     "Programming and Scripting/Python/Modules and Libraries/bcrypt",
     "Other Tech Topic/Hashing",
-    "Active Directory Pen Testing",
     "Untitled.canvas",
     "Other Files/Images/Networking/Pasted image 20230806154844.png",
     "Other Files/Images/Networking/Pasted image 20230715173904.png",
