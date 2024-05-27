@@ -126,9 +126,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f37f77f2b407bdcc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Troubleshooting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "57faac70115996ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming and Scripting/Python/Modules and Libraries/file/File Fundamentals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -182,8 +206,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -203,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Pentest/Tools/FFUF.md",
+                "file": "Programming and Scripting/Python/Modules and Libraries/file/File Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Pentest/Tools/FFUF.md",
+                "file": "Programming and Scripting/Python/Modules and Libraries/file/File Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Pentest/Tools/FFUF.md"
+                "file": "Programming and Scripting/Python/Modules and Libraries/file/File Fundamentals.md"
               }
             }
           },
@@ -277,10 +300,12 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "e59baaf346c731ed",
+  "active": "57faac70115996ef",
   "lastOpenFiles": [
-    "AJ's Web PenTest Course/02 - Content Discovery.md",
+    "Programming and Scripting/Python/Working with files.md",
+    "Troubleshooting.md",
     "Web Pentest/Tools/FFUF.md",
+    "AJ's Web PenTest Course/02 - Content Discovery.md",
     "Tools.md",
     "Other Tech Topic/Encoding/Base36.md",
     "API/Website.md",
@@ -308,8 +333,6 @@
     "API/PenTesting/Tools.md",
     "API/PenTesting/OWASP API",
     "Websites/tools.md",
-    "API/PenTesting/01 - Enumeration.md",
-    "Programming and Scripting/Python/API/API using Flask.md",
     "API/PenTesting",
     "Programming and Scripting/Python/API",
     "Vulnhub",
