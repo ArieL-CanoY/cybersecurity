@@ -150,9 +150,65 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "783c6465eb079b31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Other Tech Topic/Random/Metadata.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7423bf5eef40cc0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming and Scripting/Python/Modules and Libraries/re/regular expression fundamentals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0575b3cf858f5928",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/Useful AI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "52c9937b4972a34e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Text Editor/VIM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b3de70d4e7f52e2c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -181,7 +237,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ffuf",
+                "query": "API",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -226,7 +282,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming and Scripting/Python/Modules and Libraries/file/File Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +298,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming and Scripting/Python/Modules and Libraries/file/File Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,9 +319,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programming and Scripting/Python/Modules and Libraries/file/File Fundamentals.md"
-              }
+              "state": {}
             }
           },
           {
@@ -300,47 +352,47 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "57faac70115996ef",
+  "active": "b3de70d4e7f52e2c",
   "lastOpenFiles": [
-    "Programming and Scripting/Python/Working with files.md",
-    "Troubleshooting.md",
-    "Web Pentest/Tools/FFUF.md",
-    "AJ's Web PenTest Course/02 - Content Discovery.md",
-    "Tools.md",
-    "Other Tech Topic/Encoding/Base36.md",
-    "API/Website.md",
-    "Other Tech Topic/Encoding",
-    "API/API Fundamentals.md",
-    "API/PenTesting/Tips.md",
-    "API/PenTesting/OWASP API/Insufficient Logging and Monitoring.md",
-    "API/PenTesting/OWASP API/Broken Function Level Authorization.md",
-    "API/PenTesting/OWASP API/Improper Asset Management.md",
-    "API/PenTesting/OWASP API/Injection.md",
-    "API/PenTesting/OWASP API/Security Misconfiguration.md",
-    "API/PenTesting/OWASP API/Mass Assignment.md",
-    "API/PenTesting/OWASP API/Lack of Resources and Rate Limiting.md",
-    "API/PenTesting/OWASP API/Excessive Data Exposure.md",
-    "API/PenTesting/OWASP API/Broken Object Level Authorization.md",
-    "API/PenTesting/OWASP API/Broken Authentication.md",
-    "API/PenTesting/Practice Machines.md",
+    "Text Editor/VIM.md",
+    "AI/Useful AI.md",
+    "Websites/linkedin/cybersec websites.md",
+    "Websites/linkedin/linkedin.md",
+    "Websites/linkedin",
+    "Mobile Pen Testing/Starting Point.md",
     "Untitled 1.md",
-    "API/PenTesting/00 - Introduction.md",
-    "Website Tech/Web Authentication Mechanisms.md",
-    "Programming and Scripting/Python/Modules and Libraries/faker/faker fundamentals.md",
+    "API/PenTesting/Tips.md",
+    "Mobile Pen Testing/Untitled",
+    "Mobile Pen Testing",
+    "API/API Fundamentals.md",
+    "Websites/random.md",
+    "AI",
+    "Programming and Scripting/Python/Modules and Libraries/re/regular expression fundamentals.md",
+    "Troubleshooting.md",
+    "Android Studio/Views/Checkbox.md",
+    "Android Studio/Views/Edit Text.md",
+    "Android Studio/Views/ShapeableImage.md",
+    "Android Studio/Views/Text View.md",
+    "Android Studio/Animation Custom.md",
+    "Android Studio/General Attributes.md",
+    "Android Studio/Intent.md",
+    "Other Tech Topic/Random/Metadata.md",
+    "Web Pentest/Tools/FFUF.md",
+    "Other Tech Topic/Encoding/Base36.md",
+    "Programming and Scripting/Python/Tips, Tricks, Hows.md",
+    "Programming and Scripting/Python/Useful Functions.md",
+    "Other Tech Topic/Docker/02 Docker Commands.md",
+    "Web Pentest/Learning Platform.md",
+    "Programming and Scripting/Python/Modules and Libraries/flask/flask fundamentals.md",
+    "Other Tech Topic/Random",
+    "Other Tech Topic/Encoding",
     "Pasted image 20240515061307.png",
     "Pasted image 20231109163617.png",
     "Pasted image 20231109154411.png",
-    "API/PenTesting/Tools.md",
     "API/PenTesting/OWASP API",
-    "Websites/tools.md",
     "API/PenTesting",
     "Programming and Scripting/Python/API",
     "Vulnhub",
-    "Programming and Scripting/Python/Conversion",
-    "Programming and Scripting/Python/Modules and Libraries/secrets",
-    "Programming and Scripting/Python/Modules and Libraries/json",
-    "Programming and Scripting/Python/Modules and Libraries/bcrypt",
-    "Other Tech Topic/Hashing",
     "Untitled.canvas",
     "Other Files/Images/Networking/Pasted image 20230806154844.png",
     "Other Files/Images/Networking/Pasted image 20230715173904.png",
