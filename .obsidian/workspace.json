@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a0d57fb9cd7882ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Website Tech/Web Authentication Mechanisms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f878112b5de09fe4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming and Scripting/Python/Modules and Libraries/faker/faker fundamentals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "31a5350d7da43431",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming and Scripting/Python/Modules and Libraries/flask/flask fundamentals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e6d96df967efde9e",
             "type": "leaf",
             "state": {
@@ -68,36 +32,12 @@
             }
           },
           {
-            "id": "8095c29cd2680f14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Other Tech Topic/Docker/02 Docker Commands.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cca498cb01c6bea9",
+            "id": "6fef0530aab5e284",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Programming and Scripting/Python/Useful Functions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1d64b7bd66737b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming and Scripting/Python/Tips, Tricks, Hows.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,18 +50,6 @@
               "type": "markdown",
               "state": {
                 "file": "Other Tech Topic/Encoding/Base36.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e59baaf346c731ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Pentest/Tools/FFUF.md",
                 "mode": "source",
                 "source": false
               }
@@ -203,12 +131,16 @@
             "id": "b3de70d4e7f52e2c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Other Tech Topic/Encoding/Base-64.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -282,6 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Troubleshooting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -298,6 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Troubleshooting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -319,7 +253,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Troubleshooting.md"
+              }
             }
           },
           {
@@ -352,38 +288,38 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "b3de70d4e7f52e2c",
+  "active": "f37f77f2b407bdcc",
   "lastOpenFiles": [
+    "Other Tech Topic/Encoding/Base36.md",
+    "Web Pentest/Tools/FFUF.md",
+    "Programming and Scripting/Python/Useful Functions.md",
+    "Programming and Scripting/Python/Tips, Tricks, Hows.md",
+    "Websites/random.md",
+    "Other Tech Topic/Docker/02 Docker Commands.md",
+    "Web Pentest/Learning Platform.md",
+    "Programming and Scripting/Python/Modules and Libraries/flask/flask fundamentals.md",
+    "Programming and Scripting/Python/Modules and Libraries/faker/faker fundamentals.md",
+    "Website Tech/Web Authentication Mechanisms.md",
+    "Other Tech Topic/Encoding/Base-64.md",
+    "Other Tech Topic/Encoding/ASCII.md",
+    "Other Tech Topic/Encoding/Unicode.md",
+    "Other Tech Topic/Encoding/UTF 8.md",
+    "Previous links.md",
+    "books.md",
+    "Untitled.md",
     "Text Editor/VIM.md",
     "AI/Useful AI.md",
     "Websites/linkedin/cybersec websites.md",
     "Websites/linkedin/linkedin.md",
     "Websites/linkedin",
     "Mobile Pen Testing/Starting Point.md",
-    "Untitled 1.md",
     "API/PenTesting/Tips.md",
     "Mobile Pen Testing/Untitled",
     "Mobile Pen Testing",
     "API/API Fundamentals.md",
-    "Websites/random.md",
     "AI",
     "Programming and Scripting/Python/Modules and Libraries/re/regular expression fundamentals.md",
     "Troubleshooting.md",
-    "Android Studio/Views/Checkbox.md",
-    "Android Studio/Views/Edit Text.md",
-    "Android Studio/Views/ShapeableImage.md",
-    "Android Studio/Views/Text View.md",
-    "Android Studio/Animation Custom.md",
-    "Android Studio/General Attributes.md",
-    "Android Studio/Intent.md",
-    "Other Tech Topic/Random/Metadata.md",
-    "Web Pentest/Tools/FFUF.md",
-    "Other Tech Topic/Encoding/Base36.md",
-    "Programming and Scripting/Python/Tips, Tricks, Hows.md",
-    "Programming and Scripting/Python/Useful Functions.md",
-    "Other Tech Topic/Docker/02 Docker Commands.md",
-    "Web Pentest/Learning Platform.md",
-    "Programming and Scripting/Python/Modules and Libraries/flask/flask fundamentals.md",
     "Other Tech Topic/Random",
     "Other Tech Topic/Encoding",
     "Pasted image 20240515061307.png",
