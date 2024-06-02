@@ -11,12 +11,22 @@
 
 
 
+# Examples
+
+## UTF-8
+```python
+- uses 8 bits or 1 byte to represent a character or grapheme
+
+```
 
 
 
 
-
-
+## UTF-32
+```python
+- uses a fixed 32 bits or 4 bytes which can represent hundreds of thousands of character or grapheme.
+- disadvantages is it waste a lot of space when it comes to single 
+```
 
 
 
