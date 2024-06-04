@@ -26,12 +26,10 @@ Note: Only the information that will update should be on the body and not all ot
 ```
 
 
-
 #### DELETE Requests
 ```json
 This is used for deleting information/records
 ```
-
 
 
 #### Status Code Meaning
@@ -128,3 +126,17 @@ This is used for deleting information/records
 
 505 HTTP Version Not Supported
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+

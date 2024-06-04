@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "c76febaa93b3a2a2",
+            "id": "8caebbd4ca9a83c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,84 +56,12 @@
             }
           },
           {
-            "id": "57faac70115996ef",
+            "id": "46dedb495a01826d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming and Scripting/Python/Modules and Libraries/file/File Fundamentals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7423bf5eef40cc0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming and Scripting/Python/Modules and Libraries/re/regular expression fundamentals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0575b3cf858f5928",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/Useful AI.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "52c9937b4972a34e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Text Editor/VIM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b3de70d4e7f52e2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Other Tech Topic/Encoding/UTF.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "597060cf6a1d229f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Website Tech/CORS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d4836e6082fa883",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Website Tech/SOP.md",
+                "file": "Dictionary.md",
                 "mode": "source",
                 "source": false
               }
@@ -150,9 +78,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "27554d13f9ab9820",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Website Tech/Cookie.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d84f4773a6ad3c31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Curious Only.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e7e9592b90f2a392",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Website Tech/Useful websites.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -181,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "todo",
+                "query": "Access-Control-Allo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -302,34 +266,34 @@
   },
   "active": "78a645c954ee6272",
   "lastOpenFiles": [
-    "Password Cracking/Hashcat.md",
+    "Website Tech/Cookie.md",
+    "Website Tech/Useful websites.md",
     "Website Tech/CDN.md",
-    "Website Tech/SOP.md",
-    "Website Tech/CORS.md",
-    "Web Pentest/Vulnerabilities and Exploit/Cross Site Request Forgery/02 CSRF Exploit.md",
-    "Web Pentest/Learning Platform.md",
+    "Curious Only.md",
     "Websites/random.md",
+    "Web Pentest/Learning Platform.md",
+    "Programming and Scripting/Python/Useful Functions.md",
     "Other Tech Topic/Encoding/Base36.md",
     "Programming and Scripting/Python/Modules and Libraries/file/File Fundamentals.md",
     "Programming and Scripting/Python/Modules and Libraries/re/regular expression fundamentals.md",
-    "AI/Useful AI.md",
-    "Text Editor/VIM.md",
+    "Dictionary.md",
+    "Website Tech/CSP.md",
+    "Website Tech/CORS.md",
     "Other Tech Topic/Encoding/UTF.md",
-    "Other Tech Topic/Encoding/Base-64.md",
-    "Other Tech Topic/Encoding/Unicode.md",
-    "Evasion/Encoding/Linux commands.md",
+    "Text Editor/VIM.md",
+    "AI/Useful AI.md",
+    "Website Tech/Headers.md",
+    "Website Tech/SOP.md",
+    "Website Tech/HTTP (HyperText Transfer Protocol).md",
+    "Website Tech/MySQL.md",
+    "API/API Fundamentals.md",
+    "Web Pentest/Methodology/01 Information Gathering.md",
+    "Website Tech/SameSite Cookie.md",
+    "Website Tech/Web Authentication Mechanisms.md",
+    "Untitled.md",
+    "Untitled 2.md",
     "Evasion/Encoding",
     "Evasion",
-    "Other Tech Topic/Random/Metadata.md",
-    "Troubleshooting.md",
-    "Web Pentest/Tools/FFUF.md",
-    "Programming and Scripting/Python/Useful Functions.md",
-    "Programming and Scripting/Python/Tips, Tricks, Hows.md",
-    "Other Tech Topic/Docker/02 Docker Commands.md",
-    "Programming and Scripting/Python/Modules and Libraries/flask/flask fundamentals.md",
-    "Programming and Scripting/Python/Modules and Libraries/faker/faker fundamentals.md",
-    "Website Tech/Web Authentication Mechanisms.md",
-    "Other Tech Topic/Encoding/ASCII.md",
     "Websites/linkedin",
     "Mobile Pen Testing/Untitled",
     "Mobile Pen Testing",

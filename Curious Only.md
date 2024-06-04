@@ -8,6 +8,11 @@ is hotspot connection will slow if the source of connection is in low power mode
 ```
 
 
+thought
+```python
+- what if we used ngrok for reverse shell
+- HTTP 302 vs 307
+```
 
 
 
