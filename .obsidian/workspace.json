@@ -114,9 +114,69 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9e1892fa049c3caa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating System/Windows/UAC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3618d49ec84afea1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Other Tech Topic/Random/CVSS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "589a8ccf19895171",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Website Tech/Web Scraper.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5046e055ea23d81a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Website Tech/Web Crawler.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e92ae34e2d9efbe1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Other Tech Topic/Random/Proxy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -145,7 +205,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Access-Control-Allo",
+                "query": "web scar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -190,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Website Tech/CDN.md",
+                "file": "Operating System/Windows/UAC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Website Tech/CDN.md",
+                "file": "Operating System/Windows/UAC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Website Tech/CDN.md"
+                "file": "Operating System/Windows/UAC.md"
               }
             }
           },
@@ -264,11 +324,26 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "78a645c954ee6272",
+  "active": "9e1892fa049c3caa",
   "lastOpenFiles": [
-    "Website Tech/Cookie.md",
     "Website Tech/Useful websites.md",
+    "Other Tech Topic/Random/Proxy.md",
+    "Website Tech/Web Crawler.md",
+    "Other Tech Topic/Random/CVSS.md",
+    "Website Tech/Web Scraper.md",
+    "Vulnhub/Machines.md",
+    "Tips and Tricks/HTML as note.md",
+    "Operating System/Linux/Anonymizing.md",
+    "Operating System/Windows/UAC.md",
+    "Other Tech Topic/Random/CVE.md",
+    "Web Pentest/Vulnerabilities and Exploit/Open Redirect/Exploitation.md",
+    "Web Pentest/Vulnerabilities and Exploit/Open Redirect/Mitigations.md",
+    "Web Pentest/Vulnerabilities and Exploit/Open Redirect/Open Redirect Fundamentals.md",
+    "Web Pentest/Vulnerabilities and Exploit/SSTI/Definition and Exploitation.md",
+    "Web Pentest/Vulnerabilities and Exploit/Open Redirect",
+    "Other Tech Topic/Untitled",
     "Website Tech/CDN.md",
+    "Website Tech/Cookie.md",
     "Curious Only.md",
     "Websites/random.md",
     "Web Pentest/Learning Platform.md",
@@ -279,19 +354,6 @@
     "Dictionary.md",
     "Website Tech/CSP.md",
     "Website Tech/CORS.md",
-    "Other Tech Topic/Encoding/UTF.md",
-    "Text Editor/VIM.md",
-    "AI/Useful AI.md",
-    "Website Tech/Headers.md",
-    "Website Tech/SOP.md",
-    "Website Tech/HTTP (HyperText Transfer Protocol).md",
-    "Website Tech/MySQL.md",
-    "API/API Fundamentals.md",
-    "Web Pentest/Methodology/01 Information Gathering.md",
-    "Website Tech/SameSite Cookie.md",
-    "Website Tech/Web Authentication Mechanisms.md",
-    "Untitled.md",
-    "Untitled 2.md",
     "Evasion/Encoding",
     "Evasion",
     "Websites/linkedin",
@@ -303,8 +365,6 @@
     "Pasted image 20240515061307.png",
     "Pasted image 20231109163617.png",
     "Pasted image 20231109154411.png",
-    "API/PenTesting/OWASP API",
-    "API/PenTesting",
     "Untitled.canvas",
     "Other Files/Images/Networking/Pasted image 20230806154844.png",
     "Other Files/Images/Networking/Pasted image 20230715173904.png",

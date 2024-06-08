@@ -1,4 +1,5 @@
 #### You can create html file and render by this app
+note that this is for "Obsidian" app for windows
 <html>
 	<body>
 		<marquee style="color:blue;font-size:30px">THIS</marquee>

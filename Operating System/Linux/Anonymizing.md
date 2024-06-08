@@ -1,14 +1,14 @@
 So you want to become abnonymous/banonymous to become famous huh? Install it quick!
 
 #### Installing
-```bash
+```python
 install tor and proxychains via sudo apt install
 ```
 
 
 [[Bash Shell]]
 #### TOR
-```bash
+```python
 	sudo systemctl enable tor.service - enable the tor service
 	
 	sudo systemctl start tor - start the tor service (otherwise change start to stop)
@@ -18,7 +18,7 @@ install tor and proxychains via sudo apt install
 
 
 #### Proxychains
-```bash
+```python
 /etc/proxychains.conf - configuration file
 
 	add proxy server like this:
