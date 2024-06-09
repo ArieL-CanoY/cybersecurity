@@ -184,6 +184,7 @@ print('hello')
 v - enter visual mode or highlighting mode and starts from the character of your cursor
 ```
 
+
 ```python
 V - highlight the current line
 ```
@@ -196,11 +197,13 @@ ve - highlight current character up to the end of the
 viw - highlight all the characters or the word on the cursor
 ```
 
+
 ```python
 print('hello world')
 
 print{'hello world'}
 ```
+
 
 ```
 
@@ -239,7 +242,19 @@ note: configure plugins by creating folder: ~/.vimrc.plugins
 
 
 
+# Command mode
+```python
+: - when in normal mode, type this to go to command mode
+```
 
+
+```python
+>> %s/pattern_to_search_here/replace_to_matched_pattern/
+	- search for specific pattern and replace it with new text, but only apply to the first text that matched the pattern.
+
+>> %s/pattern_to_search_here/replace_to_matched_pattern/g
+	- search for specific pattern and replace it with new text, and applies to all text that matched the pattern.
+```
 
 
 

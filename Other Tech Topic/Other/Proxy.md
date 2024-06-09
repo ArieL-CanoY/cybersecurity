@@ -1,4 +1,5 @@
 
+# Definition
 ```python
 - A proxy is an intermediary server that separates end users from the websites they browse. Proxies provide varying levels of functionality, security, and privacy depending on your needs, company policies, or privacy concerns. They work by receiving requests from users, forwarding these requests to the relevant web servers, and then sending the retrieved data back to the users. This can help mask the user IP address, improve security, and manage network traffic.
 ```

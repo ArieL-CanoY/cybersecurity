@@ -1,3 +1,7 @@
+
+# Definition
+```python
+
 - stands for File Transfer Protocol
 - used to transfer files in a network 
 - used TCP Port 20 for sending data and Port 21 for sending commands
@@ -8,3 +12,17 @@
 - other type is TFTP (Trivial File Transfer Protocol) is a stripped back version of FTP. It provides a very simple way to transfer files quickly and efficiently. It uses UDP Port 69
 - it has a default login credentials which is anonymous as username and blank for the password. It is advisable to disable that configuration for security.
 - 
+```
+
+
+
+
+
+
+
+
+
+
+
+
+

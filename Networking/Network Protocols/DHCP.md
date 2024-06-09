@@ -1,3 +1,7 @@
+
+# Definition
+```python
+
 - stands for Dynamic Host Configuration Protocol
 - assigns IP addresses to hosts
 - comes as a client and a server
@@ -21,6 +25,6 @@
 	- DHCP Acknowledge - after the server received the Request message, it will Acknowledge it by giving an IP address, Subnet mask, Default gateway, DNS and lease time
 - the lease time will tell when the IP address given to the device will expire and the device that received the IP address should inform the DHCP server to renew its IP address. This is to make sure that the IP address given will be available for other devices to connect to a network if the device does not renew their devices in a given time meaning they are not connected to the network anymore.
 - DHCP relay is a protocol used in router to make a DHCP client request outside their subnet. When a DHCP client and server are on different subnet, when the client broadcast a request, it cannot go outside its subnet, but when the router is configured to have DHCP relay, it can send it to all of the other subnet or where the DCHP server where from. Other term is IP Helper
-
+```
 
 

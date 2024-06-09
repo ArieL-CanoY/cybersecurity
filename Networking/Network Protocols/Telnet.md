@@ -1,4 +1,39 @@
+
+# Definition
+```python
 - stands for Telecommunication Network
 - used to remote control a computer or administer it with unsecured/unencrypted channel
 - used TCP port 23
 - developed in 1969
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

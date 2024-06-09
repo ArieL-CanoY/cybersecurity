@@ -1,6 +1,4 @@
 
-
-
 # Definition
 ```python
 @chatgpt

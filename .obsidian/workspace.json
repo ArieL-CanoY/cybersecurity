@@ -44,18 +44,6 @@
             }
           },
           {
-            "id": "50b4e34cbb69d2a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Other Tech Topic/Encoding/Base36.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "46dedb495a01826d",
             "type": "leaf",
             "state": {
@@ -68,108 +56,84 @@
             }
           },
           {
-            "id": "78a645c954ee6272",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Website Tech/CDN.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "27554d13f9ab9820",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Website Tech/Cookie.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d84f4773a6ad3c31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Curious Only.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e7e9592b90f2a392",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Website Tech/Useful websites.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e1892fa049c3caa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating System/Windows/UAC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3618d49ec84afea1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Other Tech Topic/Random/CVSS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "589a8ccf19895171",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Website Tech/Web Scraper.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5046e055ea23d81a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Website Tech/Web Crawler.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e92ae34e2d9efbe1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Other Tech Topic/Random/Proxy.md",
+                "file": "Other Tech Topic/Other/Proxy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "181871a2b15fbd3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Pentest/Vulnerabilities and Exploit/SQL Injection/To Learn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e88a5e9955236447",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Other Tech Topic/Other/SSL or TLS Handshake.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a065d6fc32baa99d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Text Editor/VIM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22cf26490530c3e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Network Protocols/FTP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54cae6924ba444ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming and Scripting/Python/Useful Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24c094c37ac4382e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Other Tech Topic/Other/SSL or TLS Handshake.md",
                 "mode": "source",
                 "source": false
               }
@@ -205,7 +169,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "web scar",
+                "query": "\"404 not\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -250,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating System/Windows/UAC.md",
+                "file": "Programming and Scripting/Python/Useful Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating System/Windows/UAC.md",
+                "file": "Programming and Scripting/Python/Useful Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -290,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating System/Windows/UAC.md"
+                "file": "Programming and Scripting/Python/Useful Functions.md"
               }
             }
           },
@@ -324,43 +288,43 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "9e1892fa049c3caa",
+  "active": "54cae6924ba444ea",
   "lastOpenFiles": [
-    "Website Tech/Useful websites.md",
-    "Other Tech Topic/Random/Proxy.md",
-    "Website Tech/Web Crawler.md",
-    "Other Tech Topic/Random/CVSS.md",
-    "Website Tech/Web Scraper.md",
-    "Vulnhub/Machines.md",
-    "Tips and Tricks/HTML as note.md",
-    "Operating System/Linux/Anonymizing.md",
-    "Operating System/Windows/UAC.md",
-    "Other Tech Topic/Random/CVE.md",
-    "Web Pentest/Vulnerabilities and Exploit/Open Redirect/Exploitation.md",
-    "Web Pentest/Vulnerabilities and Exploit/Open Redirect/Mitigations.md",
-    "Web Pentest/Vulnerabilities and Exploit/Open Redirect/Open Redirect Fundamentals.md",
-    "Web Pentest/Vulnerabilities and Exploit/SSTI/Definition and Exploitation.md",
+    "Other Tech Topic/Other/SSL or TLS Handshake.md",
+    "Programming and Scripting/Python/Useful Functions.md",
+    "Other Tech Topic/Other/Proxy.md",
+    "Other Tech Topic/Other/Metadata.md",
+    "Other Tech Topic/Other/CVE.md",
+    "Other Tech Topic/Other/CVSS.md",
+    "Other Tech Topic/Hashing/BCrypt.md",
+    "Other Tech Topic/Github/Git commands.md",
+    "Other Tech Topic/Encoding/UTF.md",
+    "Other Tech Topic/Encoding/Unicode.md",
+    "Other Tech Topic/Encoding/Base36.md",
+    "Other Tech Topic/Encoding/Base-64.md",
+    "Other Tech Topic/Encoding/Base-X.md",
+    "Programming and Scripting/Python/Useful codes.md",
+    "Networking/Network Protocols/FTP.md",
+    "Networking/Network Protocols/SMTP.md",
+    "Networking/Network Protocols/Web Socket.md",
+    "Networking/Network Protocols/TFTP.md",
+    "Networking/Network Protocols/Telnet.md",
+    "Networking/Network Protocols/SSH.md",
+    "Networking/Network Protocols/SNMP.md",
+    "Networking/Network Protocols/SMB.md",
+    "Networking/Network Protocols/RDP.md",
+    "Networking/Network Protocols/POP3.md",
+    "Networking/Network Protocols/NetBIOS.md",
+    "Networking/Network Protocols/LDAP.md",
     "Web Pentest/Vulnerabilities and Exploit/Open Redirect",
     "Other Tech Topic/Untitled",
-    "Website Tech/CDN.md",
-    "Website Tech/Cookie.md",
-    "Curious Only.md",
-    "Websites/random.md",
-    "Web Pentest/Learning Platform.md",
-    "Programming and Scripting/Python/Useful Functions.md",
-    "Other Tech Topic/Encoding/Base36.md",
-    "Programming and Scripting/Python/Modules and Libraries/file/File Fundamentals.md",
-    "Programming and Scripting/Python/Modules and Libraries/re/regular expression fundamentals.md",
-    "Dictionary.md",
-    "Website Tech/CSP.md",
-    "Website Tech/CORS.md",
     "Evasion/Encoding",
     "Evasion",
     "Websites/linkedin",
     "Mobile Pen Testing/Untitled",
     "Mobile Pen Testing",
     "AI",
-    "Other Tech Topic/Random",
+    "Other Tech Topic/Other",
     "Other Tech Topic/Encoding",
     "Pasted image 20240515061307.png",
     "Pasted image 20231109163617.png",
