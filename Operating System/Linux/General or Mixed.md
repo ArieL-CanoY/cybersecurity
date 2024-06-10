@@ -1,6 +1,6 @@
 General commands for linux like printing strings on the terminal, listing files, changing directories, print working directory
 
-```bash
+```python
 echo - printing string and putting text on a file
 
 	echo "hello world" - print hello world in terminal
@@ -65,6 +65,8 @@ diff [filename1] [filename2]   - compare the difference between the two filename
 diff [directory1] [directory2]   - compare the difference between the two directories
 
 wc -l [filename]    - print the number of count of lines of the text
+
+printenv
 
 man [command] - show the manual pages of the command
 

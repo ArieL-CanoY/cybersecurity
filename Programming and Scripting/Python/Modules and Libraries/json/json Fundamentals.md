@@ -22,6 +22,10 @@ jsonString = '''{"name": "mark", "age": 28}'''
 jsonDict = json.loads(jsonString)
 print(jsonDict)
 print(type(jsonDict))
+
+# output is:
+	# {'name': 'mark', 'age': 28}
+	# <class 'dict'>
 ```
 
 
@@ -38,6 +42,11 @@ jsonDict = {
 jsonString = json.dumps(jsonDict)
 print(jsonString)
 print(type(jsonString))
+
+# output is:
+	# {"name": "mark", "age": 28}
+	# <class 'str'>
+
 ```
 
 

@@ -66,12 +66,13 @@ chmod [permission] [filename] - change the permission of a file
 	x - execute permission
 	
 	  ex.
+		  independently meaning that it will not affect other entity (user,group,other) for the permission
 	
-		   chmod ug=w [filename] - set the user and group of a file to write only
+		   chmod ug=w [filename] - set the user and group of a file to write only and independently
 	
-		   chmod u+x [filename] - add the user of a file to execute it
+		   chmod u+x [filename] - add the user of a file to execute it and independently
 
-		   chmod o-r [filename] - remove the read permission for other users
+		   chmod o-r [filename] - remove the read permission for other users and independently
 	
 	-------------------------------------
 	

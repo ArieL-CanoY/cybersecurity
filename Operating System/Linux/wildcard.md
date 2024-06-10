@@ -31,17 +31,16 @@ Examples:
 - match all the individual characters within the square brackets.
 
 >> ls [mfp]ile
-	- list all the directories and files that the name is like mile, file, or pil.
+	- list all the directories and files that the name is like mile, file, or pile.
 >> ls file[1-10]
 	- list all file from file1, file2, up to file 10
-	- 
 ```
 
 
 
 # {}
 ```python
-- match specific characters within the curly brackets.
+- match specific group of characters within the curly brackets.
 
 >> ls file{2,3,34}.txt
 	- list all the text files with name of file2.txt, file3.txt and file34.txt
@@ -55,7 +54,9 @@ Examples:
 >> ls file[^3-5]
 - list all the files other than file3, file4, and file5.
 ```
-# escaping wildcards
+
+
+# Escaping wildcards
 ```python
 - use backslash before the wildcard to treat it as string or part of the string character
 ```

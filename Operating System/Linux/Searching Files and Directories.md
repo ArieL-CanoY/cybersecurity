@@ -53,10 +53,14 @@ find [arguments] - find files or directory. ex. find -type [d-directory, f-file]
 	   TIME:
 
 			- a - access, m - modified, c - changed
+				> a (access) - last time the file was accessed (read and written)
+				> m (modified) - last time the content of the file was modified
+				> c (changed) - last time the permission or ownership of the file was changed
 
 			- min - minutes, time - days
 
-			- (-) - within or no more than, (+) - more than
+			- (-) - within or no more than, (+) - more than, if none, then it is exactly (not recommended)
+			
 
 			ex. find -type f -amin -30 - find files in the current directory that has been accessed no more than 30 minutes ago
 

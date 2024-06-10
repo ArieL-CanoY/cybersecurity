@@ -32,36 +32,12 @@
             }
           },
           {
-            "id": "6fef0530aab5e284",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming and Scripting/Python/Useful Functions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "46dedb495a01826d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Dictionary.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e92ae34e2d9efbe1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Other Tech Topic/Other/Proxy.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Network Protocols/FTP.md",
+                "file": "Networking/Network Protocols/HTTP.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,19 +104,67 @@
             }
           },
           {
-            "id": "24c094c37ac4382e",
+            "id": "3a6aa7da0aba1d73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Other Tech Topic/Other/SSL or TLS Handshake.md",
+                "file": "Operating System/Linux/Bash Shell.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bad19c764926b355",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming and Scripting/Python/Modules and Libraries/json/json Fundamentals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e93beaa5f22ac786",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating System/Linux/General or Mixed.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3a6cf6f688386746",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating System/Linux/Searching Files and Directories.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5b3e5487fb1bc1c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating System/Linux/wildcard.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -169,7 +193,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"404 not\"",
+                "query": "wildcard",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,11 +218,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 302.50152587890625
+    "width": 321.50418853759766
   },
   "right": {
     "id": "bafd2a3f2c3a049c",
@@ -214,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming and Scripting/Python/Useful Functions.md",
+                "file": "Operating System/Linux/wildcard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming and Scripting/Python/Useful Functions.md",
+                "file": "Operating System/Linux/wildcard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming and Scripting/Python/Useful Functions.md"
+                "file": "Operating System/Linux/wildcard.md"
               }
             }
           },
@@ -288,34 +313,34 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "54cae6924ba444ea",
+  "active": "5ab644012f7cb0ac",
   "lastOpenFiles": [
-    "Other Tech Topic/Other/SSL or TLS Handshake.md",
+    "Operating System/Linux/Bash Shell.md",
+    "Website Tech/CSP.md",
+    "Operating System/Linux/SSH (Secure Shell).md",
+    "Operating System/Linux/Shells/Fish.md",
+    "Programming and Scripting/Python/Modules and Libraries/re/regular expression fundamentals.md",
+    "Web Pentest/Vulnerabilities and Exploit/SQL Injection/To Learn.md",
+    "Operating System/Linux/wildcard.md",
+    "Programming and Scripting/Python/Multithreading.md",
+    "Programming and Scripting/Python/Modules and Libraries/os/OS Fundamentals.md",
+    "Web Pentest/Tools/FFUF.md",
+    "AJ's Web PenTest Course/02 - Content Discovery.md",
+    "Operating System/Linux/Searching Files and Directories.md",
+    "Operating System/Linux/General or Mixed.md",
+    "Operating System/Linux/Files System.md",
+    "Operating System/Linux/Files and Directories Permissions Thorough.md",
+    "Operating System/Linux/File System Specific.md",
+    "Operating System/Linux/Managing files and directories.md",
+    "Programming and Scripting/Python/Modules and Libraries/json/json Fundamentals.md",
+    "Programming and Scripting/Python/Modules and Libraries/secrets/secrets Fundamentals.md",
+    "Operating System/Linux/Shell.md",
     "Programming and Scripting/Python/Useful Functions.md",
+    "Websites/random.md",
+    "Networking/Network Protocols/HTTP.md",
+    "Dictionary.md",
     "Other Tech Topic/Other/Proxy.md",
-    "Other Tech Topic/Other/Metadata.md",
-    "Other Tech Topic/Other/CVE.md",
-    "Other Tech Topic/Other/CVSS.md",
-    "Other Tech Topic/Hashing/BCrypt.md",
-    "Other Tech Topic/Github/Git commands.md",
-    "Other Tech Topic/Encoding/UTF.md",
-    "Other Tech Topic/Encoding/Unicode.md",
-    "Other Tech Topic/Encoding/Base36.md",
-    "Other Tech Topic/Encoding/Base-64.md",
-    "Other Tech Topic/Encoding/Base-X.md",
-    "Programming and Scripting/Python/Useful codes.md",
-    "Networking/Network Protocols/FTP.md",
-    "Networking/Network Protocols/SMTP.md",
-    "Networking/Network Protocols/Web Socket.md",
-    "Networking/Network Protocols/TFTP.md",
-    "Networking/Network Protocols/Telnet.md",
-    "Networking/Network Protocols/SSH.md",
-    "Networking/Network Protocols/SNMP.md",
-    "Networking/Network Protocols/SMB.md",
-    "Networking/Network Protocols/RDP.md",
-    "Networking/Network Protocols/POP3.md",
-    "Networking/Network Protocols/NetBIOS.md",
-    "Networking/Network Protocols/LDAP.md",
+    "Other Tech Topic/Other/SSL or TLS Handshake.md",
     "Web Pentest/Vulnerabilities and Exploit/Open Redirect",
     "Other Tech Topic/Untitled",
     "Evasion/Encoding",

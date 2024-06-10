@@ -1,11 +1,11 @@
 If you want to remotely control other computer you authorized to control, do this or I will sniff your cable.
-```bash
+```python
 installing client and server services of openssh by installing the package openssh-[client or server] using apt-get install command
 ```
 
 
 #### Directories for configuration
-```bash
+```python
 /etc/ssh/ssh_config - configuration file for ssh client
 
 /etc/ssh/sshd_config - configuration file for ssh server
@@ -16,7 +16,7 @@ on sshd_config, configure it on authentication area and run systemctl restart ss
 
 
 #### Copying files from/to remote server using SSH 
-```bash
+```python
 From your pc to remote server - scp important.txt ubuntu@192.168.1.30:/home/ubuntu/transferred.txt
 
 From remote server to pc - scp ubuntu@192.168.1.30:/home/ubuntu/documents.txt notes.txt

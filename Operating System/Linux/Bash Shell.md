@@ -1,7 +1,7 @@
 --- *bash shell* ---
 
 To list all operators for comparison, type this:
-```bash
+```python
 man test
 ```
 
@@ -9,7 +9,7 @@ Use
 
 Type of shell that can use to interact fully with the computer system 
 
-```bash
+```python
 !/bin/bash 
 	- always start of the bash file as the first code
 ```
@@ -18,6 +18,7 @@ Type of shell that can use to interact fully with the computer system
 #     Double Quote
 ```python
 "" (Double quote) - The double quote ( "quote" ) protects everything enclosed between two double quote marks except $, \', \" and \. . Use the double quotes when you want only **variables and command substitution**.
+- Characters like `$`, `\`, `"` and command substitution are still interpreted inside double quotes.
 
 Working features:
 Variable - Yes
@@ -27,7 +28,7 @@ Command substitution - Yes
 Ex. 
 The double quotes allowes to print the value of $SHELL variable, disables the meaning of [wildcards](https://bash.cyberciti.biz/guide/Wildcards "Wildcards"), and finally allows command substitution.
 
-echo "$SHELL" - does print the value of $SHELL
+echo $SHELL - does print the value of $SHELL
 echo "/etc/*.conf" - does not print all files in /etc with .conf
 echo "Today is $(date)" - does print the output of date cmd
 
@@ -52,7 +53,7 @@ echo 'Today is $(date)
 ```
 
 #     Backslash
-```bash
+```python
 \ (Backslash) - Use backslash to change the special meaning of the characters or to escape special characters within the text such as quotation marks.
 
 Ex. 
@@ -65,7 +66,7 @@ echo "Path is $PATH"    - treat as variable cause no escape
 ```
 
 # Declaring variables
-```bash
+```python
 name="Mark"
 
 age=37
@@ -74,27 +75,29 @@ money=230934.2383
 
 isTrue=false
 
-# contant variable
+# constant variable
 readonly var=(value)
+
+passwdFile="/etc/passwd"
 
 ```
 
 
 # Printing variables
-```bash
+```python
 name="mark"
 age="19"
 echo "Name is $mark and age is ${age}-year old"
 
 # note
-# use $var if printing it in a single word or only that value 
-# use ${var} if printing it with concatenation of other value
+# use $var if printing it in a single word or only that value with space
+# use ${var} if printing it with concatenation of other value without space
 
 ```
 
 
 # Parameters
-```bash
+```python
 ex. code - ./mybash.sh  arg1 arg2
 
    - get the first argument by $1 or the second by $2 ex. echo $2 will echo arg2 
@@ -107,7 +110,7 @@ ex. code - ./mybash.sh arg1 arg2 arg3 arg4  
 
 
 # Arrays
-```bash
+```python
 names=('clem' 'mark')
 
 access by ${name[@ for all/index number]}
@@ -128,7 +131,7 @@ names[0]='vince'     - set the first index to 'vince'
 
 
 # Read input
-```bash
+```python
 
 read -p "Enter your name: " name
 echo "Your name is $name"  
@@ -152,7 +155,6 @@ options:
 		table{margin:100px;}
 	</style>
 	<body>
-		<marquee style="color:blue;font-size:30px">Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes but No but Yes  </marquee>
 		<table style="border-spacing:10px; border: 1px black solid">
 			<tr>
 				<td style="border: 1px solid white">Operator</td>
@@ -187,29 +189,19 @@ options:
 
 
 # Operator Symbol
-```bash
+```python
 >     - greater than
 <     - less than
 == or =   - equal to
 >=    - greater than or equal to
 <=    - less than or equal to
 !=    - not equal to
-
-
-
-
-
-
-
-
-
-
 ```
 
 
 
 # Arithmetic
-```bash
+```python
 $((expression))
 $((x + y))    - addition
 $((x - y))    - subtration
@@ -245,7 +237,7 @@ esac
 # ---------- Conditionals ----------
 
 #### ----- Arithmetic -----
-```bash
+```python
 #!/bin/bash
 echo '-----Comparing two numbers which is greater than-----'
 echo 'Enter the first number:'
@@ -263,7 +255,7 @@ fi
 
 
 #### ----- String -----
-```bash
+```python
 read -p "Enter your input: " userInput
 
 if [ $userInput = 'a' ]; then
@@ -277,7 +269,7 @@ fi
 
 
 # for loop
-```bash
+```python
 valid:
 	for var in $(command)
 	for var in $var
@@ -293,14 +285,14 @@ ex.
 
 
 # Increment and Decrement
-```bash
+```python
 
 ((x++))
 ((y--))
 ```
 
 # Function
-```bash
+```python
 
 
 function_name()  # creation of function
