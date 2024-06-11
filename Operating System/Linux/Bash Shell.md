@@ -277,8 +277,21 @@ valid:
 
 ex.
 	for var in $var; do
-		commands
+		commands;
 	done
+
+	- loop a list of words
+	for val in hello in the world; do
+		echo $val;
+	done
+
+
+	- one line in terminal
+	for val in hello in the world; do echo $val; done
+
+	tips:
+		- you can use the range shortcut to make multiple directories or files:
+			touch file{1..10}
 
 
 ```

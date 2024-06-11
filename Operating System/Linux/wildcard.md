@@ -29,6 +29,7 @@ Examples:
 # \[]
 ```python
 - match all the individual characters within the square brackets.
+- commonly used for range
 
 >> ls [mfp]ile
 	- list all the directories and files that the name is like mile, file, or pile.
@@ -49,10 +50,10 @@ Examples:
 
 # \[^] or \[!]
 ```python
-- match all the characters other than the characters withint the brackets.
+- match all the characters other than the characters within the brackets.
 
 >> ls file[^3-5]
-- list all the files other than file3, file4, and file5.
+- list all the files other than file3, file4, and file5, filea, fileb, filex, file@.
 ```
 
 

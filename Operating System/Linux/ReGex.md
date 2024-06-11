@@ -19,11 +19,11 @@ useful web: https://regexr.com/
 		ex. ed$    - look for walked, talked, seed
 
 	(pattern)      - treat as 1 group or specific match
-		ex. (bo).$ - look for ends with 
+		ex. (en).$ - look for ends with en with 1 character(.): bend, append, recent.
 		
 	pattern*       - occur 0 or more
-		ex. [0-9]*\.txt   - one or more digits with .txt
-			- 324.txt, 8.txt, 3243.txt, 6786.txt, 1.txt
+		ex. [0-9]*\.txt   - 0 or more digits with .txt
+			- 324.txt, 8.txt, 3243.txt, pass.txt, words.txt
 	
 	pattern{num}   - number of occurence
 		ex. pattern{2}  - exactly 2 occurence
@@ -37,24 +37,37 @@ useful web: https://regexr.com/
 			\.(txt|py)   - look .txt or .py
 
 
-
-	?<=         - positive lookbehind
+	(?<=)         - positive lookbehind
 		ex. 
 
 
-	?<!         - negative lookbehind
+	(?<!)         - negative lookbehind
 		ex. 
 
-	?=          - positive lookahead
+	(?=)         - positive lookahead
 		ex. 
 
 
-	?!          - negative lookahead
+	(?!)          - negative lookahead
 		ex. 
+
+	
 	
 	
 			
 ```
+
+
+# Shorthand/Escape character
+```python
+\w - lower and upper case letter, int, underscore
+	ex: abc, 123, _, mix of previous characters
+
+\W - space, tab, new line, special characters/symbols
+	ex.  , !@#$%^&*()+[]{}|;:'"/?.>,<
+```
+
+
 
 
 - .       - any character 
