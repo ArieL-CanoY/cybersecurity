@@ -1,6 +1,6 @@
 # NMAP - Network Mapper/Scanner
 
-```bash
+```python
 Network Mapper - used for scanning network for open ports, vulnerabilities, information of a target machine and other protocols.
 
 
@@ -99,7 +99,7 @@ nmap [host] [options]
 
 
 #### NSE Scripts
-```bash
+```python
 NSE (Nmap Scripting Engine) is a collection of scripts for advance scanning or use of nmap (like plugins in app or libraris in programming languages)
 
 
@@ -107,7 +107,7 @@ NSE (Nmap Scripting Engine) is a collection of scripts for advance scanning or u
 
   
 
---script [options] - use the scripts for the nmap
+nmap --script [options] - use the scripts for the nmap
 
     (specific script from the nmap db) - use the specific scripts located on the database of the nmap directory
 
@@ -119,14 +119,32 @@ NSE (Nmap Scripting Engine) is a collection of scripts for advance scanning or u
 	
 	     default - default category of a scripts
 
+
+find more info about specific script:
+	nmap --script-help <script_name>
+
+	or cat specific script to see its description
+	
+
   
 
   
 ```
 
 
+# Installation of new script
+```python
+1. Download and output/put it to nmap scripts folder:
+	sudo wget -O /usr/share/nmap/scripts/(script_name).nse https://svn.nmap.org/nmap/scripts/(script_name).nse
+
+3. Update the NSE database(script.db) by typing the command:
+	nmap --script-update 
+```
+
+
+
 #### List of good scripts 
-```bash
+```python
 Scripts for vulnerabilities (download from github):
 
 vulscan

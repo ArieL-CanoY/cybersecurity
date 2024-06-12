@@ -56,42 +56,6 @@
             }
           },
           {
-            "id": "e88a5e9955236447",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Other Tech Topic/Other/SSL or TLS Handshake.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a065d6fc32baa99d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Text Editor/VIM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "22cf26490530c3e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Network Protocols/HTTP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "54cae6924ba444ea",
             "type": "leaf",
             "state": {
@@ -110,42 +74,6 @@
               "type": "markdown",
               "state": {
                 "file": "Operating System/Linux/Bash Shell.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bad19c764926b355",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming and Scripting/Python/Modules and Libraries/json/json Fundamentals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e93beaa5f22ac786",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating System/Linux/General or Mixed.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3a6cf6f688386746",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating System/Linux/Searching Files and Directories.md",
                 "mode": "source",
                 "source": false
               }
@@ -186,9 +114,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ffe5ecd5b1769c1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools and Techniques/02 - Enumeration or Scanning/NMAP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ffaa1f44486fc9b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Tools/dig.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -217,7 +169,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "game",
+                "query": "dig",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -242,7 +194,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -262,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating System/Linux/Bash Shell.md",
+                "file": "Tools and Techniques/02 - Enumeration or Scanning/NMAP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating System/Linux/Bash Shell.md",
+                "file": "Tools and Techniques/02 - Enumeration or Scanning/NMAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating System/Linux/Bash Shell.md"
+                "file": "Tools and Techniques/02 - Enumeration or Scanning/NMAP.md"
               }
             }
           },
@@ -336,34 +289,35 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "5aa7a262d42a51ac",
+  "active": "ffe5ecd5b1769c1b",
   "lastOpenFiles": [
+    "Networking/Tools/dig.md",
+    "Tools and Techniques/02 - Enumeration or Scanning/NMAP.md",
+    "Programming and Scripting/Python/app.md",
+    "Operating System/Linux/Bash Shell.md",
+    "Operating System/Linux/File System Specific.md",
+    "Methodology/Cyber Kill Chain.md",
+    "Networking/Tools/ping.md",
+    "Networking/Tools/whois.md",
+    "Networking/Tools/traceroute.md",
+    "Operating System/Linux/Networking.md",
+    "Networking/Tools",
+    "Network Pen Test/Services/FTP.md",
+    "Networking/Network Protocols/FTP.md",
     "Operating System/Linux/wildcard.md",
+    "Operating System/Linux/Searching Files and Directories.md",
+    "Operating System/Linux/General or Mixed.md",
+    "Programming and Scripting/Python/Modules and Libraries/json/json Fundamentals.md",
+    "Programming and Scripting/Python/Useful Functions.md",
+    "Web Pentest/Vulnerabilities and Exploit/SQL Injection/To Learn.md",
+    "Other Tech Topic/Other/SSL or TLS Handshake.md",
+    "Networking/Network Protocols/HTTP.md",
+    "Text Editor/VIM.md",
     "Operating System/Linux/ReGex.md",
     "Game.md",
-    "Operating System/Linux/Bash Shell.md",
     "Website Tech/CSP.md",
     "Operating System/Linux/SSH (Secure Shell).md",
     "Operating System/Linux/Shells/Fish.md",
-    "Programming and Scripting/Python/Modules and Libraries/re/regular expression fundamentals.md",
-    "Web Pentest/Vulnerabilities and Exploit/SQL Injection/To Learn.md",
-    "Programming and Scripting/Python/Multithreading.md",
-    "Programming and Scripting/Python/Modules and Libraries/os/OS Fundamentals.md",
-    "Web Pentest/Tools/FFUF.md",
-    "AJ's Web PenTest Course/02 - Content Discovery.md",
-    "Operating System/Linux/Searching Files and Directories.md",
-    "Operating System/Linux/General or Mixed.md",
-    "Operating System/Linux/Files System.md",
-    "Operating System/Linux/Files and Directories Permissions Thorough.md",
-    "Operating System/Linux/File System Specific.md",
-    "Operating System/Linux/Managing files and directories.md",
-    "Programming and Scripting/Python/Modules and Libraries/json/json Fundamentals.md",
-    "Programming and Scripting/Python/Modules and Libraries/secrets/secrets Fundamentals.md",
-    "Operating System/Linux/Shell.md",
-    "Programming and Scripting/Python/Useful Functions.md",
-    "Websites/random.md",
-    "Networking/Network Protocols/HTTP.md",
-    "Dictionary.md",
     "Web Pentest/Vulnerabilities and Exploit/Open Redirect",
     "Other Tech Topic/Untitled",
     "Evasion/Encoding",
@@ -373,7 +327,6 @@
     "Mobile Pen Testing",
     "AI",
     "Other Tech Topic/Other",
-    "Other Tech Topic/Encoding",
     "Pasted image 20240515061307.png",
     "Pasted image 20231109163617.png",
     "Pasted image 20231109154411.png",
