@@ -138,9 +138,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f316623452d732eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming and Scripting/JavaScript/JavaScript Fundamentals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7f23b4f1cc07002",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming and Scripting/JavaScript/Useful.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -169,7 +193,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dig",
+                "query": "file:javascript",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,8 +218,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -215,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools and Techniques/02 - Enumeration or Scanning/NMAP.md",
+                "file": "Programming and Scripting/JavaScript/JavaScript Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools and Techniques/02 - Enumeration or Scanning/NMAP.md",
+                "file": "Programming and Scripting/JavaScript/JavaScript Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools and Techniques/02 - Enumeration or Scanning/NMAP.md"
+                "file": "Programming and Scripting/JavaScript/JavaScript Fundamentals.md"
               }
             }
           },
@@ -289,10 +312,13 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "ffe5ecd5b1769c1b",
+  "active": "f316623452d732eb",
   "lastOpenFiles": [
-    "Networking/Tools/dig.md",
+    "Programming and Scripting/JavaScript/Useful.md",
+    "Programming and Scripting/JavaScript/JavaScript Fundamentals.md",
+    "Web Pentest/Vulnerabilities and Exploit/Cross Site Request Forgery/02 CSRF Exploit.md",
     "Tools and Techniques/02 - Enumeration or Scanning/NMAP.md",
+    "Networking/Tools/dig.md",
     "Programming and Scripting/Python/app.md",
     "Operating System/Linux/Bash Shell.md",
     "Operating System/Linux/File System Specific.md",
@@ -315,9 +341,6 @@
     "Text Editor/VIM.md",
     "Operating System/Linux/ReGex.md",
     "Game.md",
-    "Website Tech/CSP.md",
-    "Operating System/Linux/SSH (Secure Shell).md",
-    "Operating System/Linux/Shells/Fish.md",
     "Web Pentest/Vulnerabilities and Exploit/Open Redirect",
     "Other Tech Topic/Untitled",
     "Evasion/Encoding",

@@ -97,6 +97,24 @@ nmap [host] [options]
 ```
 
 
+# Firewall Evasion
+```python
+	-f     - used to fragment or split the packet into smaller pieces making less likely that the packet will be detected by a firewall or IDS (Intrusion Detection System).
+
+	--mtu <number>     - accepts a maximum transmission unit size to use for the packets sent. This must be a multiple of 8.
+
+	--scan-delay <time in ms>     - add delay between packet sent. Also used for evading time-based firewall/IDS triggers.
+
+	--badsum     - generate invalid checksum for packets. Any real TCP/IP stack would drop this packet, however, firewalls may potentially respond automatically, without bothering to check the checksum of the packet. As such, this switch can be used to determine the presence of a firewall/IDS.
+
+	--data-length     - append random data at the end of packets.
+
+
+
+
+```
+
+
 
 #### NSE Scripts
 ```python
