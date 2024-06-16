@@ -17,12 +17,22 @@ use git bash then make aliases for commands.
 
 ```
 
-# Generate and update the token
+# Update the token to be expired
 ```python
 1. unset the previous token:
 	git config --global --unset credential.helper (Linux)
 
-2. 
+2. generate new token from setting/developer/personal access token > tokens > <repo name>/generate token
+
+3. see the shortcut repo name:
+	git remote -v
+
+4. update the token:
+	git remote set-url <shortcut repo_name given from "git remote -v"> https://<token_here>@github.com/<username>/<repo_name>
+
+	ex:
+		git remote set-url security https://ghp_IA9qTiP1vfJvtIV1ChgZs3zyD6nHhY48tu43@github.com/ariel-canoy/cybersecurity
+		
 
 
 ```
