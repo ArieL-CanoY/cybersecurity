@@ -17,6 +17,18 @@ use git bash then make aliases for commands.
 
 ```
 
+# Generate and update the token
+```python
+1. unset the previous token:
+	git config --global --unset credential.helper (Linux)
+
+2. 
+
+
+```
+
+
+
 ```python
 
 git config <options> user.name <username>

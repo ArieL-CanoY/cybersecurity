@@ -218,12 +218,75 @@ console.log(names[0]);  // josh
 
 
 
+# Array Methods
+```javascript
+-------------- array.push() --------------
+- add a new element/value after the last element/value of an array
+
+Example:
+	let names = ['mark', 'vince'];
+	names.push('aiden');
+	console.log(names);  // output is ['mark', 'vince', 'aiden']
+
+
+
+-------------- array.pop() --------------
+- remove the last element or value from an array
+
+Example:
+	let names = ['mark', 'vince', 'aiden', ['pearce', 'edison']];
+	var lastValue = names.pop();
+	console.log(lastValue);
+	var lastValuelastValue = lastValue.pop();
+	console.log(lastValuelastValue);
+	/*
+	output is:
+		[ 'pearce', 'edison' ]
+		edison	
+	*/
+
+
+-------------- array.shift() --------------
+- remove the first element or value from an array
+
+Example:
+	let names = ['mark', 'vince', 'aiden', ['pearce', 'edison']];
+	var firstValue = names.shift();
+	console.log(firstValue);  // output is mark
+
+
+
+-------------- array.unshift() --------------
+let names = ['mark', 'vince'];
+names.unshift('aiden');
+console.log(names);  // output is ['aiden', 'mark', 'vince']
+
+
+
+
+
+
+
+
+
+
+```
+
 
 
 # --------- Loops ---------
 # For Loop
 ```javascript
-
+for (let count = 0; count < 3; count++)
+{
+    console.log(count);
+}
+/*
+output is :
+	0
+	1
+	2
+*/
 
 ```
 
@@ -231,6 +294,19 @@ console.log(names[0]);  // josh
 
 # While Loop
 ```javascript
+count = 0;
+while (count < 3)
+{
+    console.log(count);
+    count++;
+}
+/*
+output is:
+	0
+	1
+	2
+*/
+
 
 ```
 
@@ -238,12 +314,46 @@ console.log(names[0]);  // josh
 
 # ForEach
 ```javascript
+let numbers = [8, 3, 4]
+for (let num of numbers)
+{
+    console.log(num);
+}
 
+
+/*
+output is:
+	8
+	3
+	4
+*/
 ```
 
 
 # Function
 ```javascript
+----------- function -----------
+function greet()
+{
+    console.log('hello world');
+}
+gree();  // hello world
+
+
+
+----------- function with parameter -----------
+function greet(name)
+{
+    console.log('hello ' + name);
+}
+
+let user = 'sarah';
+greet(user)  // hello sarah
+
+
+
+
+----------- function with parameter and return statement -----------
 function passwordLengthValid(password)
 {
 	return String(password).length >= 8;
@@ -252,6 +362,11 @@ function passwordLengthValid(password)
 let password = 'password@123!';
 let passwordValid = passwordLengthValid(password);
 console.log(passwordValid);
+
+
+
+
+
 
 
 ```
