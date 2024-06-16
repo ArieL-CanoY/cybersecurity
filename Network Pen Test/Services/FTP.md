@@ -7,6 +7,8 @@ Definition: [[Networking/Network Protocols/FTP|FTP]]
 - commonly default directory where FTP service is running
 ```
 
+
+# Exploitation
 ### Anonymous username
 ```python
 - when connecting to a machine like this: ftp (IP), when asking for username, provide "anonymous" to see if the configuration of the server allow this.

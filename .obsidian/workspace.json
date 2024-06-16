@@ -104,36 +104,36 @@
             }
           },
           {
-            "id": "5aa7a262d42a51ac",
+            "id": "b7f23b4f1cc07002",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating System/Linux/Bash Shell.md",
+                "file": "Programming and Scripting/JavaScript/Useful.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ffe5ecd5b1769c1b",
+            "id": "1c1ba2026f8a8b31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools and Techniques/02 - Enumeration or Scanning/NMAP.md",
+                "file": "Network Pen Test/Services/FTP.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ffaa1f44486fc9b0",
+            "id": "3a04736198030d8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Tools/dig.md",
+                "file": "Network Pen Test/Tools/enum4linux.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,26 +145,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming and Scripting/JavaScript/JavaScript Fundamentals.md",
+                "file": "Network Pen Test/Tools/ssh.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b7f23b4f1cc07002",
+            "id": "dc7528897e823b39",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming and Scripting/JavaScript/Useful.md",
+                "file": "Network Pen Test/Tools/smbclient.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7120f57918349fd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming and Scripting/JavaScript/JavaScript Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -222,7 +234,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.50418853759766
+    "width": 317.50418853759766
   },
   "right": {
     "id": "bafd2a3f2c3a049c",
@@ -312,10 +324,20 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "f316623452d732eb",
+  "active": "0ecc6a254f9e8dc9",
   "lastOpenFiles": [
-    "Programming and Scripting/JavaScript/Useful.md",
+    "Programming and Scripting/JavaScript/Array.md",
     "Programming and Scripting/JavaScript/JavaScript Fundamentals.md",
+    "Programming and Scripting/JavaScript/String.md",
+    "Network Pen Test/Tools/ssh.md",
+    "Network Pen Test/Tools/smbclient.md",
+    "Network Pen Test/Tools/enum4linux.md",
+    "Network Pen Test/Services/SMB.md",
+    "Networking/Network Protocols/SMB.md",
+    "Network Pen Test/Services/FTP.md",
+    "Network Pen Test/Tools",
+    "Web Pentest/Learning Platform.md",
+    "Programming and Scripting/JavaScript/Useful.md",
     "Web Pentest/Vulnerabilities and Exploit/Cross Site Request Forgery/02 CSRF Exploit.md",
     "Tools and Techniques/02 - Enumeration or Scanning/NMAP.md",
     "Networking/Tools/dig.md",
@@ -328,19 +350,10 @@
     "Networking/Tools/traceroute.md",
     "Operating System/Linux/Networking.md",
     "Networking/Tools",
-    "Network Pen Test/Services/FTP.md",
     "Networking/Network Protocols/FTP.md",
     "Operating System/Linux/wildcard.md",
     "Operating System/Linux/Searching Files and Directories.md",
     "Operating System/Linux/General or Mixed.md",
-    "Programming and Scripting/Python/Modules and Libraries/json/json Fundamentals.md",
-    "Programming and Scripting/Python/Useful Functions.md",
-    "Web Pentest/Vulnerabilities and Exploit/SQL Injection/To Learn.md",
-    "Other Tech Topic/Other/SSL or TLS Handshake.md",
-    "Networking/Network Protocols/HTTP.md",
-    "Text Editor/VIM.md",
-    "Operating System/Linux/ReGex.md",
-    "Game.md",
     "Web Pentest/Vulnerabilities and Exploit/Open Redirect",
     "Other Tech Topic/Untitled",
     "Evasion/Encoding",
@@ -349,7 +362,6 @@
     "Mobile Pen Testing/Untitled",
     "Mobile Pen Testing",
     "AI",
-    "Other Tech Topic/Other",
     "Pasted image 20240515061307.png",
     "Pasted image 20231109163617.png",
     "Pasted image 20231109154411.png",

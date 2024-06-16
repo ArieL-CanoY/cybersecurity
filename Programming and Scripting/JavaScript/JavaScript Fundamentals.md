@@ -96,18 +96,165 @@
 
 
 
+# Operators
+```javascript
+let num = 4 + 2;  // num value is 6
+
+let num = 4 - 2;  // num value is 2
+
+let num = 4 * 2;  // num value is 8
+
+let num = 4 / 2;  // num value is 2
+```
+
+
+# Increment and Decrement
+```javascript
+let x = 12;
+x++;  // x value is 13
+
+let x = 12;
+x--;  // x value is 11
+
+```
+
+
+
+# Augmented Assignment Operator
+```javascript
+>> Addition
+	let x = 12;
+	x += 8;  // 20
+
+
+>> Subtraction
+	let x = 12;
+	x -= 8;  // 4
+
+
+>> Multiplication
+	let x = 12;
+	x *= 8;  // 96
+
+
+>> Division
+	let x = 12;
+	x /= 8;  // 1.5
+
+
+>> Modulus
+	let x = 12;
+	x %= 8;  // 4
+```
+
+
+
+# String Escape
+```python
+` backtick - use to escape both single and double qoutes
+
+commonly use backward slash:
+\"
+\'
+\\
+\n
+\r
+\t
+\b
+\f
+
+
+```
+
+
+
+# Array
+```javascript
+- can store any data type
+- mutable; its data can be change by accessing its value/element by index then change its value.
+
+
+-------------- Normal Array --------------
+
+let names = ['mark', 'vince', 'aiden', 'pearce'];
+console.log(names[2]);  // aiden
+
+
+
+-------------- Nested Array --------------
+let groups = [['mark', 'aiden'], ['vince', 'pearce']];
+
+// group 1
+console.log(groups[0][0]);
+console.log(groups[0][1]);
+
+// group 2
+console.log(groups[1][0]);
+console.log(groups[1][1]);
+
+
+/*
+output is:
+	mark
+	aiden
+	vince
+	pearce
+*/
+
+
+
+-------------- Change Value --------------
+let names = ['mark', 'vince', 'aiden', 'pearce'];
+console.log(names[0]);  // mark
+names[0] = 'josh'
+console.log(names[0]);  // josh
 
 
 
 
 
 
+```
 
 
 
 
 
+# --------- Loops ---------
+# For Loop
+```javascript
 
+
+```
+
+
+
+# While Loop
+```javascript
+
+```
+
+
+
+# ForEach
+```javascript
+
+```
+
+
+# Function
+```javascript
+function passwordLengthValid(password)
+{
+	return String(password).length >= 8;
+}
+
+let password = 'password@123!';
+let passwordValid = passwordLengthValid(password);
+console.log(passwordValid);
+
+
+```
 
 
 
