@@ -17,7 +17,7 @@ use git bash then make aliases for commands.
 
 ```
 
-# Update the token to be expired
+# Update a new token
 ```python
 1. unset the previous token:
 	git config --global --unset credential.helper (Linux)
@@ -28,17 +28,19 @@ use git bash then make aliases for commands.
 	git remote -v
 
 4. update the token:
-	git remote set-url <shortcut repo_name given from "git remote -v"> https://<token_here>@github.com/<username>/<repo_name>
+	git remote set-url <shortcut repo_name given from "git remote -v"> https://<new_token_here>@github.com/<username>/<repo_name>
 
 	ex:
 		git remote set-url security https://ghp_IA9qTiP1vfJvtIV1ChgZs3zyD6nHhY48tu43@github.com/ariel-canoy/cybersecurity
-		
+
+
 
 
 ```
 
 
 
+# Commands
 ```python
 
 git config <options> user.name <username>
@@ -147,8 +149,8 @@ You will use authentication token that will generate from profile>setting>develo
 	- add shortcut for "git push <url repo>" 
 	- now you can use "git push -u <name of url repo> <branch to push to github>"
 
->> git push <url of repo>/-u <shortcut name for url repo> <branch name to push to github>
-	- push or send the specific branch's latest commits to github
+>> git push <url of repo>/(-u <shortcut name for url repo>) <branch name to push to github>
+	- push or send the specific latest branch commits to github
 
 
 

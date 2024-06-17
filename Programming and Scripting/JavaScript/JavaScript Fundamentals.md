@@ -96,7 +96,7 @@
 
 
 
-# Operators
+# Arithmetic Operators
 ```javascript
 let num = 4 + 2;  // num value is 6
 
@@ -105,18 +105,12 @@ let num = 4 - 2;  // num value is 2
 let num = 4 * 2;  // num value is 8
 
 let num = 4 / 2;  // num value is 2
+
+let num = 4 ** 2;  // num value is 16
 ```
 
 
-# Increment and Decrement
-```javascript
-let x = 12;
-x++;  // x value is 13
 
-let x = 12;
-x--;  // x value is 11
-
-```
 
 
 
@@ -145,6 +139,62 @@ x--;  // x value is 11
 >> Modulus
 	let x = 12;
 	x %= 8;  // 4
+```
+
+
+
+# Comparison Operator
+```javascript
+== - normal typing
+=== - strict typing
+!= - normal typing
+!== - strict typing
+>
+<
+<=
+>=
+
+normal typing - only the value should be the same and not the data type 
+strict typing - the value and data type should be equal
+
+
+```
+
+
+
+
+# Logical Operator
+```javascript
+&&
+||
+!
+```
+
+
+# Membership
+```javascript
+in
+
+ex:
+	let nums = [34, 654, 2, 23456, 137, 1373456, 34, 345]
+	if (2 in nums)
+	    console.log('num exist');
+	else
+	    console.log('num not exist');
+	//output is: exist
+
+```
+
+
+
+# Increment and Decrement
+```javascript
+let x = 12;
+x++;  // x value is 13
+
+let x = 12;
+x--;  // x value is 11
+
 ```
 
 
@@ -327,6 +377,44 @@ output is:
 	3
 	4
 */
+```
+
+
+# Conditional Statements
+```javascript
+syntax:
+	if (condition)
+		statement
+	else if (condition)
+		statement
+	else
+		statement
+
+
+
+
+
+let num = '1';
+if (num == 1)
+	console.log('equal');
+else
+	console.log('not equal');
+// output is: equal
+
+
+
+----------- Strict Equality -----------
+let num = '1';
+if (num == 1)
+	console.log('equal');
+else
+	console.log('not equal');
+// output is: not equal
+
+
+
+
+
 ```
 
 
