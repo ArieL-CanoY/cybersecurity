@@ -9,6 +9,15 @@ Definition: [[Networking/Network Protocols/FTP|FTP]]
 
 
 # Exploitation
+
+# Enumeration
+```python
+>> you can use nmap script: ftp-system.nse:
+	nmap <ip> -p <port number of ftp service> --script=ftp-system.nse
+
+```
+
+
 ### Anonymous username
 ```python
 - when connecting to a machine like this: ftp (IP), when asking for username, provide "anonymous" to see if the configuration of the server allow this.

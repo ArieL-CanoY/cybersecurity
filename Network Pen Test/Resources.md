@@ -6,8 +6,18 @@ advanced network exploitation:
 
 
 
+# Blog
+```python
+https://gregit.medium.com/exploiting-simple-network-services-in-ctfs-ec8735be5eef
+
+https://attack.mitre.org/techniques/T1210/
+
+https://www.nextgov.com/cybersecurity/2019/10/protection-ransomware-attacks-isnt-simple-insurance/160427/
 
 
+
+
+```
 
 
 
