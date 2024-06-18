@@ -116,24 +116,12 @@
             }
           },
           {
-            "id": "f316623452d732eb",
+            "id": "5b8b0570e20d786f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Pen Test/Tools/ssh.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc7528897e823b39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Network Pen Test/Tools/smbclient.md",
+                "file": "Network Pen Test/Resources.md",
                 "mode": "source",
                 "source": false
               }
@@ -150,57 +138,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f17842902dcb4058",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Network Pen Test/Services/FTP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97e10f24f2c9af9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools and Techniques/02 - Enumeration or Scanning/NMAP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "16376ef5497c9cc9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Network Pen Test/Tools/tcpdump.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b8b0570e20d786f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Network Pen Test/Resources.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 15
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -254,7 +194,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -274,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network Pen Test/Resources.md",
+                "file": "Programming and Scripting/JavaScript/JavaScript Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network Pen Test/Resources.md",
+                "file": "Programming and Scripting/JavaScript/JavaScript Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network Pen Test/Resources.md"
+                "file": "Programming and Scripting/JavaScript/JavaScript Fundamentals.md"
               }
             }
           },
@@ -348,15 +289,16 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "5b8b0570e20d786f",
+  "active": "7120f57918349fd5",
   "lastOpenFiles": [
+    "Network Pen Test/Resources.md",
+    "Tools and Techniques/02 - Enumeration or Scanning/NMAP.md",
+    "Network Pen Test/Tools/tcpdump.md",
     "Network Pen Test/Tools/hydra.md",
     "Network Pen Test/Services/FTP.md",
     "Programming and Scripting/JavaScript/JavaScript Fundamentals.md",
-    "Tools and Techniques/02 - Enumeration or Scanning/NMAP.md",
     "Network Pen Test/Services/Telnet.md",
     "Networking/Network Protocols/Telnet.md",
-    "Network Pen Test/Tools/tcpdump.md",
     "Network Pen Test/Services/SMB.md",
     "Network Pen Test/Tools/msfvenom.md",
     "Network Pen Test/Tools/smbclient.md",
@@ -376,7 +318,6 @@
     "Operating System/Linux/Bash Shell.md",
     "Operating System/Linux/File System Specific.md",
     "Methodology/Cyber Kill Chain.md",
-    "Networking/Tools/ping.md",
     "Networking/Tools",
     "Web Pentest/Vulnerabilities and Exploit/Open Redirect",
     "Other Tech Topic/Untitled",

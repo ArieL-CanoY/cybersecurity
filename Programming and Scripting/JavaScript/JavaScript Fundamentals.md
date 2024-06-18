@@ -324,6 +324,8 @@ console.log(names);  // output is ['aiden', 'mark', 'vince']
 
 
 
+
+
 # --------- Loops ---------
 # For Loop
 ```javascript
@@ -416,6 +418,101 @@ else
 
 
 ```
+
+
+
+# Switched statements
+```python
+note:
+	- put break on every case so that it will end the statement once it is evaluated, else it will execute the statement below.
+	- you can disregard or not put "break" statement on default
+
+
+
+Example:
+
+	var continueProgram = 'y';
+	
+	switch (continueProgram)
+	{
+	    case "y":
+	        console.log('Continue the program.');
+	        break;
+	    case "n":
+	        console.log('End the program.');
+	        break;
+	    default:
+	        console.log('Please type the required input.')
+	}
+	
+
+
+```
+
+
+
+# Object
+```javascript
+
+-------- an object --------
+var user = {
+    username: 'Aiden Pearce',
+    password: 'aidenpearcepassword@123',
+    email: 'aidenpearce123@gmail.com'
+}
+
+---- access property ----
+
+// can be accessed by both of these:
+var value = user.username;
+var value = user['username'];
+
+
+
+---- modify property ----
+user.username = 'Mark Vince';
+
+
+
+
+---- add property ----
+// can add property using both of these:
+user.contact = '09849394888';
+user['contact num'] = '09849394888';
+
+
+---- add property ----
+// can delete property using both of these:
+delete user.contact
+delete user['contact num'];
+
+```
+
+
+# Array of Objects
+```javascript
+
+var user = [
+    {
+        "username": "Mark Vince",
+        "email": "markvince@gmail.com",
+        "contact": "0985747564",
+        "hobbies": ["video games", "basketball", "tennis"]
+    },
+    {
+        "username": "Aiden Pearce",
+        "email": "aidenpearce28@gmail.com",
+        "contact": "09429280773",
+        "hobbies": ["chess", "swimming", "video games"]
+    }
+];
+
+console.log(user[0].hobbies[2]);  // tennis
+
+
+```
+
+
 
 
 # Function
