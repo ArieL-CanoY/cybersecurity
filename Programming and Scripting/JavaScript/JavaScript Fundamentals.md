@@ -186,6 +186,26 @@ ex:
 ```
 
 
+# Ternary
+```javascript
+
+------------ Normal ------------
+statement condition ? statement_if_true : statement_if_false
+let isValid = ('abc123' === 'abc123') ? true : false;
+console.log(isValid);  // true
+
+
+
+------------ if else-if else ------------
+let num = 23;
+//            if        then       else if      then       else
+let value = num > 0 ? "positive" : num < 0 ? "negative" : "zero";
+console.log(value);  // positive
+
+
+```
+
+
 
 # Increment and Decrement
 ```javascript
@@ -199,8 +219,9 @@ x--;  // x value is 11
 
 
 
+
 # String Escape
-```python
+```javascript
 ` backtick - use to escape both single and double qoutes
 
 commonly use backward slash:
@@ -218,7 +239,7 @@ commonly use backward slash:
 
 
 
-# Array
+# Array/List
 ```javascript
 - can store any data type
 - mutable; its data can be change by accessing its value/element by index then change its value.
@@ -422,7 +443,7 @@ else
 
 
 # Switched statements
-```python
+```javascript
 note:
 	- put break on every case so that it will end the statement once it is evaluated, else it will execute the statement below.
 	- you can disregard or not put "break" statement on default
@@ -448,6 +469,27 @@ Example:
 
 
 ```
+
+
+# Conversion
+```javascript
+----------- string to int -----------
+let value = "34.541434";
+let newValType = parseInt(value);
+console.log(newValType);
+
+
+----------- float to int -----------
+let value = 34.541434;
+let newValType = parseInt(value);
+console.log(newValType);
+
+
+
+
+```
+
+
 
 
 
@@ -513,9 +555,39 @@ console.log(user[0].hobbies[2]);  // tennis
 ```
 
 
+# Nested Objects
+```javascript
+var user = {
+    "user1" :{
+        "username": "aidenpearce",
+        "password": "aidenpearce@8238",
+        "hobbies": ["chess", "swimming", "video games"]
+    },
+    "user2" : {
+        "username": "markvince12",
+        "password": "markpassword123",
+        "hobbies": ["video games", "basketball", "tennis"]
+    }
+};
+
+
+
+-------------- Access Value --------------
+console.log(user.user1);
+
+
+-------------- Access Value through Arbitrary Input --------------
+let userNum = 'user1';
+console.log(user[userNum]);
+
+
+```
 
 
 # Function
+
+
+### User-defined function
 ```javascript
 ----------- function -----------
 function greet()
@@ -557,6 +629,14 @@ console.log(passwordValid);
 ```
 
 
+# Built-in function
+```javascript
+-------- Math.random() --------
+let randomVal = Math.random()
+
+
+
+```
 
 
 

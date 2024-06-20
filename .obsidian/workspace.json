@@ -138,6 +138,30 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7a5b341cdcf4197f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating System/Windows/tools/certutil.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3631fb105e8785ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Other Tech Topic/Github/Git commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 10
@@ -169,7 +193,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hydra",
+                "query": "github",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,8 +218,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -291,19 +314,25 @@
   },
   "active": "7120f57918349fd5",
   "lastOpenFiles": [
+    "Programming and Scripting/Notes.md",
+    "Programming and Scripting/Variable Naming Conventions.md",
+    "Programming and Scripting/JavaScript/JavaScript Fundamentals.md",
+    "Other Tech Topic/Github/Git commands.md",
+    "Websites/Active Directory Website.md",
+    "Operating System/Windows/tools/certutil.md",
+    "Operating System/Windows/tools",
+    "Other Tech Topic/Other/Hash.md",
     "Network Pen Test/Resources.md",
     "Tools and Techniques/02 - Enumeration or Scanning/NMAP.md",
     "Network Pen Test/Tools/tcpdump.md",
     "Network Pen Test/Tools/hydra.md",
     "Network Pen Test/Services/FTP.md",
-    "Programming and Scripting/JavaScript/JavaScript Fundamentals.md",
     "Network Pen Test/Services/Telnet.md",
     "Networking/Network Protocols/Telnet.md",
     "Network Pen Test/Services/SMB.md",
     "Network Pen Test/Tools/msfvenom.md",
     "Network Pen Test/Tools/smbclient.md",
     "Tools and Techniques/01 - Information Gathering or Reconnaissance/NMAP.md",
-    "Other Tech Topic/Github/Git commands.md",
     "Network Pen Test/Tools/ssh.md",
     "Programming and Scripting/JavaScript/Useful.md",
     "Network Pen Test/Tools/enum4linux.md",
@@ -313,11 +342,6 @@
     "Network Pen Test/Tools",
     "Web Pentest/Learning Platform.md",
     "Web Pentest/Vulnerabilities and Exploit/Cross Site Request Forgery/02 CSRF Exploit.md",
-    "Networking/Tools/dig.md",
-    "Programming and Scripting/Python/app.md",
-    "Operating System/Linux/Bash Shell.md",
-    "Operating System/Linux/File System Specific.md",
-    "Methodology/Cyber Kill Chain.md",
     "Networking/Tools",
     "Web Pentest/Vulnerabilities and Exploit/Open Redirect",
     "Other Tech Topic/Untitled",
@@ -326,7 +350,6 @@
     "Websites/linkedin",
     "Mobile Pen Testing/Untitled",
     "Mobile Pen Testing",
-    "AI",
     "Pasted image 20240515061307.png",
     "Pasted image 20231109163617.png",
     "Pasted image 20231109154411.png",
