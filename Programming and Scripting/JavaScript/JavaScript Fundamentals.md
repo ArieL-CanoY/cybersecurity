@@ -276,9 +276,92 @@ output is:
 
 -------------- Change Value --------------
 let names = ['mark', 'vince', 'aiden', 'pearce'];
-console.log(names[0]);  // mark
+console.log(names[0]);
 names[0] = 'josh'
-console.log(names[0]);  // josh
+console.log(names[0]); 
+/*output is:
+	mark
+	josh
+*/
+
+
+
+
+-------------- Copy a list --------------
+- use "let newList = [...oldList];"
+Ex:
+	let numList1 = [1, 4, 5];
+	let numList2 = [...numList1];
+	numList1[0] = 11;
+	console.log(numList1);
+	console.log(numList2);
+/* output is:
+	[ 11, 4 ,5 ]
+	[ 1, 4 ,5 ]
+
+*/
+
+
+
+
+
+-------------- Multiple assignments --------------
+let numList = [1, 5, 7, 3];
+let [ num1, num2 ] = numList;
+console.log(num1); 
+console.log(num2);
+/*output is:
+	1
+	5
+*/
+
+
+
+
+-------------- Multiple assignments with skip --------------
+let numList = [1, 5, 7, 3];
+let [ num1, num2, , num4 ] = numList;
+console.log(num1); 
+console.log(num2); 
+console.log(num4);
+/* output is:
+	1
+	5
+	3
+*/
+
+
+
+
+
+-------------- Switch value --------------
+let x = 12;
+let y = 18;
+[x, y] = [y, x];
+console.log(`x: ${x}`);
+console.log(`y: ${y}`);
+/*output is:
+	x: 18
+	y: 12
+*/
+
+
+
+
+
+
+-------------- Destructuring Assignment with range --------------
+let numList1 = [1, 5, 2, 3, 4];
+let [, , ...numList2] = numList1;
+console.log(numList1);
+console.log(numList2);
+
+/* output is:
+[ 1, 5, 2, 3, 4 ]
+[ 2, 3, 4 ]
+*/
+
+
 
 
 
@@ -523,10 +606,43 @@ user.contact = '09849394888';
 user['contact num'] = '09849394888';
 
 
----- add property ----
+---- delete property ----
 // can delete property using both of these:
 delete user.contact
 delete user['contact num'];
+
+
+
+---- destructuring assignments ----
+let user = {
+    'name': 'Aiden Pearce',
+    'nickname': 'Pearce'
+}
+let { 'name' : userName } = user;
+console.log(userName);
+// Aiden Pearce
+
+
+
+---- multiple destructuring assignments ----
+let user = {
+    'name': 'Aiden Pearce',
+    'nickname': 'Pearce'
+}
+let { name, nickname } = user;
+console.log(name);
+console.log(nickname);
+// Aiden Pearce
+// Pearce
+
+
+
+
+
+
+
+
+
 
 ```
 
@@ -624,17 +740,42 @@ console.log(passwordValid);
 
 
 
+----------- with arbitrary parameter -----------
+note: .reduce method will discuss later
+function sum(...args)
+{
+    return args.reduce((total, currentVal) => total + currentVal, 0);
+}
+
+let value = sum(1, 5, 6, 87, 4, 3, 4);
+console.log(value);
+
+
+
+```
+
+### Shortcut user-defined
+```javascript
+let add = (num1, num2) => num1 + num2;
+console.log(add(1, 4)); // 5
 
 
 ```
 
 
-# Built-in function
+### Built-in function
 ```javascript
--------- Math.random() --------
-let randomVal = Math.random()
+>> Math.random()
+	- generate random float numbers from 0.xx... or from 0 to 0.9999...
+	Ex:
+		let randomVal = Math.random()
 
 
+>> list.reduce()
+	- 	
+let numList = [1, 4, 5];
+let total = numList.reduce((total, currentVal) => total + currentVal, 0);
+console.log(total);  // 10
 
 ```
 
