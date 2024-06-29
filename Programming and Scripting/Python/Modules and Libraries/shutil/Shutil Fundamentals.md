@@ -15,4 +15,16 @@ shutil.move('source', 'destination')
 	toDirWithFile = toDirectory + '\\' + toFilename
 	shutil.move(fromDirWithFile, toDirWithFile)
 
+
+# copy
+	copy
+	copy2
+	copyfile
+
+
+# delete a files along with directory
+	shutil.rrmtree('folder_with_files')
+
+
+
 ```

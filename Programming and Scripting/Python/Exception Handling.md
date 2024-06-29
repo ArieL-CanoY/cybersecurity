@@ -70,6 +70,16 @@ todo
 		else:
 		    print('There is no exception.')
 
+>> finally
+	- execute no matter what happen
+
+	Ex:
+		try:
+    print(10 / 3)
+except Exception as error:
+    print(error)
+finally:
+    print('this is finally')
 
 
 

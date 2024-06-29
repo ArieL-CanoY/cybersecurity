@@ -138,9 +138,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7f03752cc0f7bc29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming and Scripting/Python/OOP/Inheritance.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b068337c66e159b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming and Scripting/Python/Modules and Libraries/os/OS Fundamentals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -214,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming and Scripting/Python/install .py to .exe.md",
+                "file": "Programming and Scripting/Python/OOP/Inheritance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming and Scripting/Python/install .py to .exe.md",
+                "file": "Programming and Scripting/Python/OOP/Inheritance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming and Scripting/Python/install .py to .exe.md"
+                "file": "Programming and Scripting/Python/OOP/Inheritance.md"
               }
             }
           },
@@ -288,11 +312,17 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "2931d3476bada8c9",
+  "active": "7f03752cc0f7bc29",
   "lastOpenFiles": [
-    "Programming and Scripting/Python/str.format().md",
-    "Programming and Scripting/Python/install .py to .exe.md",
+    "Programming and Scripting/Python/OOP/Class.md",
+    "Programming and Scripting/Python/OOP/Inheritance.md",
+    "Programming and Scripting/Python/Modules and Libraries/Modules.md",
+    "Programming and Scripting/Python/OOP",
+    "Programming and Scripting/Python/Modules and Libraries/shutil/Shutil Fundamentals.md",
+    "Programming and Scripting/Python/Modules and Libraries/os/OS Fundamentals.md",
     "Programming and Scripting/Python/Exception Handling.md",
+    "Programming and Scripting/Python/install .py to .exe.md",
+    "Programming and Scripting/Python/str.format().md",
     "Programming and Scripting/Python/Useful Functions.md",
     "Programming and Scripting/Python/Tips, Tricks, Hows.md",
     "Programming and Scripting/Secure Practices/Resources.md",
@@ -313,11 +343,6 @@
     "Programming and Scripting/Variable Naming Conventions.md",
     "Websites/Active Directory Website.md",
     "Operating System/Windows/tools",
-    "Other Tech Topic/Other/Hash.md",
-    "Tools and Techniques/02 - Enumeration or Scanning/NMAP.md",
-    "Network Pen Test/Tools/tcpdump.md",
-    "Network Pen Test/Tools/hydra.md",
-    "Network Pen Test/Services/FTP.md",
     "Network Pen Test/Tools",
     "Networking/Tools",
     "Web Pentest/Vulnerabilities and Exploit/Open Redirect",
@@ -325,7 +350,6 @@
     "Evasion/Encoding",
     "Evasion",
     "Websites/linkedin",
-    "Mobile Pen Testing/Untitled",
     "Pasted image 20240515061307.png",
     "Pasted image 20231109163617.png",
     "Pasted image 20231109154411.png",

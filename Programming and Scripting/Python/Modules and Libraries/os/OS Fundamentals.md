@@ -6,8 +6,9 @@ os.getcwd()  #return current working directory
 os.chdir('C:\\Users\User1\Downloads')  #change directory - can be absolute or traversing like ../../
 os.listdir(os.cwd())  #list files in that path, can be specify
 os.mkdir("Folder1")  # make a folder
+os.rmdir('Folder1')  # remove or delete a folder
+os.replace('file1', 'file2')  # move or rename a file
 os.makedirs("Folder1/Folder1v1")  # make multiple folders
-os.rmdir('Folder1')  # remove a folder
 os.rename('file1', 'newfile1')  # rename a file or directory
 os.path.isfile(os.listdir(os.getcwd())[index])  # check if the path is a file based on the list of files from the directory
 file = open('text1.txt', 'w')
