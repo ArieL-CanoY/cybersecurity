@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming and Scripting/Python/OOP/Inheritance.md",
+                "file": "Programming and Scripting/Python/OOP/Abstract.md",
                 "mode": "source",
                 "source": false
               }
@@ -238,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming and Scripting/Python/OOP/Inheritance.md",
+                "file": "Programming and Scripting/Python/OOP/Abstract.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming and Scripting/Python/OOP/Inheritance.md",
+                "file": "Programming and Scripting/Python/OOP/Abstract.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -278,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming and Scripting/Python/OOP/Inheritance.md"
+                "file": "Programming and Scripting/Python/OOP/Abstract.md"
               }
             }
           },
@@ -314,8 +314,12 @@
   },
   "active": "7f03752cc0f7bc29",
   "lastOpenFiles": [
-    "Programming and Scripting/Python/OOP/Class.md",
     "Programming and Scripting/Python/OOP/Inheritance.md",
+    "Programming and Scripting/Python/OOP/Abstract.md",
+    "Programming and Scripting/Python/OOP/Method Chaining.md",
+    "Programming and Scripting/Python/OOP/Method Overriding.md",
+    "Untitled 1.md",
+    "Programming and Scripting/Python/OOP/Class.md",
     "Programming and Scripting/Python/Modules and Libraries/Modules.md",
     "Programming and Scripting/Python/OOP",
     "Programming and Scripting/Python/Modules and Libraries/shutil/Shutil Fundamentals.md",
@@ -337,11 +341,7 @@
     "Web Pentest/Vulnerabilities and Exploit/SQL Injection/To Learn.md",
     "Dictionary.md",
     "Websites/random.md",
-    "Web Pentest/Learning Platform.md",
     "Programming and Scripting/Secure Practices",
-    "Programming and Scripting/Notes.md",
-    "Programming and Scripting/Variable Naming Conventions.md",
-    "Websites/Active Directory Website.md",
     "Operating System/Windows/tools",
     "Network Pen Test/Tools",
     "Networking/Tools",
