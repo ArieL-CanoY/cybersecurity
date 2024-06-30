@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming and Scripting/Python/OOP/Abstract.md",
+                "file": "Programming and Scripting/Python/OOP/Duck typing.md",
                 "mode": "source",
                 "source": false
               }
@@ -238,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming and Scripting/Python/OOP/Abstract.md",
+                "file": "Programming and Scripting/Python/OOP/Duck typing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming and Scripting/Python/OOP/Abstract.md",
+                "file": "Programming and Scripting/Python/OOP/Duck typing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -278,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming and Scripting/Python/OOP/Abstract.md"
+                "file": "Programming and Scripting/Python/OOP/Duck typing.md"
               }
             }
           },
@@ -314,12 +314,15 @@
   },
   "active": "7f03752cc0f7bc29",
   "lastOpenFiles": [
-    "Programming and Scripting/Python/OOP/Inheritance.md",
+    "Programming and Scripting/Python/OOP/lambda.md",
+    "Programming and Scripting/Python/OOP/Duck typing.md",
+    "Programming and Scripting/Python/OOP/Parameters and Arguments.md",
     "Programming and Scripting/Python/OOP/Abstract.md",
+    "Programming and Scripting/Python/OOP/Class.md",
+    "Programming and Scripting/Python/OOP/Inheritance.md",
     "Programming and Scripting/Python/OOP/Method Chaining.md",
     "Programming and Scripting/Python/OOP/Method Overriding.md",
     "Untitled 1.md",
-    "Programming and Scripting/Python/OOP/Class.md",
     "Programming and Scripting/Python/Modules and Libraries/Modules.md",
     "Programming and Scripting/Python/OOP",
     "Programming and Scripting/Python/Modules and Libraries/shutil/Shutil Fundamentals.md",
@@ -338,9 +341,6 @@
     "Programming and Scripting/JavaScript/JavaScript Fundamentals.md",
     "Programming and Scripting/JavaScript/Useful.md",
     "Operating System/Linux/Bash Shell.md",
-    "Web Pentest/Vulnerabilities and Exploit/SQL Injection/To Learn.md",
-    "Dictionary.md",
-    "Websites/random.md",
     "Programming and Scripting/Secure Practices",
     "Operating System/Windows/tools",
     "Network Pen Test/Tools",
