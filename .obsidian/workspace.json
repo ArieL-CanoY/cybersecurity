@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming and Scripting/Python/OOP/Duck typing.md",
+                "file": "Programming and Scripting/Python/Specify data and return type hint.md",
                 "mode": "source",
                 "source": false
               }
@@ -238,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming and Scripting/Python/OOP/Duck typing.md",
+                "file": "Programming and Scripting/Python/Specify data and return type hint.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming and Scripting/Python/OOP/Duck typing.md",
+                "file": "Programming and Scripting/Python/Specify data and return type hint.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -278,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming and Scripting/Python/OOP/Duck typing.md"
+                "file": "Programming and Scripting/Python/Specify data and return type hint.md"
               }
             }
           },
@@ -314,8 +314,11 @@
   },
   "active": "7f03752cc0f7bc29",
   "lastOpenFiles": [
-    "Programming and Scripting/Python/OOP/lambda.md",
+    "Programming and Scripting/Python/Function to variable.md",
+    "Programming and Scripting/Python/Specify data and return type hint.md",
+    "Programming and Scripting/Python/walrus operator.md",
     "Programming and Scripting/Python/OOP/Duck typing.md",
+    "Programming and Scripting/Python/OOP/lambda.md",
     "Programming and Scripting/Python/OOP/Parameters and Arguments.md",
     "Programming and Scripting/Python/OOP/Abstract.md",
     "Programming and Scripting/Python/OOP/Class.md",
@@ -338,9 +341,6 @@
     "Android Studio/Views/ShapeableImage.md",
     "Other Tech Topic/Github/Git commands.md",
     "Operating System/Windows/tools/certutil.md",
-    "Programming and Scripting/JavaScript/JavaScript Fundamentals.md",
-    "Programming and Scripting/JavaScript/Useful.md",
-    "Operating System/Linux/Bash Shell.md",
     "Programming and Scripting/Secure Practices",
     "Operating System/Windows/tools",
     "Network Pen Test/Tools",
