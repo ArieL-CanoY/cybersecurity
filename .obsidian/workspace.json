@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming and Scripting/Python/Useful Functions.md",
+                "file": "Programming and Scripting/Python/Topics/Useful Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming and Scripting/Python/Specify data and return type hint.md",
+                "file": "Programming and Scripting/Python/Topics/lambda.md",
                 "mode": "source",
                 "source": false
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Except",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -238,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming and Scripting/Python/Specify data and return type hint.md",
+                "file": "Programming and Scripting/Python/Topics/lambda.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming and Scripting/Python/Specify data and return type hint.md",
+                "file": "Programming and Scripting/Python/Topics/lambda.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -278,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming and Scripting/Python/Specify data and return type hint.md"
+                "file": "Programming and Scripting/Python/Topics/lambda.md"
               }
             }
           },
@@ -312,35 +312,38 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "7f03752cc0f7bc29",
+  "active": "0ecc6a254f9e8dc9",
   "lastOpenFiles": [
-    "Programming and Scripting/Python/Function to variable.md",
-    "Programming and Scripting/Python/Specify data and return type hint.md",
-    "Programming and Scripting/Python/walrus operator.md",
-    "Programming and Scripting/Python/OOP/Duck typing.md",
-    "Programming and Scripting/Python/OOP/lambda.md",
-    "Programming and Scripting/Python/OOP/Parameters and Arguments.md",
-    "Programming and Scripting/Python/OOP/Abstract.md",
-    "Programming and Scripting/Python/OOP/Class.md",
-    "Programming and Scripting/Python/OOP/Inheritance.md",
-    "Programming and Scripting/Python/OOP/Method Chaining.md",
-    "Programming and Scripting/Python/OOP/Method Overriding.md",
-    "Untitled 1.md",
-    "Programming and Scripting/Python/Modules and Libraries/Modules.md",
-    "Programming and Scripting/Python/OOP",
-    "Programming and Scripting/Python/Modules and Libraries/shutil/Shutil Fundamentals.md",
-    "Programming and Scripting/Python/Modules and Libraries/os/OS Fundamentals.md",
-    "Programming and Scripting/Python/Exception Handling.md",
-    "Programming and Scripting/Python/install .py to .exe.md",
-    "Programming and Scripting/Python/str.format().md",
-    "Programming and Scripting/Python/Useful Functions.md",
+    "Programming and Scripting/Python/Topics/OOP/Method Chaining.md",
+    "Programming and Scripting/Python/Topics/Function Documentation.md",
     "Programming and Scripting/Python/Tips, Tricks, Hows.md",
-    "Programming and Scripting/Secure Practices/Resources.md",
-    "Programming and Scripting/Python/Modules and Libraries/threading.md",
-    "Network Pen Test/Resources.md",
-    "Android Studio/Views/ShapeableImage.md",
-    "Other Tech Topic/Github/Git commands.md",
-    "Operating System/Windows/tools/certutil.md",
+    "Programming and Scripting/Python/Topics/Higher Order Function.md",
+    "Programming and Scripting/Python/Topics/OOP/walrus operator.md",
+    "Programming and Scripting/Python/Topics/Strings Methods.md",
+    "Programming and Scripting/Python/Modules and Libraries/Modules.md",
+    "Programming and Scripting/Python/Modules and Libraries/threading/threading fundamentals.md",
+    "Programming and Scripting/Python/Modules and Libraries/libraries.md",
+    "API/PenTesting/00 - Introduction.md",
+    "Website Tech/Cookie.md",
+    "Web Pentest/Vulnerabilities and Exploit/XSS (Cross Site Scripting)/Payloads.md",
+    "Programming and Scripting/Python/Modules and Libraries/pymongo/pymongo fundamentals.md",
+    "Programming and Scripting/Python/Modules and Libraries/threading",
+    "Programming and Scripting/Python/Modules and Libraries/threading2.md",
+    "Programming and Scripting/Python/Topics",
+    "Programming and Scripting/Python/Topics/Exception Handling.md",
+    "Programming and Scripting/Python/Topics/Conversion.md",
+    "Programming and Scripting/Python/Topics/Function to variable.md",
+    "Programming and Scripting/Python/install .py to .exe.md",
+    "Programming and Scripting/Python/Topics/Specify data and return type hint.md",
+    "Pasted image 20231109154411.png",
+    "Programming and Scripting/Python/Modules and Libraries/file/Working with files.md",
+    "Programming and Scripting/Python/Useful Websites.md",
+    "Programming and Scripting/Python/Topics/Useful Functions.md",
+    "Programming and Scripting/Python/Topics/OOP/Duck typing.md",
+    "Programming and Scripting/Python/Topics/lambda.md",
+    "Programming and Scripting/Python/Topics/OOP/Parameters and Arguments.md",
+    "Programming and Scripting/Python/Topics/OOP/Abstract.md",
+    "Programming and Scripting/Python/Topics/OOP",
     "Programming and Scripting/Secure Practices",
     "Operating System/Windows/tools",
     "Network Pen Test/Tools",
@@ -348,11 +351,8 @@
     "Web Pentest/Vulnerabilities and Exploit/Open Redirect",
     "Other Tech Topic/Untitled",
     "Evasion/Encoding",
-    "Evasion",
-    "Websites/linkedin",
     "Pasted image 20240515061307.png",
     "Pasted image 20231109163617.png",
-    "Pasted image 20231109154411.png",
     "Untitled.canvas",
     "Other Files/Images/Networking/Pasted image 20230806154844.png",
     "Other Files/Images/Networking/Pasted image 20230715173904.png",
