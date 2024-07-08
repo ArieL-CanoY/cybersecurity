@@ -4,7 +4,7 @@
 use git bash then make aliases for commands.
 ```
 
-### Add token
+# Add token to repository
 ```python
 1. go to github profile
 2. click developer setting
