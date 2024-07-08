@@ -145,7 +145,7 @@ You will use authentication token that will generate from profile>setting>develo
 
 
 >> git remote add <name of url repository> <url of repo>
-	- ex. "git remove add repo https://github.com/myusername/repository"
+	- ex. "git remote add repo https://github.com/myusername/repository"
 	- add shortcut for "git push <url repo>" 
 	- now you can use "git push -u <name of url repo> <branch to push to github>"
 
