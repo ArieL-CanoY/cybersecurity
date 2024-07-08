@@ -63,7 +63,6 @@ outerFunction('hi')
 
 ### Return a function object
 ```python
-
 def outerFunction(value):
     def sayHi():
         print('Hi')

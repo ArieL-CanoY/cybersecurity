@@ -44,7 +44,7 @@
 ```
 
 
-###### whoami API request
+###### whoami API request endpoint
 ```python
 - identify the user making the request to determine which user or entity is current authenticatd or interacting with it.
 ```

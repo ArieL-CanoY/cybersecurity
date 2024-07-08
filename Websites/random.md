@@ -1,4 +1,4 @@
-# Learn --------------------------------------------------
+	# Learn --------------------------------------------------
 Intigriti - https://blog.intigriti.com/hackademy/
 	tools - https://blog.intigriti.com/hackademy/hacking-tools/
 	best platform - https://blog.intigriti.com/hackademy/hacking-platforms/
