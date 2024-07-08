@@ -1,21 +1,32 @@
 
-#### TIPS
+# TIPS
 ```python
 use git bash then make aliases for commands.
 ```
 
-# Add token to repository
+
+
+# Add token to existing repository
 ```python
 1. go to github profile
 2. click developer setting
 3. add token
 4. check the main checkbox
-5. generate
-6. git push the branch from cli
-7. it will pop to login your credentials, click token then add the token generated before
+5. generate a token
+6. clone the repo of your github
+7. type "git remote set-url <url_name> https://<token>@github.com/<username>/<repo>"
+	7.1 the "url_name" can be custom:
+			- git remote add "custom_url_name" <url_of_repo> 
 
-
+		the default name of the url when git pushing and for set-url is "origin":
+			- git push origin <branch_name>
+	
+8. set this:
+	git config <options> user.name <username>
+	git config <options> user.email <email>
 ```
+
+
 
 # Update a new token
 ```python
@@ -31,7 +42,7 @@ use git bash then make aliases for commands.
 	git remote set-url <shortcut repo_name given from "git remote -v"> https://<new_token_here>@github.com/<username>/<repo_name>
 
 	ex:
-		git remote set-url security https://ghp_IA9qTiP1vfJvtIV1ChgZs3zyD6nHhY48tu43@github.com/ariel-canoy/cybersecurity
+		git remote set-url sec https://ghp_IA98TiP1vfJitIV1ChgZi3zyD6nHhYn8tu43@github.com/ariel-canoy/cybersecurity
 
 
 
