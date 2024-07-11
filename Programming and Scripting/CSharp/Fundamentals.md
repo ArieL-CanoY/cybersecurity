@@ -42,9 +42,9 @@
 		double z = 984587.98345976813275
 
 	//constant - it can never change
-		const int pi = 3.14159;
-		const int week_days = 7;
-		const int allMonthsCount = 12;
+		const int PI = 3.14159;
+		const int WEEK_DAYS = 7;
+		const int ALLMONTHSCOUNT = 12;
 
 //declaring variables
 	datatype identifier;
