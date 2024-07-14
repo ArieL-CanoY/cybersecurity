@@ -248,7 +248,7 @@ SO and invoice
 day to day:
 	sales order
 	sales invoice/internal
-	collect of payment - depends in mode of payment (cash, cheque, pdc, credit)
+	collect of payment - depends in mode of payment (cash, check/cheque, pdc, credit)
 	remit
 
 
