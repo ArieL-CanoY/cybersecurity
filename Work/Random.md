@@ -792,7 +792,6 @@ GL modules
 
 payment pay > AP > transactions > AP payment
 
-
 AP clerk cannot create cheque > need approvable > approve > ---approve to pay > search corporation >print the paper > sign by manager
 
 

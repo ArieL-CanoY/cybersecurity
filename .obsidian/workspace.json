@@ -4,34 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "c9707a2d7c05c78e",
+        "id": "3a26529388f6351f",
         "type": "tabs",
         "children": [
           {
-            "id": "646bf62ccc1bb4b4",
+            "id": "7f03752cc0f7bc29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Random.md",
+                "file": "Programming and Scripting/CSharp/String Methods.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b91f2f2e5c6e8645",
+            "id": "9bdad19f77c6776d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Other Tech Topic/Github/Git commands.md",
+                "file": "Programming and Scripting/Bootstrap/Fundamentals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28883e046adb0a0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming and Scripting/CSharp/MVC/Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:Git commands",
+                "query": "history",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,8 +98,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Random.md",
+                "file": "Programming and Scripting/Bootstrap/Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Random.md",
+                "file": "Programming and Scripting/Bootstrap/Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/Random.md"
+                "file": "Programming and Scripting/Bootstrap/Fundamentals.md"
               }
             }
           },
@@ -180,54 +192,54 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "646bf62ccc1bb4b4",
+  "active": "9bdad19f77c6776d",
   "lastOpenFiles": [
-    "Other Tech Topic/Github/Git commands.md",
     "Work/Random.md",
-    "Work",
-    "Programming and Scripting/CSharp/String Methods.md",
+    "Programming and Scripting/Bootstrap/Fundamentals.md",
+    "Programming and Scripting/Bootstrap",
+    "Programming and Scripting/HTML",
     "Programming and Scripting/CSharp/MVC/Fundamentals.md",
+    "Programming and Scripting/CSharp/String Methods.md",
     "Programming and Scripting/CSharp/MVC",
-    "2024-07-10.md",
-    "cybersecurity/Other Tech Topic/Github/Git commands.md",
-    "Operating System/Linux/General or Mixed.md",
+    "Work",
+    "Operating System/Linux/History of commands.md",
+    "Programming and Scripting/CSharp/Fundamentals.md",
+    "Other Tech Topic/Github/Git commands.md",
+    "Programming and Scripting/Python/Topics/Useful Functions.md",
     "Programming and Scripting/Secure Practices/Resources.md",
-    "cybersecurity/z - people regrets and advice.md",
-    "cybersecurity/Websites/Webs Pentest/sqli.md",
-    "cybersecurity/Websites/Webs Pentest/List of websites.md",
-    "cybersecurity/Websites/Webs Pentest/CTF and vuln machines.md",
-    "cybersecurity/Websites/Physical Pentest/websites.md",
-    "cybersecurity/Websites/linkedin/linkedin.md",
-    "cybersecurity/Websites/linkedin/cybersec websites.md",
-    "cybersecurity/Websites/Youtube.md",
-    "cybersecurity/Websites/Wireless.md",
-    "cybersecurity/Websites/website - linkined suggestions.md",
-    "cybersecurity/Websites/Webs Pentest",
-    "cybersecurity/Websites/TryHackMe machine difficulty.md",
-    "cybersecurity/Websites/tools.md",
-    "cybersecurity/Websites/shell scripting.md",
-    "cybersecurity/Websites/Red Team.md",
-    "cybersecurity/Websites/random.md",
-    "cybersecurity/Websites/Physical Pentest",
-    "cybersecurity/Websites/linkedin",
-    "cybersecurity/Websites/exploitation.md",
-    "cybersecurity/Websites/EDR and AV Bypass.md",
-    "cybersecurity/Websites/Cybersec Websites.md",
-    "cybersecurity/Websites",
-    "cybersecurity/Website Tech",
-    "cybersecurity/Web Pentest/Vulnerabilities and Exploit/SSRF/Portswigger Lab",
-    "cybersecurity/Web Pentest/Vulnerabilities and Exploit/SQL Injection/PortSwigger Lab",
-    "cybersecurity/Web Pentest/Vulnerabilities and Exploit/XML External Entity",
-    "cybersecurity/Pasted image 20231109163617.png",
-    "cybersecurity/Pasted image 20231109154411.png",
-    "cybersecurity/Other Files/Images/Pasted image 20221217092217.png",
-    "cybersecurity/Other Files/Images/Pasted image 20221217092214.png",
-    "cybersecurity/Other Files/Images/Pasted image 20221217092158.png",
-    "cybersecurity/Other Files/Images/Pasted image 20221217092142.png",
-    "cybersecurity/Other Files/Images/Pasted image 20221217092122.png",
-    "cybersecurity/Other Files/Images/Pasted image 20221217092119.png",
-    "cybersecurity/Other Files/Images/Pasted image 20221125111003.png",
-    "cybersecurity/Other Files/Images/Pasted image 20221125110937.png",
-    "Untitled.canvas"
+    "Programming and Scripting/JavaScript/Useful.md",
+    "Web Pentest/Vulnerabilities and Exploit/SQL Injection/To Learn.md",
+    "Programming and Scripting/Python/Modules and Libraries/os/OS Fundamentals.md",
+    "Programming and Scripting/Python/install .py to .exe.md",
+    "Network Pen Test/Resources.md",
+    "Web Pentest/Learning Platform.md",
+    "Websites/Active Directory Website.md",
+    "Websites/random.md",
+    "Dictionary.md",
+    "Operating System/Linux/Bash Shell.md",
+    "Operating System/Linux/ReGex.md",
+    "Programming and Scripting/Python/Useful Websites.md",
+    "Programming and Scripting/Notes.md",
+    "Programming and Scripting/Python/Topics/Sort method.md",
+    "Programming and Scripting/Python/Topics/Function Documentation.md",
+    "Programming and Scripting/Python/Topics/Higher Order Function.md",
+    "Programming and Scripting/Python/Topics/lambda.md",
+    "Programming and Scripting/Python/Modules and Libraries/threading",
+    "Programming and Scripting/Python/Topics",
+    "Pasted image 20231109154411.png",
+    "Programming and Scripting/Python/Topics/OOP",
+    "Programming and Scripting/Secure Practices",
+    "Operating System/Windows/tools",
+    "Network Pen Test/Tools",
+    "Pasted image 20240515061307.png",
+    "Pasted image 20231109163617.png",
+    "Untitled.canvas",
+    "Other Files/Images/Networking/Pasted image 20230806154844.png",
+    "Other Files/Images/Networking/Pasted image 20230715173904.png",
+    "Other Files/Images/Networking/Pasted image 20230714085327.png",
+    "Other Files/Images/Networking/Pasted image 20230712212154.png",
+    "Other Files/Images/Networking/Pasted image 20230712203339.png",
+    "Other Files/Images/Networking/Pasted image 20230712203255.png",
+    "Other Files/Images/Networking/Pasted image 20230712203144.png"
   ]
 }
