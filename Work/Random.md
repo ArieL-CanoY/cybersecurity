@@ -537,19 +537,282 @@ if item deposit or pullout, the item will store at the store
 
 
 
+------iBAS
+--- item master
+	macsbe and ibas is the same function, diff using
+
+	--- suppliers info
+	user: merchandizer
+
+
+	search for string code > list item
+	if no item barcode (or info) > new
+
+	new:
+		trade outright - lahat ng dumating na item, babayaran
+		trade consignment - kung ano lang
+		non-trade - gas, electric, walang kapalit na item
+		branch - branches
+		refund - madalang
+
+
+		inputs:
+			zip code  along with type of supplier: local, foreign
+
+		default term code: ilang araw bago bayaran
+		
+		tag TMEI/DAEI
+	
+
+
+	if supplier is new > merchandizing will create new suppliers info
+
+	if supplier is created > add item barcode
+
+	item name structure: brand name model
+
+	brand: new add the new brand name
 
 
 
-report july 12
-	am
-		PO
-		POR
+	disable item categ because the sub categ will also fall to item categ(auto select categ)
 
-	pm
-		AP accounts payable
+
+	stock type:
+		fixed assets
+		inventory
+		other
+
+	barcode size:
+		small
+		large
+
+
+	merchandizing can select if serialize or not
+
+	product line:
+		depending on item categ
+
+
+		size: no if not TV
+		costing type:
+			costed
+			bundle
+			free
+
+		purchase type: depend on the input before
+
+
+
+	-- cost
+	peso (puhunan): 500
+	foreign: auto generated
+
+	sales margin: 0% if no sales
+
+
+	unit measure and qty per unit - no input because it is:
+		for MCAir
+
+	
+	then save
+
+
+
+
+
+	Transaction > P.O. ---purchase order (local) 
+
+	--- purchase order (local)
+		if not item to current branch and other branch, will call merchandizer
+		inputs:
+			location: central warehouse
+			department: SDH Tarlac - Savers Digital H? Tarlac
+
+
+			auto vat depends on previous input on item master
+
+
+
+		delivery date:
+			30 days period
+
+		choose pick up item cost
+
+
+		item code:
+			item code: 8 digits only
+
+		
+		save > return pdf P.O. purchase order
+
+
+		then --- P.O. monitoring
+			approved if authorized or have permission
+		
+		P.O. then pending > will verified > will approved
+
+
+		serialized - select the item and ref no: DR#, P.O.R. direct deliver
+
+		non-serialized - scan the item and email the D.R. Delivery Receipt, quantity only for validation, manager will be accountable
+
+		if wearhouse have to received
+
+		inventory control > transaction > PO Receipt (local currency)
+
+		merchandizer PO > deliver item to branch > item serialized
+		IC > POR direct deliver > input serial > have slip > slip attach to DR of supplier for 
+
+		wearhouse > IC
+
+		central warehouse > not manual key in > load 
+
+
+	if POR direct, choose delivery man
+	if not POR direct, choose the manager
+
+	warehouse > POR > STF
+
+	T.F. Transfer Form
+
+	after PO di pa dumarating
+
+	PO sa branch and POR sa branch
+
+
+
+
+	merchandizing purchase items that branch request
+	PO if stock in warehouse
+	if there are stock only stock transfer
+
+	warehouse > load items if serialize > scan
+
+	model/sku/item if serialize then pop up screen > screen will barcode > 
+	POR direct deliver - bagsak deliver direct to the branch, enter serialized item
+
+	if POR direct delivery
+
+	if item direct to the branch
+	
+	POR direct delivery
+
+
+
+	merchandizing PO > save > have slip and have PO number
+	branch POR direct deliver > search for PO > enter serial > save
+	PO > brand delivery items to store > scan serial > have DR > to warehouse > PO Receipt (local) warehouse
+
+	no serial because 
+
+	common all PO to warehouse
+	warehouse not using POR direct 
+
+
+	PO direct warehouse > no scanning > PO
+	PO direct deliver > 
+
+
+
+
+	if not branch received > warehouse > 
+
+	if item damaged, sent back to supplier:
+		Purchase order return:
+			enter item code then SN() for what item because every item has serial number
+			item master will less
+
+	AC > item put 10 > return 1 >
+
+
+
+
+Account payable: dealing with anything that we have to have
+or we have to claim as advances to 3rd party (supplier or dealer)
+
+
+if may utang sa supplier at advances > AC
+
+
+frontline see DR
+
+Invoice from supplier will invoice to our system to receive
+
+if invoice reference POR
+--- invoice PO receipt
+	supplier issue invoice to financing for payable
+
+
+
+
+
+
+
+----- account payable
+---- maintenance
+--- supplier's info
+
+	debit memo - advance to supplier
+
+	how to pay debt to supplier:
+		cheque - common payment
+		cash
+		debit memo - advancement: PO return, inventory cost advancement (per serial, per quantity) (rebate, discount), discount, manual, cheque advances(no invoice - issue to supplier)
+			open debit - float advancement, pwedeng iapply sa invoice(utang sa supplier)
+
+	
+
+
+	--- PO  
+		inputs:
+			supplier with item
+	
+
+	PO > delivery warehouse (meaning no PO Direct Deliver) > PO Receipt (local currency) (final) (received) 
+
+	open PO - no received or partial received
+
+	if supplier D.R. or Invoice > Invoice PO Receipt
+
+	PO > item deliver > supplier > invoice to us > 
+
+	nagreturn tayo ng item, pero di pa nag appear ang minus > open debit
+
+	---open debig ledge
+		history
+
+	---subsidiary ledge
 		
 
-ERP: https://www.youtube.com/watch?v=kGQ1fNQVbj8
+
+
+GL modules
+	open debit memo
+
+payment pay > AP > transactions > AP payment
+
+
+AP clerk cannot create cheque > need approvable > approve > ---approve to pay > search corporation >print the paper > sign by manager
+
+
+
+
+
+---AP payment:
+	for issuing cheque
+
+
+
+
+
+more topics:
+	fix asset
+	general leadge
+
+
+
+
 
 ```
 
