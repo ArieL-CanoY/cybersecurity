@@ -54,6 +54,7 @@ note:
 [Required]
 
 [RegularExpression(@"^[A-Z]+[a-zA-Z]*$")]
+[RegularExpression(@"^[A-Z]+[a-zA-Z]*$", ErrorMessage = "Only upper and lowercase")]
 
 [Range(1, 100)]
 
