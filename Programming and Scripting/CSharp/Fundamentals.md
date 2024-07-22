@@ -250,3 +250,30 @@
 
 
 
+
+
+
+
+
+
+
+```
+
+
+
+# Range 
+
+| Alias  | Type Name     | Type             | Size(bits) | Range           | Default Value |
+| ------ | ------------- | ---------------- | ---------- | --------------- | ------------- |
+| sbyte  | System.Sbyte  | signed integer   | 8          | -128 to 127     | 0             |
+| short  | System.Int16  | signed integer   | 16         | -32768 to 32767 | 0             |
+| Int    | System.Int32  | signed integer   | 32         | -2^31 to 2^31-1 | 0             |
+| long   | System.Int64  | signed integer   | 64         | -2^63 to 2^63-1 | 0L            |
+| byte   | System.byte   | unsigned integer | 8          | 0 to 255        | 0             |
+| ushort | System.UInt16 | unsigned integer | 16         | 0 to 65535      | 0             |
+| uint   | System.UInt32 | unsigned integer | 32         | 0 to 2^32       | 0             |
+| ulong  | System.UInt64 | unsigned integer | 64         | 0 to 2^63       | 0             |
+
+
+
+

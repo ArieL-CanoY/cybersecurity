@@ -31,6 +31,32 @@ note:
 
 
 
+# Data Annotations in Controller
+```csharp
+[HttpPost]
+[HttpPost, ActionName("value")]
+	- "value" - name of the value in the value attribute in the input type from the form of HTML
+	- used when different ActionResult or method name, it will track the value of ActionName
+
+
+
+```
+
+
+
+# Statement in Controller
+```csharp
+------ Delete specific movie based on its id
+Movie movie = db.Movies.Find(id);
+db.Movies.Remove(movie);
+db.SaveChanges();
+return RedirectToAction("Index");
+
+
+
+
+
+```
 
 
 
@@ -44,9 +70,7 @@ note:
 
 
 
-
-
-# Validation
+# Data Annotation for Format and Validation of Model
 ```csharp
 [StringLength(30)]
 [StringLength(60, MinimumLength = 3)]
@@ -63,9 +87,10 @@ note:
 
 
 note:
-	decimal, int, float, datetime are inherently required and do not need the Required attribute.
-
-
+	- decimal, int, float, datetime are inherently required and do not need the Required attribute.
+	- you can combine different validation like this:
+		[Required, StringLength(30), etc.]
+	
 
 partner validation:
 	@Html.EditorFor
@@ -74,7 +99,10 @@ partner validation:
 
 DataType
 	- not validation
-	- only act as hint to the view
+	- only act as hint to the view (indirect validation)
+
+
+
 
 
 
