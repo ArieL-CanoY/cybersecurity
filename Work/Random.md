@@ -1,27 +1,37 @@
 # New
 ```
-
+VAT
 
 
 ---------------- training
 
 
+
+
+
+
 dictionary:
-	A.R. - Accounts Receivable
+	A.R. - Account Receivable
 	C.R. - Cash Receipt
 	I.R. - Internal Receipt 
 	M.R - Mobile Receipt
 	P.R. - Provision Receipt
-	M.I. - Monthly Installment
-	E.I. - Easy Installment
-	S.T.F. - Stock Transfer
+	P.O. - Purchase Order
+	M.I. - monthly installment
+	E.W.T - Expanding withholding tax
+	I.C. - inventory controller 
+	TMEI - tarlac mac enterprise inc.
+	DAEI - double alpha enterprise inc.
+	S.T.F - Stock Transfer
+	D.R. - Directly Receipt
+	
 
-definitions:
-	General Ledger - backbone of any accounting system which holds financial data for an organization.
-	 
-	 Procurement - involves every activity involved in obtaining the goods and services a company needs to support its daily operations including sourcing, negotiating terms, purchasing items, receiving and inspecting goods as necessary and keeping records of all the steps in the processc
 
-	Credit Memo - CM (Credit Memo) with dynamic credit entry: CM issued by a seller to a buyer used to correct errors in invoices or to provide refund for returned or damaged goods. some has only privilege to avoid malicious intent(tanggal ng utang)
+	SO invoice purpose - magkano ang at ano ano ang mga binebenta - no changes - out sa inventory
+		finalize the sales
+
+
+	
 
 
 
@@ -47,7 +57,7 @@ modules:
 --- STF
 	stock transfer
 	
-	used if someone request item from another branch
+	request item from another branch
 	def no: from warehouse
 	intended location, kung saan babato yung item na nirequest
 	delivery personnel: magdedeliver
@@ -57,27 +67,25 @@ modules:
 
 	if there is no item in item master, the store manager should purchase directly to suppliers
 
-	IC - inventory controller
-
-
 
 
 
 
 --- por direct deliver(purchase order receipt)
 
-	merchandize create PO (Purchase Order) 
+	merchandizer create PO (Purchase Order) 
+
 
 	if the item is serialized
 
 	scan if not serialized
 
-	wearhouse should approve the PO Receipt
+	wearhouse should approve the POR
 
 
 
 
------ deffered cashier
+--- deffered cashier
 	utang
 
 
@@ -110,11 +118,12 @@ sales internal - no series in invoice but progressive transaction
 types/modes of payment:
 	cash
 	credit
-	check or cheque - 
-	pdc - post dated check - date tomorrow and onwards
+	check or cheque
+	pdc receipt - post date check
 
 
 --- cash receipt
+
 	unang utang, unang babayaran
 
 	points = % payment
@@ -129,13 +138,6 @@ types/modes of payment:
 		sales slip - record of transaction but limited information
 
 	
-
-
-
-
-
-
-
 
 
 --- credit card
@@ -158,7 +160,7 @@ types/modes of payment:
 	what if customer refund the item: cannot void only refund
 
 
-	credit card settlement
+	credit card settlement 
 	if not settle the card, the bank will not pay you
 
 	credit card payment then credit card settlement
@@ -166,7 +168,7 @@ types/modes of payment:
 
 
 --- ar others 
-	see the accounts receivable
+	see the account receivable
 
 
 --- check receipt
@@ -174,14 +176,11 @@ dated check - check that is date backwards
 (pdc) post dated check - check that is date onwards 
 
 
---- PDC (Post Dated Check/Cheque) receipt
-	future(tomorrow and onwards) date on the cheque/check
+--- PDC (Post Dated Cheque) receipt
+	or PD collection
+	future date on the cheque/check
 
-	if the customer is clear, go to ---check clearing CRON
-
-
-
-
+	if the customer is clear, go to check clearing CRON
 
 
 	
@@ -192,18 +191,21 @@ checking date:
 
 
 stale cheque
-	check that is remains undeposited or uncashed between the valid date to be issued or 6 months
-	validity from 6 months to 1 year
+	check that is remains undeposited or uncashed between the valid date to be issued
+
 
 
 --- remittance cash
+
 	type:
 		cash
 		cheque
 
 	make deposit slip and copy it
+	
 
 	total collection within the day
+
 
 	remitted by: (cashier)
 	bank account no
@@ -220,7 +222,8 @@ stale cheque
 
 
 
---- demit memo (cashier selling)
+
+--- demit memo
 	debit to AR
 	
 	utang: delivery charge, gift wrap 
@@ -231,12 +234,14 @@ stale cheque
 
 --- apply open credit
 	advanced payment
-	sales return
+	sales return - float as advancement ng customer > then apply open credit
+
 
 
 
 --- sales return
 	refund the item for higher or equal amount
+
 	last is to apply open credit
 
 
@@ -245,10 +250,11 @@ SO and invoice
 
 
 
+
 day to day:
 	sales order
 	sales invoice/internal
-	collect of payment - depends in mode of payment (cash, check/cheque, pdc, credit)
+	collect of payment - depends in mode of payment
 	remit
 
 
@@ -276,7 +282,6 @@ central use IBAS system:
 	purchase order receipt
 
 
-
 STF (Stock Transfer) received
 
 
@@ -287,8 +292,7 @@ inventory reports per location: multiple location (common used)
 
 
 --- customer master
-	if customer not exist > add new > 
-	---Sales order automatic add new customer if not exist
+	if customer not exist > add new > Sales order
 
 --- sales order
 	need approval if the transaction is super high
@@ -331,11 +335,27 @@ report of system should be the same as the report of bank system
 
 --------------- iBAS
 
+
+
+
 maintenance:
 	sales person master - input sales person 
 
 transactions:
 	------- treasury
+
+
+
+	after remittance > check online if deposit to the bank > confirm in macsbe/ibas
+
+
+	--- cash deposit entry
+
+	--- check deposit entry
+
+
+
+
 
 	if remittance is not correct
 	accounting will cancel
@@ -345,7 +365,7 @@ transactions:
 
 	credit card collection:
 		select terminal code for search
-		then retrieve all the desposit money
+		 then retrieve all the desposit money
 
 	general ledger: sales order automatically put data on the online pass
 
@@ -356,6 +376,7 @@ transactions:
 
 	CRON check clearing:
 		dropdown - search for specific branch then it will list to be check
+
 
 
 	O.R. (Official Receipt) - proof of payment 
@@ -375,7 +396,8 @@ transactions:
 		cm batch request
 		cm batch approval
 
-	DM (Debit Memo) same as CM
+	DM (Debit Memo) same as CM:
+		utang ng customer (selling)
 
 	Edit sales term:
 		if terms (6 months, 12 months, etc), then cashier will call accounting
@@ -389,8 +411,9 @@ transactions:
 
 
 Application:
-	Home credit - third party, no items, borrowed items from store and they will have debt from the store
+	Home credit - third party, no items, borrowed items from store and debt from the store
 		to customer - SO,SI,unang bayad, then customer have balance, then the balance is from home credit
+
 	EI (Easy Installment) - own store
 
 
@@ -417,6 +440,8 @@ home credit:
 				- reassesment auto yes
 		score will be based on the credit limit
 
+		
+
 
 		CI/FS - field specialist - verified the person who has debt
 
@@ -440,8 +465,10 @@ home credit:
 	specific appliance have their own months to pay
 	gadgets minimum of 6 months to pay
 
+
 	Least Common Price - LCP
 		base price for specific item
+
 
 		date will not fill if wiritng contract
 
@@ -471,8 +498,8 @@ home credit:
 
 	Principal - remaining balance of the load after each payment
 
-	penalty after 5 days not bayad after due date
-	total balance * (5% * total balance) if penalty (compounding - nag aadd ang penalty sa total balance if di nabayaran)
+	penalty after 5 days not bayad in due date
+	total balance * 5 % if penalty (compounding)
 
 
 --- field collector confirmation
@@ -480,8 +507,8 @@ home credit:
 		confirm the collector transaction that customer paid to the collector from the system
 
 
-if item pull out or deposit, give customer 30 days to bought back the item
 
+if item pull out or deposit, give customer 30 days to bought back the item
 
 --- item for deposit
 	if contract not bayad in 2 months or 60 days, FS/Collector will go to customer that did not pay, item will deposit
@@ -495,7 +522,7 @@ if item pull out or deposit, give customer 30 days to bought back the item
 	search for name to pullout
 
 
-if item deposit or pullout, the item will store at the store
+if item deposit and pullout, the item will store at the store
 
 
 ---release of depo item before ---collection
@@ -507,7 +534,6 @@ if item deposit or pullout, the item will store at the store
 
 -- skip docs series
 	magbabayad from other branches to the main branches kung saan bumili ang customer
-	then sales internal yung type
 
 
 ----- deferred repo transaction - modules from deferred
@@ -520,7 +546,7 @@ if item deposit or pullout, the item will store at the store
 		no discount
 
 
-		serial number - have RE... tag on the number to identify the item as repo
+		serial number - have RE on the number to identify the item as repo
 	
 
 	--- repo sales - next
@@ -528,10 +554,6 @@ if item deposit or pullout, the item will store at the store
 	--- cash receipt or check, etc. - next
 
 	MCAir - another company - fix aircon
-
-
-	
-
 
 
 
@@ -779,10 +801,10 @@ if invoice reference POR
 
 	nagreturn tayo ng item, pero di pa nag appear ang minus > open debit
 
-	---open debig ledge
+	---open debit ledger
 		history
 
-	---subsidiary ledge
+	---subsidiary ledger
 		
 
 
@@ -791,6 +813,7 @@ GL modules
 	open debit memo
 
 payment pay > AP > transactions > AP payment
+
 
 AP clerk cannot create cheque > need approvable > approve > ---approve to pay > search corporation >print the paper > sign by manager
 
@@ -804,10 +827,434 @@ AP clerk cannot create cheque > need approvable > approve > ---approve to pay > 
 
 
 
+--- bank credit card confirmation
+	check if the bank pay us
+
+
 
 more topics:
 	fix asset
 	general leadge
+
+
+(customer) aging detailed
+(customer) aging summary
+
+(other ar) aging detailed
+(other ar) aging summary - banks, suppliers, 
+
+
+
+
+
+invoice PO Receipt to reflect items on the payments > approve to pay(manager) > print cheque > enter payments
+
+
+PO rece > invoice por > approve to pay > payment
+
+
+
+----- AP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+javascript > jquery > typescript
+
+
+
+-- PO
+	choose supplier > choose term > input location> input department > purchase order
+
+
+	PO submit to samsung > 
+
+--- PO receipt (local)
+	input PO no > input serial number of items na nadeliver > PO receipt > items input to item master(not payable)
+
+
+
+	---ap
+		--- transaction
+			---- invoice po receipt:
+				input supplier > choose or with the same PO number > check it then save > have payables
+
+
+PO > invoice POR > AP(---approve to pay) > 
+	--- approve to pay
+		choose supplier > choose invoice no. > check full amount > save
+
+	--- enter payment (ap payment)
+		input supplier > input bank > check apply full amount checkbox > input amount > input ref no.(samsa..) > output 
+
+
+approve to pay output approve to pay slip 
+voucher > check/cheque
+		
+
+--- open debit - can apply without approve > save > output apply open debit slip 
+
+
+
+
+---subsidiary ledge 
+	summary of all payments
+
+
+
+--- AP
+	after enter payment (ap payment  - check/cheque ) > bawas utang (open debit) 
+
+--- apply open debit
+
+
+--- check releasing
+	kapag irerelease ang cheche
+	after makagawa ng check/cheque  > go to this
+		pinapapirma sa supplier
+
+--- check nogotiated
+	bank accept the cheque and cleared
+
+cost adjustment - discount
+
+
+
+
+--- enter payable
+--- void check
+	check/cheque
+
+--- void payable
+
+
+
+
+
+
+--- skip check
+	cheque payment - reserve
+
+
+--- drawings entry
+	lipat per
+
+--- funds transfer (local to local)
+	bank to bank
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		
+
+
+	
+		
+		
+
+		
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+	
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+report july 12
+	am
+		PO
+		POR
+
+	pm
+		AP accounts payable
+		
+
+ERP: https://www.youtube.com/watch?v=kGQ1fNQVbj8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
