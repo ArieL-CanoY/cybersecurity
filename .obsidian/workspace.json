@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Random.md",
+                "file": "Programming and Scripting/CSharp/MVC/Note.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Random.md",
+                "file": "Programming and Scripting/CSharp/MVC/Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Random.md",
+                "file": "Programming and Scripting/CSharp/MVC/Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/Random.md"
+                "file": "Programming and Scripting/CSharp/MVC/Note.md"
               }
             }
           },
@@ -218,8 +218,9 @@
   },
   "active": "1d79107295e28e7a",
   "lastOpenFiles": [
-    "Programming and Scripting/CSharp/Resources.md",
     "Work/Random.md",
+    "Programming and Scripting/CSharp/MVC/Note.md",
+    "Programming and Scripting/CSharp/Resources.md",
     "Work/programming.md",
     "Programming and Scripting/CSharp/List.md",
     "Programming and Scripting/CSharp/Notes and Tips.md",
@@ -247,7 +248,6 @@
     "Dictionary.md",
     "Operating System/Linux/Bash Shell.md",
     "Operating System/Linux/ReGex.md",
-    "Programming and Scripting/Python/Useful Websites.md",
     "Programming and Scripting/Python/Modules and Libraries/threading",
     "Programming and Scripting/Python/Topics",
     "Pasted image 20231109154411.png",
