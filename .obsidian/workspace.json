@@ -49,6 +49,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Programming and Scripting/CSharp/Resources.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d79107295e28e7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Work/Random.md",
                 "mode": "source",
                 "source": false
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -204,8 +216,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "441ae2cff2bf8451",
+  "active": "1d79107295e28e7a",
   "lastOpenFiles": [
+    "Programming and Scripting/CSharp/Resources.md",
+    "Work/Random.md",
+    "Work/programming.md",
     "Programming and Scripting/CSharp/List.md",
     "Programming and Scripting/CSharp/Notes and Tips.md",
     "Programming and Scripting/CSharp/Fundamentals.md",
@@ -213,7 +228,6 @@
     "Programming and Scripting/CSharp/String Methods.md",
     "Programming and Scripting/CSharp/MVC/MVC Fundamentals.md",
     "Programming and Scripting/Bootstrap/Bootstrap Fundamentals.md",
-    "Work/Random.md",
     "Programming and Scripting/Bootstrap",
     "Programming and Scripting/HTML",
     "Programming and Scripting/CSharp/MVC",
@@ -234,8 +248,6 @@
     "Operating System/Linux/Bash Shell.md",
     "Operating System/Linux/ReGex.md",
     "Programming and Scripting/Python/Useful Websites.md",
-    "Programming and Scripting/Python/Topics/Sort method.md",
-    "Programming and Scripting/Python/Topics/Function Documentation.md",
     "Programming and Scripting/Python/Modules and Libraries/threading",
     "Programming and Scripting/Python/Topics",
     "Pasted image 20231109154411.png",

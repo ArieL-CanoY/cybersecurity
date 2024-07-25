@@ -954,7 +954,55 @@ cost adjustment - discount
 
 
 
+non-trade payables:
+	--- enter payables
+		search for suppliers > input invoice no. > input vat exclusive for total mount payable
+		AP amount - auto
+		EWT = 2 % VAT exclusive
+		input add debit: power, light, water - (location sources of payment (office - which is main)) > input the debit > VAT exclusive > output enter payable slip
+		not amount of AP but 
 
+		next is approve to pay
+
+
+	--- void payment
+		input bank (code)>  input check no. (automatic fill up other info) > save > output void checks
+
+		after cancel or void payment:
+			--- payables: paid amount nawala
+					balance bumalik
+			need to approve ulit when --- enter payment (again)
+
+
+
+--- AP skip checks
+	input bank code > receive > remarks(reason)> (then after it increment add check no)
+
+
+skipped check can be used > approve to pay > ap payment(enter payment) > input the check no of skipped check
+
+
+
+--- void payable
+	new > input supplier > input invoice no (check)>  output voice payable
+
+	after, the list change the color and 
+
+
+--- advances to supplier
+	di na gagawin
+	no payable and no approve to pay
+	
+	input supplier > input bank > save > output advances to suuplier slip (check)
+	can apply to open debit, only apply when we have payable to specific supplier
+
+
+--- drawings
+	kumuha ng pera 
+	input bank account > input account to debit (babayaran)
+
+--- fund transter
+	input source bank(from header) > input target bank (to header) > outupt fund transfer slip
 
 
 	
