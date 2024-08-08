@@ -17,3 +17,20 @@ but this:
 
 
 
+---
+find specific id from specific tag
+structure:
+	form: id=form1
+		h1: id=h1
+	form: id=form2
+		h1: id=h1
+		
+
+to find h1 id from form2 id, we need to reference the form2 id
+
+(search this on jquery)
+```javascript
+var Form2h1 = $("#form2").Find("h1");
+
+```
+

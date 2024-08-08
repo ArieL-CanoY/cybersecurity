@@ -59,11 +59,18 @@
             "id": "1d79107295e28e7a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Programming and Scripting/CSharp/MVC/Note.md",
-                "mode": "source",
-                "source": false
+                "file": "Work/Work Cards.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               }
             }
           }
@@ -142,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming and Scripting/CSharp/MVC/Note.md",
+                "file": "Work/Work Cards.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming and Scripting/CSharp/MVC/Note.md",
+                "file": "Work/Work Cards.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming and Scripting/CSharp/MVC/Note.md"
+                "file": "Work/Work Cards.md"
               }
             }
           },
@@ -196,6 +203,14 @@
                 "showSearch": false,
                 "searchQuery": ""
               }
+            }
+          },
+          {
+            "id": "d813c02de05cea6e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ]
@@ -213,19 +228,33 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "canvas:Create new canvas": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false
     }
   },
   "active": "1d79107295e28e7a",
   "lastOpenFiles": [
     "Work/Random.md",
+    "Work/Work Cards.md",
+    "Programming and Scripting/JavaScript/JQuery/Notes.md",
+    "Troubleshooting.md",
+    "Programming and Scripting/JavaScript/JQuery",
+    "Untitled.md",
+    "UI.md",
+    "z - people regrets and advice.md",
+    "Untitled Kanban 1.md",
+    "Untitled 1.md",
+    "Programming and Scripting/JavaScript/Useful.md",
+    "Excalidraw/Drawing 2024-08-05 08.03.18.excalidraw.md",
+    "Excalidraw",
+    "Programming and Scripting/Notes and Tips.md",
     "Programming and Scripting/CSharp/MVC/Note.md",
     "Programming and Scripting/CSharp/Resources.md",
     "Work/programming.md",
     "Programming and Scripting/CSharp/List.md",
     "Programming and Scripting/CSharp/Notes and Tips.md",
     "Programming and Scripting/CSharp/Fundamentals.md",
-    "Programming and Scripting/Notes and Tips.md",
     "Programming and Scripting/CSharp/String Methods.md",
     "Programming and Scripting/CSharp/MVC/MVC Fundamentals.md",
     "Programming and Scripting/Bootstrap/Bootstrap Fundamentals.md",
@@ -237,24 +266,12 @@
     "Other Tech Topic/Github/Git commands.md",
     "Programming and Scripting/Python/Topics/Useful Functions.md",
     "Programming and Scripting/Secure Practices/Resources.md",
-    "Programming and Scripting/JavaScript/Useful.md",
     "Web Pentest/Vulnerabilities and Exploit/SQL Injection/To Learn.md",
-    "Programming and Scripting/Python/Modules and Libraries/os/OS Fundamentals.md",
-    "Programming and Scripting/Python/install .py to .exe.md",
-    "Network Pen Test/Resources.md",
-    "Web Pentest/Learning Platform.md",
-    "Websites/Active Directory Website.md",
-    "Websites/random.md",
-    "Dictionary.md",
-    "Operating System/Linux/Bash Shell.md",
-    "Operating System/Linux/ReGex.md",
     "Programming and Scripting/Python/Modules and Libraries/threading",
     "Programming and Scripting/Python/Topics",
     "Pasted image 20231109154411.png",
     "Programming and Scripting/Python/Topics/OOP",
     "Programming and Scripting/Secure Practices",
-    "Operating System/Windows/tools",
-    "Network Pen Test/Tools",
     "Pasted image 20240515061307.png",
     "Pasted image 20231109163617.png",
     "Untitled.canvas",
