@@ -37,10 +37,28 @@ Example 1:
 ```
 
 
+# Removing an object
+```csharp
+- there is a right way of removing an object
+
+wrong way:
+
+
+for (int ctr = 0; ctr < users.Count(); ctr++)
+{
+	if (users[ctr].username == "mark vince")
+	users.RemoveAt(ctr);
+}
 
 
 
+```
 
+
+# Conversion of time based on their CultureInfo
+```csharp
+Convert.ToDateTime(stringdatehere, CultureInfo.InvariantCulture);
+```
 
 
 
