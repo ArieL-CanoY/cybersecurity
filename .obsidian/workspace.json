@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming and Scripting/CSharp/Notes and Tips.md",
+                "file": "Programming and Scripting/JavaScript/JQuery/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -29,6 +29,8 @@
                 "kanbanViewState": {
                   "kanban-plugin": "board",
                   "list-collapse": [
+                    false,
+                    false,
                     false,
                     false,
                     false,
@@ -85,8 +87,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0263941876baab25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Work/Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -161,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming and Scripting/CSharp/Notes and Tips.md",
+                "file": "Work/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming and Scripting/CSharp/Notes and Tips.md",
+                "file": "Work/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming and Scripting/CSharp/Notes and Tips.md"
+                "file": "Work/Notes.md"
               }
             }
           },
@@ -245,17 +260,18 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "1d79107295e28e7a",
+  "active": "0263941876baab25",
   "lastOpenFiles": [
+    "Work/Kanban Boards/08-09-2024.md",
+    "Work/Random.md",
+    "Programming and Scripting/JavaScript/JQuery/Notes.md",
+    "Work/Notes.md",
+    "Programming and Scripting/CSharp/Notes and Tips.md",
+    "Work/Drawings/Purchase Order.md",
     "Programming and Scripting/CSharp/Resources.md",
     "Programming and Scripting/Notes and Tips.md",
     "Programming and Scripting/Bootstrap/Bootstrap Fundamentals.md",
     "Programming and Scripting/CSharp/String Methods.md",
-    "Work/Kanban Boards/08-09-2024.md",
-    "Work/Random.md",
-    "Work/Notes.md",
-    "Work/Drawings/Purchase Order.md",
-    "Programming and Scripting/CSharp/Notes and Tips.md",
     "Curious Only.md",
     "Work/Kanban Boards/To search.md",
     "Work/Drawings",
@@ -267,7 +283,6 @@
     "sdakf.md",
     "Work/Kanban Boards",
     "Untitled.md",
-    "Programming and Scripting/JavaScript/JQuery/Notes.md",
     "Troubleshooting.md",
     "Programming and Scripting/JavaScript/JQuery",
     "UI.md",

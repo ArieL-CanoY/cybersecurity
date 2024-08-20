@@ -34,29 +34,75 @@
             - 'fax No' to Fax No.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 database_work
 
+
+
+create view from existing table
+```sql
 CREATE VIEW vw_customerPOMonitoring AS
 (
 SELECT t1.*, t2.acctName
 FROM     dbo.customerPOTranHdr t1
 INNER JOIN dbo.arAccountMaster t2 ON t1.acctNo = t2.acctNo and t1.divisionCode = t2.divisionCode 
 )
+```
+
+
+update the request from sales order
+```sql
+select top 20 * from OneIbas_Test..onlineDiscountingTran order by tranDate desc
+update OneIbas_Test..onlineDiscountingTran set approvedBy='',status='A' where tranNo=''
+```
+
+
+rights for every submodule/button
+```sql
+select * 
+from [OneIBAS_TEST].[dbo].[rightsMaster]
+```
+
+
+rights of user from every submodule/button
+```sql
+select * 
+from [OneIBAS_TEST].[dbo].[userRightsMaster]
+```
+
+
+add permission to specific submodule/button
+```sql
+insert into [OneIBAS_TEST].[dbo].[userRightsMaster]
+values 
+('rapq', 'PO201', 'rapq', getdate(), 'SAVER', 'MAC'),
+('rapq', 'PO203', 'rapq', getdate(), 'SAVER', 'MAC'),
+('rapq', 'PO205', 'rapq', getdate(), 'SAVER', 'MAC'),
+('rapq', 'PO207', 'rapq', getdate(), 'SAVER', 'MAC'),
+('rapq', 'PO211', 'rapq', getdate(), 'SAVER', 'MAC'),
+('rapq', 'PO212', 'rapq', getdate(), 'SAVER', 'MAC'),
+('rapq', 'PO213', 'rapq', getdate(), 'SAVER', 'MAC'),
+('rapq', 'PO214', 'rapq', getdate(), 'SAVER', 'MAC'),
+('rapq', 'PO215', 'rapq', getdate(), 'SAVER', 'MAC'),
+('rapq', 'PO217', 'roma', getdate(), 'SAVER', 'MAC')
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
