@@ -1,10 +1,9 @@
 jacob alava - fitness instructor:
 1. reckless spending - video games, shoes, vices, useless and unnecessary things that does not help future self 
 2. staying in calorie maintenance or deficit - should be surplus to build muscle mass
-3. chasing the wrong people - choose low cost people, does not demand more time or money
+3. chasing the wrong people - choose low cost people: does not demand more time or money
 4. listening to non-believers of you - 
 	carve your own path - pursue your dreams
-
 	take the positive advice but not all
 5. not thinking about my future - save up and be wise
 6. 

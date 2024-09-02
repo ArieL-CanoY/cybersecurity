@@ -61,14 +61,45 @@ Convert.ToDateTime(stringdatehere, CultureInfo.InvariantCulture);
 ```
 
 
+# DateTime error
+```csharp
+sometimes, the error is the date format of the machine or computer, try to change from the format "day/month/year" to "month/day/year".
+```
 
 
+# Time of date set to 12:00:00
+```c#
+using System; // import
 
 
+DateTime now = DateTime.Now.Date;
+```
 
 
+# Output all elements in one print
+```c#
+string itemCode = "234/344/543/431/455";
+string[] itemCodes = itemCode.Split('/');
+Console.WriteLine(string.Join(", ", itemCodes));
+// output is 234, 344, 543, 431, 455
+
+```
 
 
+# String Split
+```c#
+- string "Split" function takes a char and not string
+
+string itemCodes = allCodes.Split('/');
+```
+
+
+# Return a unique values of list of string
+```c#
+using System.Linq;
+
+Console.WriteLine(duplicateStrings.Distinct().ToList());
+```
 
 
 

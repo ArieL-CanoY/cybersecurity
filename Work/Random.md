@@ -12,6 +12,7 @@ VAT
 
 dictionary:
 	A.R. - Account Receivable
+	A.C. - Account Credit
 	C.R. - Cash Receipt
 	I.R. - Internal Receipt 
 	M.R - Mobile Receipt

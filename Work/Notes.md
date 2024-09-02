@@ -49,7 +49,10 @@ INNER JOIN dbo.arAccountMaster t2 ON t1.acctNo = t2.acctNo and t1.divisionCode =
 ```
 
 
-update the request from sales order
+
+
+
+approve/update the request/discount from sales order
 ```sql
 select top 20 * from OneIbas_Test..onlineDiscountingTran order by tranDate desc
 update OneIbas_Test..onlineDiscountingTran set approvedBy='',status='A' where tranNo=''
