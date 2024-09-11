@@ -43,7 +43,7 @@ use git bash then make aliases for commands.
 
 	ex:
 		git remote set-url sec https://ghp_IA98TiP1vfJitIV1ChgZi3zyD6nHhYn8tu43@github.com/ariel-canoy/cybersecurity
-
+	
 
 
 
