@@ -77,21 +77,18 @@ add permission to specific submodule/button
 ```sql
 insert into [OneIBAS_TEST].[dbo].[userRightsMaster]
 values 
-('rapq', 'PO201', 'rapq', getdate(), 'SAVER', 'MAC'),
-('rapq', 'PO203', 'rapq', getdate(), 'SAVER', 'MAC'),
-('rapq', 'PO205', 'rapq', getdate(), 'SAVER', 'MAC'),
-('rapq', 'PO207', 'rapq', getdate(), 'SAVER', 'MAC'),
-('rapq', 'PO211', 'rapq', getdate(), 'SAVER', 'MAC'),
-('rapq', 'PO212', 'rapq', getdate(), 'SAVER', 'MAC'),
-('rapq', 'PO213', 'rapq', getdate(), 'SAVER', 'MAC'),
-('rapq', 'PO214', 'rapq', getdate(), 'SAVER', 'MAC'),
-('rapq', 'PO215', 'rapq', getdate(), 'SAVER', 'MAC'),
-('rapq', 'PO217', 'roma', getdate(), 'SAVER', 'MAC')
+('ariel', 'PO212', 'yelcanoy', getdate(), 'SAVER', 'MAC'),
+('ariel', 'PO213', 'yelcanoy', getdate(), 'SAVER', 'MAC'),
+('ariel', 'PO214', 'yelcanoy', getdate(), 'SAVER', 'MAC'),
+('ariel', 'PO215', 'yelcanoy', getdate(), 'SAVER', 'MAC'),
+('ariel', 'PO216', 'yelcanoy', getdate(), 'SAVER', 'MAC'),
+('ariel', 'PO217', 'yelcanoy', getdate(), 'SAVER', 'MAC')
 ```
 
 
 
-
+00058202
+00055218
 
 
 
