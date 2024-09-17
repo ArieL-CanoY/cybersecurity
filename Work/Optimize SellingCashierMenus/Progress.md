@@ -18,20 +18,21 @@ item master
         dropdown before show items button only show 2
 		show items
 			request to GetItemPerLocation * 2 but no data return
-		reload icon on datagrid
+		reload icon on datagrid - no no dg on staging
 			request to GetItemPerLocation * 1 but no data return
+		dropdown has 2 option
         
 	# open po
 		item code and name not input-capable
 		show items
 			request to GetItemOpenPo * 2 but no data return
-		reload icon on datagrid
+		reload icon on datagrid - no datagrid on staging
 			request to GetItemOpenPo * 1 but no data return
 
     # inventory items
         select location is dropdown (has many items)
         select (has 3 items only)
-        show items - todo the data should be visible
+        show items  
             request to GetInventoryItems but invicible data
         reload icon on dg
             request to GetInventoryItems but invicible data

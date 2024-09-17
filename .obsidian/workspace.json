@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Work Notes.md",
+                "file": "Programming and Scripting/Python/Modules and Libraries/file/File Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             }
           },
           {
-            "id": "854dda01551c63ed",
+            "id": "bf1349ae63e6990f",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -87,7 +87,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming and Scripting/CSharp/Notes and Tips.md",
+                "file": "Programming and Scripting/JavaScript/JQuery/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -135,7 +135,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:Git",
+                "query": "bootstr",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,8 +160,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -181,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Other Tech Topic/Github/Git commands.md",
+                "file": "Programming and Scripting/JavaScript/JQuery/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Other Tech Topic/Github/Git commands.md",
+                "file": "Programming and Scripting/JavaScript/JQuery/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Other Tech Topic/Github/Git commands.md"
+                "file": "Programming and Scripting/JavaScript/JQuery/Notes.md"
               }
             }
           },
@@ -265,20 +264,28 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "082b84eb005074c1",
+  "active": "20dbc44b08e7b23c",
   "lastOpenFiles": [
     "Programming and Scripting/CSharp/Notes and Tips.md",
+    "Work/Kanban Boards/9-3-24 Sep.md",
+    "Work/Drawings/9-3-24 Sep.md",
+    "Programming and Scripting/Python/Modules and Libraries/file/File Fundamentals.md",
+    "Programming and Scripting/Bootstrap/Bootstrap Fundamentals.md",
+    "Programming and Scripting/Security/Model.md",
+    "Programming and Scripting/Security",
+    "Programming and Scripting/Untitled.md",
+    "Programming and Scripting/Python/Modules and Libraries/file/Working with files.md",
+    "Programming and Scripting/Python/Modules and Libraries/requests/Requests Fundamentals.md",
+    "Work/Work Notes.md",
     "Work/Drawings/Purchase Order.md",
+    "Other Tech Topic/Databases/MS SQL/Useful.md",
+    "Work/Optimize SellingCashierMenus/Progress.md",
+    "Other Tech Topic/Github/Git commands.md",
     "basics to learn EH answers on quora.md",
     "Work/Upskill/Server-Side Validation of CPO.md",
-    "Work/Optimize SellingCashierMenus/Progress.md",
     "Work/Drawings/9-9-24 Sep.md",
     "Work/Optimize SellingCashierMenus",
     "Pasted Image 20240909160948_597.png",
-    "Work/Work Notes.md",
-    "Work/Kanban Boards/9-3-24 Sep.md",
-    "Other Tech Topic/Databases/MS SQL/Useful.md",
-    "Work/Drawings/9-3-24 Sep.md",
     "Untitled 1.md",
     "Work/Random.md",
     "Work/Drawings/MITM.md",
@@ -292,12 +299,6 @@
     "Pasted Image 20240903095824_259.png",
     "Work/Upskill",
     "Network Pen Test/Services/Telnet.md",
-    "Network Pen Test/Services/SMB.md",
-    "Network Pen Test/Services/FTP.md",
-    "Mobile Pen Testing/Starting Point.md",
-    "Websites/Computer Networking.md",
-    "Networking/Computer Network.md",
-    "Networking/Network Types.md",
     "Other Tech Topic/Databases/MS SQL",
     "Work/Drawings",
     "Pasted Image 20240812094156_513.png",
@@ -306,7 +307,6 @@
     "Excalidraw",
     "Programming and Scripting/Bootstrap",
     "Programming and Scripting/HTML",
-    "Programming and Scripting/CSharp/MVC",
     "Pasted image 20231109154411.png",
     "Pasted image 20240515061307.png",
     "Pasted image 20231109163617.png",

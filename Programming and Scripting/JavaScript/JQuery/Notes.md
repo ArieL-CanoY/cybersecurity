@@ -11,5 +11,11 @@
 ```
 
 
+# timeout
+```javascript
+setTimeout(function () {
+alert('timeout');
+}, 5000);
+```
 
 

@@ -52,8 +52,7 @@ use git bash then make aliases for commands.
 
 
 # Commands
-```python
-
+```bash
 git config <options> user.name <username>
 git config <options> user.email <email>
 	- add username and email to track a person who commit the changes.
