@@ -14,14 +14,14 @@ use git bash then make aliases for commands.
 4. check the main checkbox
 5. generate a token
 6. clone the repo of your github
-7. type "git remote set-url <url_name> https://<token>@github.com/<username>/<repo>"
-	7.1 the "url_name" can be custom:
-			- git remote add "custom_url_name" <url_of_repo> 
+7. set url_name and can be custom:
+		- git remote add "custom_url_name" <url_of_repo> 
 
-		the default name of the url when git pushing and for set-url is "origin":
-			- git push origin <branch_name>
-	
-8. set this:
+	the default name of the url when git pushing and for set-url is "origin":
+		- git push origin <branch_name>
+
+8. type "git remote set-url <url_name> https://<token>@github.com/<username>/<repo>"
+9. set this:
 	git config <options> user.name <username>
 	git config <options> user.email <email>
 ```
