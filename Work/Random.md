@@ -1315,3 +1315,150 @@ ERP: https://www.youtube.com/watch?v=kGQ1fNQVbj8
 
 Sample documentation of a system:
 https://systemsia.com/help-center/index.php/category/getting-started/
+
+
+
+
+
+
+
+
+
+
+new
+
+modules
+---inventory
+	-item master - search item available from system, maintained by merchandizing
+		btn search available items - items that have stock
+		search items - search items regardess of stock
+		item per location - 
+		open po - current open po from item and branch to deliver
+		po - did by merchandizing 	
+	-inventory items - location based, inventory of specific location	
+		option to print
+		check items
+	-inventory reports per location
+		generate item
+		 load all location
+		 can select branches to generate on report
+		 can be multiple locations
+	-reposses inv. with serial
+		reprice value depends on accounting
+		reposses items
+	- available items
+		check by IC to check the serial number of item unit from the serial number of item unit
+
+
+-- Inventory/STF
+	done by cashier
+	transfer of items from one branch to another branch
+	ref no by IC	
+	remarks - backload unit - to other branch
+	delivery personnel:
+		nagdala ng item
+	items:
+		qty depends on the serialized
+		there are items that are not serialized
+
+-- STF Received
+	do by IC
+		IC is not 7 days a week so backup the manager on the store
+	retrieve STF:
+		search for stf no.
+--POR direct deliver
+	items should be serialized
+		if not, then it will be serialize first to reflect to central warehouse - send receipt to central warehouse > central warehouse will enter to the system and STF to the branch
+	minimize item deliver to central warehouse to branch
+	new > search for po Number dedicated to current branch 
+	slip should be attack to DR
+
+	
+---stock level entry
+	for merchanidizing so not in scope
+	
+
+
+
+	
+		
+		
+		
+
+---sales order
+	--SO
+		customer go to branch > dizer note down items to buy by the customer
+		poNo: soNo of hardcopy of dizer
+		terms: possible payment method, usual cash
+		customer: if not exist then go to AR/Customer master
+		s. personnel - nakausap ni customer
+		allow discount:
+			if there is manager/supervisor then they will use they creds
+			if they are day off/holiday/sunday - then used our own creds
+			then input the new price and discount will automatically apply
+		save SO then popup:
+			S Invoice - not employee of the company
+			S internal - does not issue invoice paper, mostly employee
+---AR
+	after SO/SO > AR/S Invoice:
+		display customer info
+		display price to be pay
+		after save: pop up sales slip short then collection: cash, credit, etc.
+	--AR/cash receipt:
+		after save then get the payment
+		then --remittance check
+	--remittance check
+		do this every time what?
+	--credit card 
+		click btn add privilege then swipe the card or insert manually
+		in the bank terminal, always check if customer should avail installment
+		if save then do --credit card settlement
+	--credit card settlement
+		make sure that terminal code is the same as the code we have ?
+	--check receipt
+		type of check is dated today and the last 6 months, if exceed last 6 months then stalecheck
+	--post dated check
+		check if the check/cheque is available tomorrow on in the future	
+		after check, do --remittance check
+	--remittance check
+		always check if the same amount
+	--debit memo
+		other payment or charges not included in Sales Invoice/SI/S Invoice
+	--privilege redemption
+		dfsa
+	--sales return
+		if (1) customer upgrade item or (2) item is defect, or (3) supplier says that item is for replacement
+		then it the customer will have an advance, to apply the advance, you must go to --apply open credit
+	--apply open credit
+		advance of the customer to us, they have SI but they did not get the item, meaning in the future, to close the AR of customer
+	--PRC viewer
+		check current total points of customer
+		and transaction happened from their privilege card
+		-privilege logs
+			all the transactions: when points add, minus, etc.
+
+
+---AR
+---services
+	--service receiving
+		all service to receive
+		should have their SI to received, else do not receive
+		check only the item that is defective, then --service update
+	--service update
+		history of service
+		commonly tagalog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

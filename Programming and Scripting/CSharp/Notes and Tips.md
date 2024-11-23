@@ -107,6 +107,79 @@ Console.WriteLine(duplicateStrings.Distinct().ToList());
 ```
 
 
+Info @blackbox.ai
+# RegEx
+```c#
+using System.Text.RegularExpressions;
+
+Code:
+	string input = "245a";
+	string pattern = $"^\d+$";
+	if (Regex.<Options>)
+	{
+		// do somethings here
+	}
+
+Options:
+
+	>> IsMatch:
+		Use `IsMatch` when you need to verify if a string contains a specific pattern, but you do not need to extract the matched text.
+
+		Example:
+			bool isValidEmail = Regex.IsMatch("user@example.com", @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$");
+
+
+	>> Match:
+		Use `Match` when you need to extract the first occurrence of a pattern in a string.
+
+		Example:
+			Match match = Regex.Match("Hello, world!", "world");
+			if (match.Success) 
+			{ 
+				Console.WriteLine("Matched text: " + match.Value);
+			}
+
+
+	>> Matches:
+		Use `Matches` when you need to extract all occurrences of a pattern in a string.
+
+		Example:
+			MatchCollection matches = Regex.Matches("Hello, world! Hello again!", "Hello");
+			foreach (Match match in matches)
+			{
+				Console.WriteLine("Matched text: " + match.Value);
+			}
+
+
+
+```
+
+
+# String interpolation in multiple lines
+```c#
+
+string username = "vince";
+string password = "pass123";
+string sql = @$"select *
+	   from users
+	   where username = '{username}'
+	   and password = '{password}'";
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

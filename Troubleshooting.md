@@ -44,7 +44,11 @@
 ```
 
 
-
+# Visual Studio Community
+```c#
+> shortcut for rebuild
+	test toolbar > options > search keyboard > click on env > search rebuild > click "build.rebuildselection" > add shortcut key on "text editor".
+```
 
 
 

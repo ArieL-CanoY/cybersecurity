@@ -86,9 +86,26 @@ values
 ```
 
 
+ReportBuilder
+```python
 
-00058202
-00055218
+label show if the value of specific column is equal to 0
+=IIF(Sum(Fields!qty_delivered.Value, "customerPo") = 0, "No Item/s Delivered", "")
+
+
+specific column - clickable link based on their value
+="http://localhost:2757/Reports/CustomerPOSlip.aspx?poNumber=" & Fields!poNumber.Value
+```
+
+
+
+### visual studio community toggle comment
+```python
+Test > Option > Search keyboard > Environment/Keyboard > search in show commands containing "toggleblock" 
+```
+
+
+
 
 
 
