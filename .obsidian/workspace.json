@@ -11,14 +11,12 @@
             "id": "20dbc44b08e7b23c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Other Tech Topic/Github/Git commands.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20231109154411.png"
               },
-              "icon": "lucide-file",
-              "title": "Git commands"
+              "icon": "lucide-image",
+              "title": "Pasted image 20231109154411"
             }
           },
           {
@@ -151,8 +149,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -270,24 +267,27 @@
   },
   "active": "20dbc44b08e7b23c",
   "lastOpenFiles": [
+    "Pasted image 20231109163617.png",
+    "Pasted Image 20240812094156_513.png",
+    "Pasted Image 20240903095824_259.png",
+    "Pasted Image 20240903095910_524.png",
+    "Pasted Image 20240903100025_567.png",
+    "Pasted Image 20240909160948_597.png",
+    "Pasted Image 20241115143319_956.png",
+    "Pasted Image 20241115145243_947.png",
+    "Pasted Image 20241115161248_939.png",
+    "Pasted Image 20241119091457_578.jpg",
+    "Pasted Image 20241119111154_777.png",
+    "Other Tech Topic/Github/Git commands.md",
     "Websites/Webs Pentest/CTF and vuln machines.md",
     "Work/very important.md",
     "Programming and Scripting/Python/Modules and Libraries/opencv/opencv fundamentals.md",
     "Work/Drawings/11-15-2024 Fri Nov -.md",
-    "Pasted Image 20241121153912_930.png",
-    "Pasted image 20241121104150.png",
     "Work/Drawings/9-2-24 Sep.md",
     "Troubleshooting.md",
     "Work/Tracking.md",
     "Work/Work Notes.md",
     "Programming and Scripting/Python/Modules and Libraries/opencv",
-    "Pasted Image 20241119091457_578.jpg",
-    "Pasted Image 20241119111240_792.png",
-    "Pasted Image 20241119111209_785.png",
-    "Pasted Image 20241119111154_777.png",
-    "Pasted Image 20241115161248_939.png",
-    "Pasted Image 20241115145243_947.png",
-    "Pasted Image 20241115143319_956.png",
     "Work/Kanban Boards/10-24-24 Oct Th.md",
     "Work/Drawings/Untitled.canvas",
     "Work/Kanban Boards/10-08-24.md",
@@ -305,12 +305,9 @@
     "Programming and Scripting/NodeJS/01 Installation.md",
     "Work/Kanban Boards/Untitled.md",
     "Work/Kanban Boards/To search.md",
-    "Programming and Scripting/Notes and Tips.md",
-    "Work/Kanban Boards/9-30-24 Sep Mon.md",
     "Programming and Scripting/Python/Modules and Libraries/pynput",
     "Programming and Scripting/Security",
     "Work/Optimize SellingCashierMenus",
-    "Pasted Image 20240909160948_597.png",
     "Work/Upskill",
     "Other Tech Topic/Databases/MS SQL",
     "Work/Drawings",
