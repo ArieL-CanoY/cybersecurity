@@ -11,12 +11,14 @@
             "id": "20dbc44b08e7b23c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20231109154411.png"
+                "file": "Other Tech Topic/Github/Git commands.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20231109154411"
+              "icon": "lucide-file",
+              "title": "Git commands"
             }
           },
           {
@@ -149,7 +151,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -267,6 +270,7 @@
   },
   "active": "20dbc44b08e7b23c",
   "lastOpenFiles": [
+    "Pasted image 20231109154411.png",
     "Pasted image 20231109163617.png",
     "Pasted Image 20240812094156_513.png",
     "Pasted Image 20240903095824_259.png",
@@ -277,7 +281,6 @@
     "Pasted Image 20241115145243_947.png",
     "Pasted Image 20241115161248_939.png",
     "Pasted Image 20241119091457_578.jpg",
-    "Pasted Image 20241119111154_777.png",
     "Other Tech Topic/Github/Git commands.md",
     "Websites/Webs Pentest/CTF and vuln machines.md",
     "Work/very important.md",
