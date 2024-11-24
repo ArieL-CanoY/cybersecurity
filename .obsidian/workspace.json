@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Other Tech Topic/Github/Git commands.md",
+                "file": "Project Bot/Codes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git commands"
+              "title": "Codes"
             }
           },
           {
@@ -120,7 +120,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "github",
+                "query": "\"very important\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -151,8 +151,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -270,6 +269,13 @@
   },
   "active": "20dbc44b08e7b23c",
   "lastOpenFiles": [
+    "Work/very important.md",
+    "Project Bot/Codes.md",
+    "Project Bot",
+    "Programming and Scripting/Python/Modules and Libraries/numpy/numpy fundamentals.md",
+    "Work/Work Notes.md",
+    "Other Tech Topic/Github/Git commands.md",
+    "Programming and Scripting/Python/Modules and Libraries/numpy",
     "Pasted image 20231109154411.png",
     "Pasted image 20231109163617.png",
     "Pasted Image 20240812094156_513.png",
@@ -280,16 +286,12 @@
     "Pasted Image 20241115143319_956.png",
     "Pasted Image 20241115145243_947.png",
     "Pasted Image 20241115161248_939.png",
-    "Pasted Image 20241119091457_578.jpg",
-    "Other Tech Topic/Github/Git commands.md",
     "Websites/Webs Pentest/CTF and vuln machines.md",
-    "Work/very important.md",
     "Programming and Scripting/Python/Modules and Libraries/opencv/opencv fundamentals.md",
     "Work/Drawings/11-15-2024 Fri Nov -.md",
     "Work/Drawings/9-2-24 Sep.md",
     "Troubleshooting.md",
     "Work/Tracking.md",
-    "Work/Work Notes.md",
     "Programming and Scripting/Python/Modules and Libraries/opencv",
     "Work/Kanban Boards/10-24-24 Oct Th.md",
     "Work/Drawings/Untitled.canvas",
@@ -307,7 +309,6 @@
     "Programming and Scripting/CSharp/List.md",
     "Programming and Scripting/NodeJS/01 Installation.md",
     "Work/Kanban Boards/Untitled.md",
-    "Work/Kanban Boards/To search.md",
     "Programming and Scripting/Python/Modules and Libraries/pynput",
     "Programming and Scripting/Security",
     "Work/Optimize SellingCashierMenus",
@@ -315,8 +316,6 @@
     "Other Tech Topic/Databases/MS SQL",
     "Work/Drawings",
     "Work/Kanban Boards",
-    "Programming and Scripting/JavaScript/JQuery",
-    "Excalidraw",
     "Untitled.canvas"
   ]
 }
