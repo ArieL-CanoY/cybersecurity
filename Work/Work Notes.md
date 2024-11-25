@@ -73,17 +73,6 @@ from [OneIBAS_TEST].[dbo].[userRightsMaster]
 ```
 
 
-add permission to specific submodule/button
-```sql
-insert into [OneIBAS_TEST].[dbo].[userRightsMaster]
-values 
-('ariel', 'PO212', 'yelcanoy', getdate(), 'SAVER', 'MAC'),
-('ariel', 'PO213', 'yelcanoy', getdate(), 'SAVER', 'MAC'),
-('ariel', 'PO214', 'yelcanoy', getdate(), 'SAVER', 'MAC'),
-('ariel', 'PO215', 'yelcanoy', getdate(), 'SAVER', 'MAC'),
-('ariel', 'PO216', 'yelcanoy', getdate(), 'SAVER', 'MAC'),
-('ariel', 'PO217', 'yelcanoy', getdate(), 'SAVER', 'MAC')
-```
 
 
 ReportBuilder
@@ -106,7 +95,23 @@ Test > Option > Search keyboard > Environment/Keyboard > search in show commands
 
 
 
+### -------------------- SQL --------------------
 
+add permission to specific submodule/button
+```sql
+insert into [OneIBAS_TEST].[dbo].[userRightsMaster]
+values 
+('ariel', 'PO212', 'yelcanoy', getdate(), 'SAVER', 'MAC'),
+('ariel', 'PO213', 'yelcanoy', getdate(), 'SAVER', 'MAC'),
+('ariel', 'PO214', 'yelcanoy', getdate(), 'SAVER', 'MAC'),
+('ariel', 'PO215', 'yelcanoy', getdate(), 'SAVER', 'MAC'),
+('ariel', 'PO216', 'yelcanoy', getdate(), 'SAVER', 'MAC'),
+('ariel', 'PO217', 'yelcanoy', getdate(), 'SAVER', 'MAC')
+```
+
+
+
+retention rate
 
 
 

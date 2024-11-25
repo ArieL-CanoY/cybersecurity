@@ -79,17 +79,25 @@
             "id": "55e333218e53e56e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Work/Work Notes.md",
-                "mode": "source",
-                "source": false
+                "file": "Work/Kanban Boards/Untitled Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               },
-              "icon": "lucide-file",
-              "title": "Work Notes"
+              "icon": "lucide-trello",
+              "title": "Untitled Kanban"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -151,8 +159,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -172,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Other Tech Topic/Github/Git commands.md",
+                "file": "Work/Kanban Boards/Untitled Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +189,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Git commands"
+              "title": "Backlinks for Untitled Kanban"
             }
           },
           {
@@ -268,18 +275,21 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "20dbc44b08e7b23c",
+  "active": "55e333218e53e56e",
   "lastOpenFiles": [
-    "Websites/Webs Pentest/CTF and vuln machines.md",
-    "Work/very important.md",
+    "Troubleshooting.md",
     "Programming and Scripting/Python/Modules and Libraries/opencv/opencv fundamentals.md",
     "Work/Drawings/11-15-2024 Fri Nov -.md",
+    "Work/Tracking.md",
+    "Other Tech Topic/Github/Git commands.md",
+    "Websites/Webs Pentest/CTF and vuln machines.md",
+    "Work/very important.md",
+    "Work/Kanban Boards/Untitled Kanban.md",
+    "Work/Work Notes.md",
+    "Work/Kanban Boards/Untitled.md",
     "Pasted Image 20241121153912_930.png",
     "Pasted image 20241121104150.png",
     "Work/Drawings/9-2-24 Sep.md",
-    "Troubleshooting.md",
-    "Work/Tracking.md",
-    "Work/Work Notes.md",
     "Programming and Scripting/Python/Modules and Libraries/opencv",
     "Pasted Image 20241119091457_578.jpg",
     "Pasted Image 20241119111240_792.png",
@@ -303,10 +313,7 @@
     "Programming and Scripting/CSharp/Notes and Tips.md",
     "Programming and Scripting/CSharp/List.md",
     "Programming and Scripting/NodeJS/01 Installation.md",
-    "Work/Kanban Boards/Untitled.md",
     "Work/Kanban Boards/To search.md",
-    "Programming and Scripting/Notes and Tips.md",
-    "Work/Kanban Boards/9-30-24 Sep Mon.md",
     "Programming and Scripting/Python/Modules and Libraries/pynput",
     "Programming and Scripting/Security",
     "Work/Optimize SellingCashierMenus",
