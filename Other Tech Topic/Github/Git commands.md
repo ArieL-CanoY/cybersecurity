@@ -42,7 +42,7 @@ use git bash then make aliases for commands.
 	git remote set-url <shortcut repo_name given from "git remote -v"> https://<new_token_here>@github.com/<username>/<repo_name>
 
 	ex:
-		git remote set-url sec https://ghp_IA98TiP1vfJitIV1ChgZi3zyD6nHhYn8tu43@github.com/ariel-canoy/cybersecurity
+		git remote set-url sec https://ghp_IA98tiP1vfJitIV1chgZi3zyD6nHhYn7tu43@github.com/ariel-canoy/cybersecurity
 	
 
 
