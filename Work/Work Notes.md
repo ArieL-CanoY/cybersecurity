@@ -100,6 +100,7 @@ Test > Option > Search keyboard > Environment/Keyboard > search in show commands
 add permission to specific submodule/button
 ```sql
 insert into [OneIBAS_TEST].[dbo].[userRightsMaster]
+insert into [OneIBAS_TEST].[dbo].[userRightsMaster]
 values 
 ('ariel', 'PO212', 'yelcanoy', getdate(), 'SAVER', 'MAC'),
 ('ariel', 'PO213', 'yelcanoy', getdate(), 'SAVER', 'MAC'),
@@ -111,7 +112,7 @@ values
 
 
 
-retention rate
+
 
 
 

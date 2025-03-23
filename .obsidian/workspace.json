@@ -8,21 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "20dbc44b08e7b23c",
+            "id": "680b7691b45b73d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Other Tech Topic/Github/Git commands.md",
+                "file": "Source Code Review/Sources.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git commands"
+              "title": "Sources"
             }
           },
           {
-            "id": "b51859c8bc775e54",
+            "id": "55e333218e53e56e",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -34,70 +34,30 @@
             }
           },
           {
-            "id": "faa4fd62a68efa95",
+            "id": "e78666458af73fbc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Programming and Scripting/Python/Modules and Libraries/opencv/opencv fundamentals.md",
-                "mode": "source",
-                "source": false
+                "file": "Work/Drawings/Process/TERMS - Disciplinary Actions Process.md"
               },
-              "icon": "lucide-file",
-              "title": "opencv fundamentals"
+              "icon": "excalidraw-icon",
+              "title": "TERMS - Disciplinary Actions Process"
             }
           },
           {
-            "id": "680b7691b45b73d1",
+            "id": "54c1cc13f81db4ab",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Troubleshooting.md",
-                "mode": "source",
-                "source": false
+                "file": "Work/Drawings/Process/TERMS - Evaluation.md"
               },
-              "icon": "lucide-file",
-              "title": "Troubleshooting"
-            }
-          },
-          {
-            "id": "97b51e498f40e116",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Work/Tracking.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tracking"
-            }
-          },
-          {
-            "id": "55e333218e53e56e",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Work/Kanban Boards/Untitled Kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Untitled Kanban"
+              "icon": "excalidraw-icon",
+              "title": "TERMS - Evaluation"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +76,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -128,8 +89,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "github",
-                "matchingCase": false,
+                "query": "\"git\"",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -179,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Kanban Boards/Untitled Kanban.md",
+                "file": "Source Code Review/Sources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +150,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled Kanban"
+              "title": "Backlinks for Sources"
             }
           },
           {
@@ -198,12 +159,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/very important.md",
+                "file": "Source Code Review/Sources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from very important"
+              "title": "Outgoing links from Sources"
             }
           },
           {
@@ -246,7 +207,7 @@
             }
           },
           {
-            "id": "d813c02de05cea6e",
+            "id": "eb991a5e2b2199bc",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -255,7 +216,8 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -275,55 +237,55 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "55e333218e53e56e",
+  "active": "680b7691b45b73d1",
   "lastOpenFiles": [
-    "Work/Kanban Boards/To search.md",
-    "Work/Kanban Boards/Untitled Kanban.md",
+    "Web Pentest/Vulnerabilities and Exploit/File Upload/Recommendation and Remediation.md",
+    "Source Code Review/Sources.md",
+    "Source Code Review",
+    "Red Team/roadmap.md",
+    "Work/Drawings/2025-2-27 - Process.md",
     "Project Bot/Codes.md",
-    "Project Bot",
-    "Programming and Scripting/Python/Modules and Libraries/numpy/numpy fundamentals.md",
-    "Programming and Scripting/Python/Modules and Libraries/numpy",
-    "Troubleshooting.md",
-    "Programming and Scripting/Python/Modules and Libraries/opencv/opencv fundamentals.md",
-    "Work/Drawings/11-15-2024 Fri Nov -.md",
-    "Work/Tracking.md",
-    "Other Tech Topic/Github/Git commands.md",
-    "Websites/Webs Pentest/CTF and vuln machines.md",
     "Work/very important.md",
-    "Work/Work Notes.md",
-    "Work/Kanban Boards/Untitled.md",
-    "Pasted Image 20241121153912_930.png",
-    "Pasted image 20241121104150.png",
-    "Work/Drawings/9-2-24 Sep.md",
+    "Programming and Scripting/Python/Modules and Libraries/tkinter/tkinter Fundamentals.md",
+    "Programming and Scripting/Python/Modules and Libraries/time/time Fundamentals.md",
+    "Programming and Scripting/Python/Modules and Libraries/threading/threading fundamentals.md",
+    "Programming and Scripting/Python/Modules and Libraries/secrets/secrets Fundamentals.md",
+    "Programming and Scripting/Python/Modules and Libraries/requests/Requests Fundamentals.md",
+    "Programming and Scripting/Python/Modules and Libraries/bcrypt/Bcrypt Fundamentals.md",
+    "Programming and Scripting/Python/Modules and Libraries/file/Working with files.md",
+    "Programming and Scripting/Python/Modules and Libraries/file/File Fundamentals.md",
+    "Work/Drawings/2025-1-30.md",
+    "Work/Drawings/Process/TERMS - Disciplinary Actions Process.md",
+    "Work/Drawings/Process/TERMS - Evaluation.md",
+    "Work/Drawings/11-15-2024 Fri Nov -.md",
+    "Web Pentest/Vulnerabilities and Exploit/SQL Injection/Cheatsheet.md",
+    "Work/Drawings/Process/Adding Workstation.md",
+    "Other Tech Topic/Github/Git commands.md",
+    "Untitled Kanban.md",
+    "Work/random drawing.md",
+    "2025-03-05.md",
+    "Pasted Image 20250305113245_560.png",
+    "Pasted Image 20250305113215_550.png",
+    "Pasted Image 20250305111414_102.png",
+    "Pasted Image 20250305111259_082.png",
+    "Pasted Image 20250305111014_059.png",
+    "Pasted Image 20250305110731_982.png",
+    "Work/Drawings/Process/Untitled.md",
+    "Pasted Image 20250305101827_182.png",
+    "Pasted Image 20250305090743_156.png",
+    "Pasted Image 20250305090728_136.png",
+    "Work/Drawings/Process/MACSBE Customer Master(Accreditation) Process.md",
+    "Pasted Image 20250304165331_222.png",
+    "Work/Drawings/Process",
+    "Project Bot",
+    "Programming and Scripting/Python/Modules and Libraries/numpy",
     "Programming and Scripting/Python/Modules and Libraries/opencv",
-    "Pasted Image 20241119091457_578.jpg",
-    "Pasted Image 20241119111240_792.png",
-    "Pasted Image 20241119111209_785.png",
-    "Pasted Image 20241119111154_777.png",
-    "Pasted Image 20241115161248_939.png",
-    "Pasted Image 20241115145243_947.png",
-    "Pasted Image 20241115143319_956.png",
-    "Work/Kanban Boards/10-24-24 Oct Th.md",
     "Work/Drawings/Untitled.canvas",
-    "Work/Kanban Boards/10-08-24.md",
-    "Work/Kanban Boards/10-11-24.md",
-    "Work/Kanban Boards/10-14-24.md",
-    "Work/Kanban Boards/11-06-24.md",
-    "Work/Drawings/10-1-24 Oct Tue.md",
-    "Programming and Scripting/JavaScript/JQuery/Notes.md",
-    "Programming and Scripting/JavaScript/Useful.md",
-    "Programming and Scripting/Python/Modules and Libraries/PyPDF2.md",
-    "Work/Random.md",
-    "Work/Kanban Boards/10-04-24 Oct Fri.md",
-    "Programming and Scripting/CSharp/Notes and Tips.md",
     "Programming and Scripting/Python/Modules and Libraries/pynput",
     "Programming and Scripting/Security",
     "Work/Optimize SellingCashierMenus",
-    "Pasted Image 20240909160948_597.png",
     "Work/Upskill",
     "Other Tech Topic/Databases/MS SQL",
-    "Work/Drawings",
-    "Work/Kanban Boards",
     "Untitled.canvas"
   ]
 }

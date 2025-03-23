@@ -92,5 +92,48 @@ function initializeDatagrid() {
 
 
 
+# POST
+```javascript 
+var name = $('#nameInput').val();
+
+$.post('/controller_name/function_name',
+	{
+		parameterNameFromServer: name
+	},
+	function (response) {
+		if (response.success) {
+			$('#mydatagrid').datagrid('reload');
+			$.messager.alert('Success', 'Successfully Added New Response', 'info');
+		}
+		if (response.errorMessage.trim().length > 0) {
+			$.messager.alert('Error', response.errorMessage, 'error');
+		}
+	}
+).fail(function (xhr, status, error) {  // handle the request if it returns other 
+	tranUnLockScreen();
+	$.messager.alert('Error', 'There was an error processing your request. Pleast reload the page.', 'error');
+});
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
